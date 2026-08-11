@@ -1,0 +1,63 @@
+{
+  "en-US": {
+    "n": "English",
+    "l": "en-US",
+    "tag": "Income & Expense",
+    "nav": ["Support", "Privacy"],
+    "lang": "Language",
+    "foot": "MoneyTag — project-based income and expense tracking for iPhone, iPad and Apple Watch. Offline by design: no accounts, no ads, no tracking.",
+    "s": {
+      "title": "MoneyTag Support — Projects, Tags and Lifetime Pro",
+      "meta": "Help for MoneyTag, the offline project-based income and expense tracker: projects, currencies, tags, Lifetime Pro and restoring purchases.",
+      "eyebrow": "Support",
+      "h1": "Help with MoneyTag",
+      "lead": "Every project keeps its own books: income minus expenses is its net result. Here are the questions people ask most. If yours is not answered, write to us — a real person reads every message.",
+      "chips": [
+        "Projects with their own net result",
+        "Tags that add up across projects",
+        "One currency per project",
+        "Works fully offline",
+        "Apple Watch app",
+        "Home and Lock Screen widgets"
+      ],
+      "faqT": "Frequently asked questions",
+      "faq": [
+        ["What exactly is a project?", "A project is a self-contained ledger: its own transactions, its own currency and its own bottom line. MoneyTag adds up the income, subtracts the expenses and shows the net result for that project alone — so a side business, a home renovation and a family trip never get mixed together."],
+        ["Does MoneyTag convert between currencies?", "No. Each project uses one currency that you pick when you create it, and MoneyTag never applies an exchange rate. Every figure you see is exactly the numbers you typed, added up. If you need a second currency, create a second project for it."],
+        ["How do tags work?", "Tags are a first-class part of MoneyTag, not an afterthought. Tag any income or expense, and the Tags screen totals that same tag across all of your projects at once — income, expenses and the net for the tag. Cross-project tag analysis is part of Lifetime Pro."],
+        ["What is free, and what does Lifetime Pro add?", "The free version gives you one project and 30 transactions, with no time limit and no ads. Lifetime Pro is a single one-time purchase — never a subscription — and unlocks unlimited projects and transactions, cross-project tag analysis, custom categories and tags, CSV and text export, and backup and restore."],
+        ["I bought Lifetime Pro, but a new device shows it locked.", "Open Settings in MoneyTag and tap Restore purchase while signed in with the Apple Account you bought it with. MoneyTag has no account of its own — Apple keeps the record of the purchase, and restoring is free and unlimited."],
+        ["Where is my data stored? Is there a cloud backup?", "Everything stays on your device, in MoneyTag's own storage. There is no account, no server and no cloud sync — which also means nobody but you can recover your ledger. With Lifetime Pro you can create a backup file and keep it yourself. Deleting the app deletes its data with it."],
+        ["What do the Apple Watch app and the widgets show?", "The Watch app lets you add a transaction from your wrist and see the current project's income, expenses and net. The widgets show that same status on the Home Screen and the Lock Screen. Both read data your iPhone already holds, through Apple's on-device sharing — nothing travels over the internet."],
+        ["Does MoneyTag need an internet connection or any permissions?", "No. The app makes no network requests at all and works in Airplane Mode. It asks for no location, contacts, photos or notification permissions. The only moment anything leaves your device is when Apple processes a purchase or a restore."],
+        ["How do I export my ledger or move it to another device?", "With Lifetime Pro, Settings offers export (CSV or plain text, through the iOS share sheet) plus a full backup file and restore on the other device. Because there is no sync, that backup file is how you move or keep your data."]
+      ],
+      "cT": "Still need a hand?",
+      "cL": "Write in any language. Replies come from the person who builds MoneyTag, usually within two business days. Telling us your iOS version and what you tapped helps a lot.",
+      "cB": "Email support"
+    },
+    "p": {
+      "title": "MoneyTag Privacy Policy",
+      "meta": "MoneyTag collects no data at all: no account, no analytics, no ads, no tracking. Your ledger never leaves your device.",
+      "eyebrow": "Privacy",
+      "h1": "Privacy Policy",
+      "lead": "MoneyTag is an offline app. It collects nothing, sends nothing and has no server of its own. This policy simply spells that out.",
+      "upd": "Last updated",
+      "vow": "MoneyTag collects no personal data whatsoever. Your projects, transactions, tags and amounts stay on your device, the app makes no network requests, and there are no ads, no analytics and no tracking of any kind.",
+      "sec": [
+        ["Who this policy covers", "This policy applies to the MoneyTag app for iPhone and iPad, together with its Apple Watch app and its widgets. It is written by the independent developer of MoneyTag, who is the only party involved in the app."],
+        ["Data we collect: none", "MoneyTag has no sign-up, no login and no user account. We do not collect your name, email address, contacts, location, photos, advertising identifier or any device identifier. We receive no usage statistics, no crash reports and no analytics events, because the app never sends any."],
+        ["Where your ledger lives", "Everything you enter — projects, transactions, amounts, categories, tags, notes and settings — is stored only in the app's own storage on your device. The Apple Watch app and the widgets read that same data through Apple's on-device app group and Watch Connectivity, which stay entirely within your own devices."],
+        ["Network activity", "The app makes no network requests. It contains no advertising, analytics, attribution or crash-reporting SDK, and no third-party code that would talk to a server. MoneyTag works normally in Airplane Mode. The only network traffic connected to the app is Apple's own, when the App Store handles a purchase or a restore."],
+        ["Purchases", "Lifetime Pro is a one-time purchase processed entirely by Apple through the App Store. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."],
+        ["Export, backup and sharing", "Export and backup files are created on your device and go wherever you send them through the iOS share sheet. Once a file leaves MoneyTag it is handled by whichever app or service you chose, under that provider's own privacy policy."],
+        ["Children", "MoneyTag is a general-purpose tool with no data collection, no advertising, no social features and no content shared with other people, so nothing personal can be gathered from a child who uses it."],
+        ["Your control and deletion", "Because nothing is collected, there is no account to close and no data of yours for us to hand over or erase. You stay in full control: deleting a transaction, a project or the app itself removes that data from your device permanently. Export a backup first if you want to keep it."],
+        ["Changes to this policy", "If the app ever changes in a way that affects privacy, this page is updated and the date above changes with it. We will not start collecting data quietly — any such change would appear here and in the App Store privacy details first."]
+      ],
+      "cT": "Questions about privacy",
+      "cL": "Ask anything about how MoneyTag handles your data. You will get a straight answer from the developer.",
+      "cB": "Email the developer"
+    }
+  }
+}

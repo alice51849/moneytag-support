@@ -1,0 +1,23 @@
+# MoneyTag: Income & Expense
+
+> A project-based income and expense tracker for iPhone, iPad and Apple Watch.
+> Each project is its own ledger with its own currency and its own
+> income − expenses = net result. Tags are first-class and can be totalled
+> across every project. Fully offline: no accounts, no ads, no analytics,
+> no tracking, no network requests; all data stays on the device.
+
+## Facts
+- Free: 1 project and 30 transactions, no time limit, no ads.
+- Lifetime Pro: one-time purchase, never a subscription. Unlocks unlimited
+  projects and transactions, cross-project tag analysis, custom categories and
+  tags, CSV and text export, backup and restore.
+- One currency per project. No exchange rates, no currency conversion — the
+  figures are exactly the numbers the user typed.
+- Apple Watch app and Home Screen / Lock Screen widgets, both reading on-device
+  data only.
+- Purchases and restores are handled entirely by Apple.
+- Contact: hourstag.app@gmail.com
+
+## Pages
+- [Support and FAQ](https://alice51849.github.io/moneytag-support/)
+- [Privacy policy](https://alice51849.github.io/moneytag-support/privacy.html)
