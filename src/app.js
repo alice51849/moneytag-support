@@ -5,7 +5,7 @@
   var I18N = window.MONEYTAG_I18N;
   var PAGE = document.body.getAttribute('data-page');   // 's' = support, 'p' = privacy
   var MAIL = 'hourstag.app@gmail.com';
-  var UPDATED = '2026-08-11';
+  var UPDATED = '2026-08-14';
   var RTL = { 'ar-SA': 1, 'he': 1, 'ur-PK': 1 };
   var STORE_KEY = 'moneytag.lang';
 

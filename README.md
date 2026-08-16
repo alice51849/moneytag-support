@@ -1,15 +1,24 @@
 # MoneyTag — Official Support & Privacy Site
 
 Static support and privacy site for the iOS app **MoneyTag: Income & Expense**
-(project-based two-way income/expense tracking, source at `~/47_MoneyTag`).
-Target URL once published: `https://alice51849.github.io/moneytag-support/`
+(project-based two-way income/expense tracking, source at `~/46_MoneyTag`).
+Live URL: `https://alice51849.github.io/moneytag-support/`
+
+Each project has its own base currency. On the Home screen, a user can choose
+the input currency, use public automatic rates refreshed about every six hours,
+set a manual rate, or reset to automatic. Converted amounts are saved in the
+project's base currency, and saved rates remain available offline. The public
+rate services require no API key and receive no ledger or personal data.
+
+每個專案都有自己的基準幣別。使用者可直接在首頁選擇輸入幣別，使用約每六小時更新的公開自動匯率，
+也可設定手動匯率或還原為自動。換算後以專案的基準幣別儲存，已儲存的匯率離線時仍可使用。
+公開匯率服務不需要 API 金鑰，也不會收到帳務或個人資料。
 
 - `index.html` — support page + FAQ (9 questions per locale)
 - `privacy.html` — privacy policy (9 sections per locale)
-- Language switcher in pure JS: **English, 繁體中文, 简体中文, 日本語, 한국어**
-  (any other App Store locale resolves to the closest of these, then English)
-- No CDNs, no external requests, no web fonts, no analytics, no cookies —
-  inline CSS + inline JS only
+- Pure-JS language switcher for all **50 Apple product-page locales**
+- The website itself has no CDNs, external requests, web fonts, analytics or
+  cookies — inline CSS + inline JS only
 - Contact address everywhere: `hourstag.app@gmail.com`
 
 Visual system matches the app's **Ledger Glass** design: warm bright glass on a
@@ -40,7 +49,8 @@ src/locales/part-eu.json    28 European locales (de-DE … en-CA)
 src/locales/part-asia.json  17 Asian / RTL locales (ar-SA, he, hi … ur-PK)
 tools/build.py           merges locales + CSS + JS into index.html / privacy.html
 tools/check.py           validation (locales, contact address, no external hosts)
-assets/icon.png          app icon (512 px, from ~/47_MoneyTag/assets/app-icon.png)
+tools/sync_app_contract.py  syncs the 5-entry and CSV/PDF rules from the app
+assets/icon.png          app icon (512 px, from ~/46_MoneyTag/assets/app-icon.png)
 ```
 
 `index.html` and `privacy.html` are **generated** — edit `src/`, never the built pages.
@@ -48,7 +58,8 @@ assets/icon.png          app icon (512 px, from ~/47_MoneyTag/assets/app-icon.pn
 ## Build & validate
 
 ```bash
-cd ~/47_moneytag-support
+cd ~/46_moneytag-support
+~/00_GrowthEngine/.venv/bin/python tools/sync_app_contract.py
 ~/00_GrowthEngine/.venv/bin/python tools/build.py     # regenerate both pages
 ~/00_GrowthEngine/.venv/bin/python tools/check.py     # must print PASS
 ```
@@ -60,8 +71,10 @@ cd ~/47_moneytag-support
 3. both built pages embed every shipped locale in the switcher payload,
 4. the banned private mail domain appears nowhere in the repository — the only
    public contact address is `hourstag.app@gmail.com` (AGENTS.md rule 32),
-5. no page references any external host and no honesty-breaking claim
-   (bank sync, automatic import, encrypted cloud …) appears.
+5. the website itself references no external host,
+6. every locale accurately discloses automatic/manual exchange rates, offline
+   saved rates, both public rate services, on-device ledger data and Apple's
+   separate purchase/restore handling.
 
 ## Locale coverage
 
@@ -70,26 +83,15 @@ All **50** Apple product-page locales ship — the same set the app declares in
 To add another later: write its block into a `src/locales/part-*.json` chunk,
 add the code to `LOCALES`, then run `build.py` and `check.py`.
 
-## Publishing (NOT done yet — outward-facing, needs owner approval)
+## Publishing
 
-No git repository, no remote and no deployment exists for this directory yet.
+The public repository is `alice51849/moneytag-support`, with GitHub Pages
+publishing the `main` branch root.
 
 ```bash
-cd ~/47_moneytag-support
-git init -b main
-git add .
-git commit -m "MoneyTag support and privacy site"
-
-# create the public repo and push
-gh repo create alice51849/moneytag-support --public --source=. --remote=origin --push
-
-# enable GitHub Pages from the main branch root
-gh api -X POST repos/alice51849/moneytag-support/pages \
-  -f 'source[branch]=main' -f 'source[path]=/'
-
-# verify (allow a minute for the first build)
+cd ~/46_moneytag-support
+git push origin main
 gh api repos/alice51849/moneytag-support/pages --jq '.status, .html_url'
-curl -sI https://alice51849.github.io/moneytag-support/ | head -1
 ```
 
 After the site is live, set every locale's `supportUrl` and `privacyPolicyUrl`
@@ -108,14 +110,20 @@ review), and make sure the privacy URL inside the app points at the live page.
 
 - Project-based two-way ledger: each project computes income − expenses = net.
 - Tags are first-class and roll up income / expense / net across projects.
-- One currency per project; **no exchange rates, no currency conversion** —
-  amounts are exactly the numbers the user typed.
-- Fully offline: zero network requests, no third-party SDK, no ads, no
-  analytics, no tracking; all data stays on device.
-- Free tier: 1 project + 30 transactions. Lifetime Pro is a one-time purchase
+- Every project has its own base currency. The Home screen accepts a selected
+  input currency and converts it with public automatic rates refreshed about
+  every six hours, or a manual rate that can later be reset to automatic.
+  Converted amounts are stored in the project's base currency; saved rates work
+  offline.
+- Projects, transactions, tags and settings stay on device. There is no
+  account, advertising, analytics, tracking or third-party SDK.
+- The only non-Apple network use is fetching public exchange-rate quotes from
+  keyless services: `open.er-api.com` is primary and `api.frankfurter.app` is
+  fallback. No transaction, project, tag, setting or personal data is sent.
+- Free tier: 1 project + 5 transactions. Lifetime Pro is a one-time purchase
   (never a subscription) unlocking unlimited projects and transactions,
-  cross-project tag analysis, custom categories and tags, CSV/text export,
+  cross-project tag analysis, custom categories and tags, CSV/PDF export,
   backup and restore.
 - Apple Watch app and Home Screen / Lock Screen widgets read on-device data
   through Apple's app group and Watch Connectivity only.
-- Purchases and restores are handled entirely by Apple.
+- In-app purchases and restores are handled entirely by Apple.

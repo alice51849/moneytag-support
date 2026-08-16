@@ -1,22 +1,38 @@
 # MoneyTag: Income & Expense
 
 > A project-based income and expense tracker for iPhone, iPad and Apple Watch.
-> Each project is its own ledger with its own currency and its own
+> Each project is its own ledger with its own base currency and its own
 > income − expenses = net result. Tags are first-class and can be totalled
-> across every project. Fully offline: no accounts, no ads, no analytics,
-> no tracking, no network requests; all data stays on the device.
+> across every project. Projects, transactions, tags and settings stay on the
+> device; there are no accounts, ads, analytics, tracking or third-party SDKs.
 
 ## Facts
-- Free: 1 project and 30 transactions, no time limit, no ads.
+- Free: 1 project and 10 transactions, no time limit, no ads.
 - Lifetime Pro: one-time purchase, never a subscription. Unlocks unlimited
   projects and transactions, cross-project tag analysis, custom categories and
-  tags, CSV and text export, backup and restore.
-- One currency per project. No exchange rates, no currency conversion — the
-  figures are exactly the numbers the user typed.
+  tags, CSV and PDF export, backup and restore.
+- On the Home screen, choose an input currency and use public automatic rates
+  refreshed about every 6 hours, set a manual rate, or reset to automatic.
+  Converted amounts are saved in the project's base currency. Saved rates work
+  offline.
+- The only non-Apple network use is fetching public exchange-rate quotes from
+  services that require no API key: primary `open.er-api.com`, fallback
+  `api.frankfurter.app`. No transaction, project, tag, setting or personal data
+  is sent.
 - Apple Watch app and Home Screen / Lock Screen widgets, both reading on-device
   data only.
 - Purchases and restores are handled entirely by Apple.
 - Contact: hourstag.app@gmail.com
+
+## 繁體中文
+- MoneyTag 是以專案為單位的雙向收支損益工具；每個專案都有自己的基準幣別，並計算收入 − 支出 = 淨額。
+- 首頁可直接選擇輸入幣別，使用約每 6 小時更新的公開自動匯率，也可設定手動匯率或還原為自動。
+  換算後以專案基準幣別儲存，已儲存的匯率離線時仍可使用。
+- 專案、交易、標籤與設定只留在裝置上；沒有帳號、廣告、分析、追蹤或第三方 SDK。
+- 唯一非 Apple 的網路用途是向免 API 金鑰的公開匯率服務取得報價：主要服務為
+  `open.er-api.com`，失敗時改用 `api.frankfurter.app`。不會傳送交易、專案、標籤、
+  設定或任何個人資料。
+- App 內購買與還原由 Apple 處理。
 
 ## Pages
 - [Support and FAQ](https://alice51849.github.io/moneytag-support/)

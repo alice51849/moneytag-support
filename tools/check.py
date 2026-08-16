@@ -8,8 +8,9 @@ Checks:
  4. the only public contact address anywhere in the repo is
     hourstag.app@gmail.com (AGENTS.md rule 32 — the private hotmail address is
     banned from any public-facing material),
- 5. no page references an external host, and the site claims nothing the app
-    does not do (honesty guard on the offline / no-tracking wording).
+ 5. the website itself references no external host,
+ 6. every locale carries the required exchange-rate, privacy, free-tier and
+    CSV/PDF export disclosures.
 """
 import json
 import pathlib
@@ -20,11 +21,38 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from build import LOCALES, SHARED, SITE, load_locales  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+APP_ROOT = ROOT.parent / "46_MoneyTag"
 MAIL = "hourstag.app@gmail.com"
 # built from parts so this file never contains the banned literal itself
 BANNED = ("@" + "hotmail.com", "@" + "outlook.com")
 PAGES = ("index.html", "privacy.html")
 FAIL = []
+
+
+def language_group(locale):
+    if locale.startswith("en-"):
+        return "en"
+    if locale.startswith("fr-"):
+        return "fr"
+    if locale.startswith("es-"):
+        return "es"
+    if locale.startswith("pt-"):
+        return "pt"
+    exact = {
+        "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant",
+        "de-DE": "de", "nl-NL": "nl", "bn-BD": "bn", "gu-IN": "gu",
+        "kn-IN": "kn", "ml-IN": "ml", "mr-IN": "mr", "or-IN": "or",
+        "pa-IN": "pa", "sl-SI": "sl", "ta-IN": "ta", "te-IN": "te",
+        "ur-PK": "ur",
+    }
+    return exact.get(locale, locale.split("-", 1)[0])
+
+
+_ui = json.loads((APP_ROOT / "assets" / "ui_i18n.json").read_text(encoding="utf-8"))
+UI_KEYS = {
+    key: {locale: _ui[language_group(locale)][key] for locale in LOCALES}
+    for key in ("exportCsv", "exportPdf", "backupRestore")
+}
 
 
 def bad(msg):
@@ -57,6 +85,39 @@ def check_content():
             for i, row in enumerate(rows, 1):
                 if len(row) != 2 or not row[0].strip() or not row[1].strip():
                     bad(f"{code}: {label} entry {i} is not a filled pair")
+        workflow = s.get("faq", [[], []])[1][1]
+        if "6" not in workflow:
+            bad(f"{code}: currency FAQ must disclose the roughly six-hour refresh")
+        if not code.startswith("en-") and workflow == data["en-US"]["s"]["faq"][1][1]:
+            bad(f"{code}: currency FAQ is copied from English")
+        free_answer = s.get("faq", [[], [], [], [None, ""]])[3][1]
+        export_answer = s.get(
+            "faq", [[], [], [], [], [], [], [], [], [None, ""]]
+        )[8][1]
+        if "10" in free_answer or "30" in free_answer or "5" not in free_answer:
+            bad(f"{code}: free tier must be exactly five transactions")
+        for label in ("exportCsv", "exportPdf", "backupRestore"):
+            if label not in UI_KEYS:
+                continue
+            if UI_KEYS[label][code] not in free_answer:
+                bad(f"{code}: free/Pro FAQ missing localized {label}")
+            if UI_KEYS[label][code] not in export_answer:
+                bad(f"{code}: export FAQ missing localized {label}")
+        disclosure_fields = {
+            "storage FAQ": s.get("faq", [[], [], [], [], [], [None, ""]])[5][1],
+            "network FAQ": s.get("faq", [[], [], [], [], [], [], [], [None, ""]])[7][1],
+            "privacy vow": p.get("vow", ""),
+            "rate policy": p.get("sec", [[], [], [], [None, ""]])[3][1],
+        }
+        for label, value in disclosure_fields.items():
+            for anchor in ("open.er-api.com", "api.frankfurter.app", "API", "Apple"):
+                if anchor not in value:
+                    bad(f"{code}: {label} missing {anchor}")
+        if workflow not in disclosure_fields["rate policy"]:
+            bad(f"{code}: rate policy is not synchronized with the currency FAQ")
+        source = json.dumps(t, ensure_ascii=False)
+        if "G+Money" in source:
+            bad(f"{code}: G+Money branding leaked into MoneyTag copy")
     # every locale must carry the same number of FAQ entries as English
     n = len(data["en-US"]["s"]["faq"])
     for code in LOCALES:
@@ -113,12 +174,27 @@ def check_honesty():
     data = load_locales()
     en = data["en-US"]
     joined = json.dumps(en, ensure_ascii=False).lower()
-    must = ["one-time purchase", "no network requests", "30 transactions", "one project"]
+    must = [
+        "one purchase", "5 entries left", "1 project", "base currency",
+        "manual rate", "reset to automatic", "saved rates", "open.er-api.com",
+        "api.frankfurter.app", "neither service requires an api key",
+        "no transactions, projects, tags, settings or personal data",
+    ]
     for phrase in must:
         if phrase not in joined:
             bad(f"en-US: honesty anchor missing — {phrase!r}")
-    for forbidden in ["free forever unlimited", "bank sync", "automatic import",
-                      "encrypted cloud", "military-grade"]:
+    stale_claims = [
+        "no exchange " + "rates",
+        "no currency " + "conversion",
+        "never applies an exchange " + "rate",
+        "no network " + "requests",
+        "zero network " + "requests",
+    ]
+    for forbidden in [
+        "free forever unlimited", "bank sync", "automatic import",
+        "encrypted cloud", "military-grade", "daily budget", "family trip",
+        *stale_claims,
+    ]:
         if forbidden in joined:
             bad(f"en-US: claim the app does not support — {forbidden!r}")
 

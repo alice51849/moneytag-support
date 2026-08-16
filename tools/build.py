@@ -33,7 +33,7 @@ LOCALES = [
 PENDING = []
 RTL = {"ar-SA", "he", "ur-PK"}
 SITE = "https://alice51849.github.io/moneytag-support/"
-UPDATED = "2026-08-11"
+UPDATED = "2026-08-14"
 SHARED = ("n", "l", "tag", "nav", "lang", "foot")
 
 
