@@ -9,8 +9,8 @@ Checks:
     hourstag.app@gmail.com (AGENTS.md rule 32 — the private hotmail address is
     banned from any public-facing material),
  5. the website itself references no external host,
- 6. every locale carries the required exchange-rate, privacy, free-tier and
-    CSV/PDF export disclosures.
+ 6. every locale carries the Frankfurter-only network/privacy disclosure,
+    attribution, free-tier and CSV/PDF export contracts.
 """
 import json
 import pathlib
@@ -18,7 +18,13 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from build import LOCALES, SHARED, SITE, load_locales  # noqa: E402
+from build import (  # noqa: E402
+    LOCALES,
+    SHARED,
+    SITE,
+    load_disclosures,
+    load_locales,
+)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 APP_ROOT = ROOT.parent / "46_MoneyTag"
@@ -53,6 +59,15 @@ UI_KEYS = {
     key: {locale: _ui[language_group(locale)][key] for locale in LOCALES}
     for key in ("exportCsv", "exportPdf", "backupRestore")
 }
+PRIVACY_UI_KEYS = {
+    "privacyNote": "ledger",
+    "onboardFootnote": "summary",
+    "privacyRequestNote": "request",
+    "privacyNetworkNote": "processing",
+    "privacyUseNote": "use",
+    "privacyManualNote": "manual",
+    "rateAttribution": "attribution",
+}
 
 
 def bad(msg):
@@ -61,8 +76,10 @@ def bad(msg):
 
 def check_content():
     data = load_locales()
+    disclosures = load_disclosures()
     for code in LOCALES:
         t = data[code]
+        disclosure = disclosures[code]
         for key in SHARED:
             if not t.get(key):
                 bad(f"{code}: missing shared key {key}")
@@ -86,11 +103,18 @@ def check_content():
                 if len(row) != 2 or not row[0].strip() or not row[1].strip():
                     bad(f"{code}: {label} entry {i} is not a filled pair")
         workflow = s.get("faq", [[], []])[1][1]
+        attribution = disclosure["attribution"]
+        base_workflow = (
+            workflow[:-len(attribution)].rstrip()
+            if workflow.endswith(attribution)
+            else workflow
+        )
         if "6" not in workflow:
             bad(f"{code}: currency FAQ must disclose the roughly six-hour refresh")
         if not code.startswith("en-") and workflow == data["en-US"]["s"]["faq"][1][1]:
             bad(f"{code}: currency FAQ is copied from English")
         free_answer = s.get("faq", [[], [], [], [None, ""]])[3][1]
+        watch_answer = s.get("faq", [[], [], [], [], [], [], [None, ""]])[6][1]
         export_answer = s.get(
             "faq", [[], [], [], [], [], [], [], [], [None, ""]]
         )[8][1]
@@ -103,18 +127,35 @@ def check_content():
                 bad(f"{code}: free/Pro FAQ missing localized {label}")
             if UI_KEYS[label][code] not in export_answer:
                 bad(f"{code}: export FAQ missing localized {label}")
+        if disclosure["ledger"] not in watch_answer:
+            bad(f"{code}: Watch FAQ still uses an absolute no-network claim")
         disclosure_fields = {
+            "currency FAQ": s.get("faq", [[], []])[1][1],
             "storage FAQ": s.get("faq", [[], [], [], [], [], [None, ""]])[5][1],
             "network FAQ": s.get("faq", [[], [], [], [], [], [], [], [None, ""]])[7][1],
             "privacy vow": p.get("vow", ""),
+            "network policy": p.get("sec", [[], []])[1][1],
             "rate policy": p.get("sec", [[], [], [], [None, ""]])[3][1],
         }
-        for label, value in disclosure_fields.items():
-            for anchor in ("open.er-api.com", "api.frankfurter.app", "API", "Apple"):
+        if "Frankfurter" not in disclosure_fields["currency FAQ"]:
+            bad(f"{code}: currency FAQ missing Frankfurter")
+        for label in ("storage FAQ", "network FAQ", "privacy vow", "network policy", "rate policy"):
+            value = disclosure_fields[label]
+            for anchor in ("api.frankfurter.dev", "Frankfurter"):
                 if anchor not in value:
                     bad(f"{code}: {label} missing {anchor}")
-        if workflow not in disclosure_fields["rate policy"]:
+        for label in ("storage FAQ", "network FAQ", "privacy vow", "network policy", "rate policy"):
+            for anchor in ("Cloudflare", "IP"):
+                if anchor not in disclosure_fields[label]:
+                    bad(f"{code}: {label} missing {anchor}")
+        if attribution not in disclosure_fields["currency FAQ"]:
+            bad(f"{code}: currency FAQ missing localized attribution")
+        if base_workflow not in disclosure_fields["rate policy"]:
             bad(f"{code}: rate policy is not synchronized with the currency FAQ")
+        ui = _ui[language_group(code)]
+        for ui_key, disclosure_key in PRIVACY_UI_KEYS.items():
+            if ui.get(ui_key) != disclosure[disclosure_key]:
+                bad(f"{code}: App {ui_key} differs from support disclosure")
         source = json.dumps(t, ensure_ascii=False)
         if "G+Money" in source:
             bad(f"{code}: G+Money branding leaked into MoneyTag copy")
@@ -169,6 +210,21 @@ def check_mail():
                 bad(f"{f.relative_to(ROOT)}: unexpected address {addr}")
 
 
+def check_legacy_providers():
+    banned_hosts = ("open." + "er-api.com", "api.frankfurter." + "app")
+    for f in ROOT.rglob("*"):
+        if (
+            not f.is_file()
+            or ".git/" in str(f)
+            or f.suffix in (".png", ".jpg", ".pyc")
+        ):
+            continue
+        text = f.read_text(encoding="utf-8", errors="ignore")
+        for host in banned_hosts:
+            if host in text:
+                bad(f"{f.relative_to(ROOT)}: legacy exchange-rate host {host}")
+
+
 def check_honesty():
     """The site may only make claims that hold for the shipped app."""
     data = load_locales()
@@ -176,9 +232,10 @@ def check_honesty():
     joined = json.dumps(en, ensure_ascii=False).lower()
     must = [
         "one purchase", "5 entries left", "1 project", "base currency",
-        "manual rate", "reset to automatic", "saved rates", "open.er-api.com",
-        "api.frankfurter.app", "neither service requires an api key",
-        "no transactions, projects, tags, settings or personal data",
+        "manual rate", "reset to automatic", "saved rates",
+        "api.frankfurter.dev", "cloudflare", "ip address",
+        "may be linked to you", "not used for tracking", "no advertising",
+        "european central bank data via frankfurter",
     ]
     for phrase in must:
         if phrase not in joined:
@@ -189,6 +246,10 @@ def check_honesty():
         "never applies an exchange " + "rate",
         "no network " + "requests",
         "zero network " + "requests",
+        "no data collected",
+        "data we collect: none",
+        "everything stays on your device",
+        "nothing travels over the internet",
     ]
     for forbidden in [
         "free forever unlimited", "bank sync", "automatic import",
@@ -203,6 +264,7 @@ def main():
     check_content()
     check_pages()
     check_mail()
+    check_legacy_providers()
     check_honesty()
     if FAIL:
         for msg in FAIL:

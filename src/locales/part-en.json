@@ -8,10 +8,10 @@
       "Privacy"
     ],
     "lang": "Language",
-    "foot": "MoneyTag — Everything stays on your device. No account, no tracking. Rates use a public exchange-rate service.",
+    "foot": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
     "s": {
       "title": "MoneyTag Support — Projects, Tags and Lifetime Pro",
-      "meta": "MoneyTag — Everything stays on your device. No account, no tracking. Rates use a public exchange-rate service.",
+      "meta": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
       "eyebrow": "Support",
       "h1": "Help with MoneyTag",
       "lead": "Every project keeps its own books: income minus expenses is its net result. Here are the questions people ask most. If yours is not answered, write to us — a real person reads every message.",
@@ -31,7 +31,7 @@
         ],
         [
           "Does MoneyTag convert between currencies?",
-          "Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline."
+          "Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline. Reference rates derived from European Central Bank data via Frankfurter; for informational use."
         ],
         [
           "How do tags work?",
@@ -47,15 +47,15 @@
         ],
         [
           "Where is my data stored? Is there a cloud backup?",
-          "Everything you enter — projects, transactions, amounts, categories, tags, notes and settings — is stored only in the app's own storage on your device. MoneyTag’s only non-Apple network use is fetching public exchange-rate quotes: open.er-api.com is the primary service and api.frankfurter.app is the fallback. No transactions, projects, tags, settings or personal data are sent. Apple separately handles in-app purchases and purchase restoration. Neither service requires an API key."
+          "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use. Lifetime Pro is a one-time purchase processed entirely by Apple through the App Store. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
         ],
         [
           "What do the Apple Watch app and the widgets show?",
-          "The Watch app lets you add a transaction from your wrist and see the current project's income, expenses and net. The widgets show that same status on the Home Screen and the Lock Screen. Both read data your iPhone already holds, through Apple's on-device sharing — nothing travels over the internet."
+          "The Watch app lets you add a transaction from your wrist and see the current project's income, expenses and net. The widgets show that same status on the Home Screen and the Lock Screen. Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter."
         ],
         [
           "Does MoneyTag need an internet connection or any permissions?",
-          "MoneyTag’s only non-Apple network use is fetching public exchange-rate quotes: open.er-api.com is the primary service and api.frankfurter.app is the fallback. No transactions, projects, tags, settings or personal data are sent. Apple separately handles in-app purchases and purchase restoration. Neither service requires an API key. It asks for no location, contacts, photos or notification permissions."
+          "When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use."
         ],
         [
           "How do I export my ledger or move it to another device?",
@@ -68,28 +68,28 @@
     },
     "p": {
       "title": "MoneyTag Privacy Policy",
-      "meta": "Everything stays on your device. No account, no tracking. Rates use a public exchange-rate service.",
+      "meta": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
       "eyebrow": "Privacy",
       "h1": "Privacy Policy",
-      "lead": "Everything stays on your device. No account, no tracking. Rates use a public exchange-rate service.",
+      "lead": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
       "upd": "Last updated",
-      "vow": "Everything stays on this device. MoneyTag’s only non-Apple network use is fetching public exchange-rate quotes: open.er-api.com is the primary service and api.frankfurter.app is the fallback. No transactions, projects, tags, settings or personal data are sent. Apple separately handles in-app purchases and purchase restoration. Neither service requires an API key. It contains no advertising, analytics, attribution or crash-reporting SDK, and no third-party code that would talk to a server.",
+      "vow": "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use.",
       "sec": [
         [
           "Who this policy covers",
           "This policy applies to the MoneyTag app for iPhone and iPad, together with its Apple Watch app and its widgets."
         ],
         [
-          "Data we collect: none",
-          "MoneyTag has no sign-up, no login and no user account. We do not collect your name, email address, contacts, location, photos, advertising identifier or any device identifier. We receive no usage statistics, no crash reports and no analytics events, because the app never sends any."
+          "Automatic-rate network data",
+          "When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests."
         ],
         [
           "Where your ledger lives",
-          "Everything you enter — projects, transactions, amounts, categories, tags, notes and settings — is stored only in the app's own storage on your device. The Apple Watch app and the widgets read that same data through Apple's on-device app group and Watch Connectivity, which stay entirely within your own devices."
+          "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter."
         ],
         [
           "Exchange rates",
-          "MoneyTag’s only non-Apple network use is fetching public exchange-rate quotes: open.er-api.com is the primary service and api.frankfurter.app is the fallback. No transactions, projects, tags, settings or personal data are sent. Apple separately handles in-app purchases and purchase restoration. Neither service requires an API key. Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline. It contains no advertising, analytics, attribution or crash-reporting SDK, and no third-party code that would talk to a server."
+          "Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use."
         ],
         [
           "Purchases",
@@ -101,15 +101,15 @@
         ],
         [
           "Children",
-          "MoneyTag is a general-purpose tool with no data collection, no advertising, no social features and no content shared with other people, so nothing personal can be gathered from a child who uses it."
+          "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests."
         ],
         [
           "Your control and deletion",
-          "Because nothing is collected, there is no account to close and no data of yours for us to hand over or erase. You stay in full control: deleting a transaction, a project or the app itself removes that data from your device permanently. Export a backup first if you want to keep it."
+          "You can delete local entries or projects at any time, or remove all local data by deleting the app. Turn off automatic rates and use a manual rate to avoid these requests."
         ],
         [
           "Changes to this policy",
-          "If the app ever changes in a way that affects privacy, this page is updated and the date above changes with it. We will not start collecting data quietly — any such change would appear here and in the App Store privacy details first."
+          "Any future change to network or data handling will be published here and in the App Store privacy details before release."
         ]
       ],
       "cT": "Questions about privacy",
