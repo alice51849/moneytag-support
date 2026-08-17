@@ -9,8 +9,8 @@ Checks:
     hourstag.app@gmail.com (AGENTS.md rule 32 — the private hotmail address is
     banned from any public-facing material),
  5. the website itself references no external host,
- 6. every locale carries the Frankfurter-only network/privacy disclosure,
-    attribution, free-tier and CSV/PDF export contracts.
+ 6. every locale carries both automatic-rate provider disclosures,
+    attribution, free-tier and CSV/PDF/Photo export contracts.
 """
 import json
 import pathlib
@@ -57,7 +57,7 @@ def language_group(locale):
 _ui = json.loads((APP_ROOT / "assets" / "ui_i18n.json").read_text(encoding="utf-8"))
 UI_KEYS = {
     key: {locale: _ui[language_group(locale)][key] for locale in LOCALES}
-    for key in ("exportCsv", "exportPdf", "backupRestore")
+    for key in ("exportCsv", "exportPdf", "exportPhoto", "backupRestore")
 }
 PRIVACY_UI_KEYS = {
     "privacyNote": "ledger",
@@ -137,11 +137,17 @@ def check_content():
             "network policy": p.get("sec", [[], []])[1][1],
             "rate policy": p.get("sec", [[], [], [], [None, ""]])[3][1],
         }
-        if "Frankfurter" not in disclosure_fields["currency FAQ"]:
-            bad(f"{code}: currency FAQ missing Frankfurter")
+        for anchor in ("Frankfurter", "ExchangeRate-API"):
+            if anchor not in disclosure_fields["currency FAQ"]:
+                bad(f"{code}: currency FAQ missing {anchor}")
         for label in ("storage FAQ", "network FAQ", "privacy vow", "network policy", "rate policy"):
             value = disclosure_fields[label]
-            for anchor in ("api.frankfurter.dev", "Frankfurter"):
+            for anchor in (
+                "api.frankfurter.dev",
+                "open.er-api.com",
+                "Frankfurter",
+                "ExchangeRate-API",
+            ):
                 if anchor not in value:
                     bad(f"{code}: {label} missing {anchor}")
         for label in ("storage FAQ", "network FAQ", "privacy vow", "network policy", "rate policy"):
@@ -211,7 +217,7 @@ def check_mail():
 
 
 def check_legacy_providers():
-    banned_hosts = ("open." + "er-api.com", "api.frankfurter." + "app")
+    banned_hosts = ("api.frankfurter." + "app",)
     for f in ROOT.rglob("*"):
         if (
             not f.is_file()
@@ -233,9 +239,10 @@ def check_honesty():
     must = [
         "one purchase", "5 entries left", "1 project", "base currency",
         "manual rate", "reset to automatic", "saved rates",
-        "api.frankfurter.dev", "cloudflare", "ip address",
+        "api.frankfurter.dev", "open.er-api.com", "exchangerate-api",
+        "cloudflare", "ip address",
         "may be linked to you", "not used for tracking", "no advertising",
-        "european central bank data via frankfurter",
+        "provided by frankfurter or exchangerate-api",
     ]
     for phrase in must:
         if phrase not in joined:

@@ -8,10 +8,10 @@
       "Privacy"
     ],
     "lang": "Language",
-    "foot": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
+    "foot": "Ledger data stays on this device. Automatic rates contact Frankfurter / ExchangeRate-API; no ads or tracking.",
     "s": {
       "title": "MoneyTag Support — Projects, Tags and Lifetime Pro",
-      "meta": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
+      "meta": "Ledger data stays on this device. Automatic rates contact Frankfurter / ExchangeRate-API; no ads or tracking.",
       "eyebrow": "Support",
       "h1": "Help with MoneyTag",
       "lead": "Every project keeps its own books: income minus expenses is its net result. Here are the questions people ask most. If yours is not answered, write to us — a real person reads every message.",
@@ -31,7 +31,7 @@
         ],
         [
           "Does MoneyTag convert between currencies?",
-          "Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline. Reference rates derived from European Central Bank data via Frankfurter; for informational use."
+          "Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline. Reference rates are provided by Frankfurter or ExchangeRate-API; for informational use."
         ],
         [
           "How do tags work?",
@@ -39,7 +39,7 @@
         ],
         [
           "What is free, and what does Lifetime Pro add?",
-          "Free · 1 project · 5 entries left. Unlimited projects, tags and reports — one purchase, yours forever. Export CSV · Export PDF · Backup & restore."
+          "Free · 1 project · 5 entries left. Unlimited projects, tags and reports — one purchase, yours forever. Export CSV · Export PDF · Export Photo · Backup & restore."
         ],
         [
           "I bought Lifetime Pro, but a new device shows it locked.",
@@ -47,19 +47,19 @@
         ],
         [
           "Where is my data stored? Is there a cloud backup?",
-          "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use. Lifetime Pro is a one-time purchase processed entirely by Apple through the App Store. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
+          "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter / ExchangeRate-API. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev / open.er-api.com. Frankfurter / ExchangeRate-API’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates are provided by Frankfurter or ExchangeRate-API; for informational use. Lifetime Pro is a one-time purchase processed entirely by Apple through the App Store. We never see or store your payment details; the app only learns from Apple whether the purchase exists, and records the unlock locally on your device. Restoring a purchase asks Apple, not us."
         ],
         [
           "What do the Apple Watch app and the widgets show?",
-          "The Watch app lets you add a transaction from your wrist and see the current project's income, expenses and net. The widgets show that same status on the Home Screen and the Lock Screen. Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter."
+          "The Watch app lets you add a transaction from your wrist and see the current project's income, expenses and net. The widgets show that same status on the Home Screen and the Lock Screen. Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter / ExchangeRate-API."
         ],
         [
           "Does MoneyTag need an internet connection or any permissions?",
-          "When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use."
+          "When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev / open.er-api.com. Frankfurter / ExchangeRate-API’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates are provided by Frankfurter or ExchangeRate-API; for informational use."
         ],
         [
           "How do I export my ledger or move it to another device?",
-          "Export CSV · Export PDF · Backup & restore. Includes projects, transactions, tags and settings."
+          "Export CSV · Export PDF · Export Photo · Backup & restore. Includes projects, transactions, tags and settings."
         ]
       ],
       "cT": "Still need a hand?",
@@ -68,12 +68,12 @@
     },
     "p": {
       "title": "MoneyTag Privacy Policy",
-      "meta": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
+      "meta": "Ledger data stays on this device. Automatic rates contact Frankfurter / ExchangeRate-API; no ads or tracking.",
       "eyebrow": "Privacy",
       "h1": "Privacy Policy",
-      "lead": "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking.",
+      "lead": "Ledger data stays on this device. Automatic rates contact Frankfurter / ExchangeRate-API; no ads or tracking.",
       "upd": "Last updated",
-      "vow": "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use.",
+      "vow": "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter / ExchangeRate-API. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev / open.er-api.com. Frankfurter / ExchangeRate-API’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates are provided by Frankfurter or ExchangeRate-API; for informational use.",
       "sec": [
         [
           "Who this policy covers",
@@ -81,15 +81,15 @@
         ],
         [
           "Automatic-rate network data",
-          "When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests."
+          "When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev / open.er-api.com. Frankfurter / ExchangeRate-API’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests."
         ],
         [
           "Where your ledger lives",
-          "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter."
+          "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter / ExchangeRate-API."
         ],
         [
           "Exchange rates",
-          "Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates derived from European Central Bank data via Frankfurter; for informational use."
+          "Each project has its own base currency. On the Home screen, choose the input currency directly. MoneyTag uses public exchange rates refreshed about every 6 hours, or you can set a manual rate and later reset to automatic. The converted amount is saved in the project’s base currency, and saved rates remain available offline. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev / open.er-api.com. Frankfurter / ExchangeRate-API’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests. Reference rates are provided by Frankfurter or ExchangeRate-API; for informational use."
         ],
         [
           "Purchases",
@@ -101,7 +101,7 @@
         ],
         [
           "Children",
-          "Ledger data stays on this device. Automatic rates contact Frankfurter; no ads or tracking. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev. Frankfurter’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests."
+          "Ledger data stays on this device. Automatic rates contact Frankfurter / ExchangeRate-API; no ads or tracking. When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev / open.er-api.com. Frankfurter / ExchangeRate-API’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics. This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising. Turn off automatic rates and use a manual rate to avoid these requests."
         ],
         [
           "Your control and deletion",
