@@ -44,3 +44,7 @@
 ## Pages
 - [Support and FAQ](https://alice51849.github.io/moneytag-support/)
 - [Privacy policy](https://alice51849.github.io/moneytag-support/privacy.html)
+
+## Support
+
+- [Help, FAQ and troubleshooting](https://alice51849.github.io/moneytag-support/help.html)
