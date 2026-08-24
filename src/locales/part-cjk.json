@@ -8,10 +8,10 @@
       "隱私"
     ],
     "lang": "語言",
-    "foot": "帳本資料只留在這部裝置；自動匯率會連線 Frankfurter / ExchangeRate-API，沒有廣告或追蹤。",
+    "foot": "帳本資料留在你的裝置與你自己的 iCloud。自動匯率會連線 Frankfurter / ExchangeRate-API；無廣告、無追蹤。",
     "s": {
       "title": "MoneyTag 支援 — 專案、標籤與專業版",
-      "meta": "帳本資料只留在這部裝置；自動匯率會連線 Frankfurter / ExchangeRate-API，沒有廣告或追蹤。",
+      "meta": "帳本資料留在你的裝置與你自己的 iCloud。自動匯率會連線 Frankfurter / ExchangeRate-API；無廣告、無追蹤。",
       "eyebrow": "支援",
       "h1": "MoneyTag 使用說明",
       "lead": "每個專案都有自己的帳本：收入減支出，就是這個專案的淨額。以下是大家最常問的問題；沒有找到答案的話，寫信給我們，每一封信都有人親自看。",
@@ -39,7 +39,7 @@
         ],
         [
           "免費版能用什麼？專業版多了什麼？",
-          "免費版 · 1 個專案 · 還可記 5 筆. 無限專案、標籤與報表，一次購買、無訂閱. 匯出 CSV · 匯出 PDF · 匯出相片 · 備份與還原."
+          "免費版 · 1 個專案 · 還可記 5 筆. 無限專案、標籤與報表，一次購買永久使用. 匯出 CSV · 匯出 PDF · 匯出相片 · 備份與還原."
         ],
         [
           "我買過專業版，但換新裝置後又鎖住了。",
@@ -47,11 +47,11 @@
         ],
         [
           "我的資料存在哪裡？有雲端備份嗎？",
-          "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。 啟用自動匯率時，MoneyTag 會將三碼基準幣別代碼及必要的網路請求傳送至 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基礎架構可能處理 IP 位址、概略區域、互動資料與診斷資訊。 這些處理僅用於 App 功能與分析，資料可能與你連結，但不會用於追蹤，也不涉及廣告。 關閉自動匯率並使用手動匯率，即可避免這些請求。 參考匯率由 Frankfurter 或 ExchangeRate-API 提供；僅供資訊參考。 專業版是一次性買斷，付款完全由 Apple 透過 App Store 處理。我們看不到也不保存你的付款資料；App 只會從 Apple 得知這筆購買是否存在，並把解鎖狀態記錄在你的裝置上。還原購買是向 Apple 查詢，不是向我們。"
+          "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。 開啟 iCloud 同步時，另有一份副本存放在你自己的 iCloud。 啟用自動匯率時，MoneyTag 會將三碼基準幣別代碼及必要的網路請求傳送至 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基礎架構可能處理 IP 位址、概略區域、互動資料與診斷資訊。 這些處理僅用於 App 功能與分析，資料可能與你連結，但不會用於追蹤，也不涉及廣告。 關閉自動匯率並使用手動匯率，即可避免這些請求。 參考匯率由 Frankfurter 或 ExchangeRate-API 提供；僅供資訊參考。 專業版是一次性買斷，付款完全由 Apple 透過 App Store 處理。我們看不到也不保存你的付款資料；App 只會從 Apple 得知這筆購買是否存在，並把解鎖狀態記錄在你的裝置上。還原購買是向 Apple 查詢，不是向我們。"
         ],
         [
           "Apple Watch App 和小工具會顯示什麼？",
-          "手錶 App 可以直接在手腕上記一筆，並查看目前專案的收入、支出與淨額；小工具則把同樣的狀態顯示在主畫面與鎖定畫面。 專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。"
+          "手錶 App 可以直接在手腕上記一筆，並查看目前專案的收入、支出與淨額；小工具則把同樣的狀態顯示在主畫面與鎖定畫面。 專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。 開啟 iCloud 同步時，另有一份副本存放在你自己的 iCloud。"
         ],
         [
           "MoneyTag 需要連網或任何權限嗎？",
@@ -68,12 +68,12 @@
     },
     "p": {
       "title": "MoneyTag 隱私政策",
-      "meta": "帳本資料只留在這部裝置；自動匯率會連線 Frankfurter / ExchangeRate-API，沒有廣告或追蹤。",
+      "meta": "帳本資料留在你的裝置與你自己的 iCloud。自動匯率會連線 Frankfurter / ExchangeRate-API；無廣告、無追蹤。",
       "eyebrow": "隱私",
       "h1": "隱私政策",
-      "lead": "帳本資料只留在這部裝置；自動匯率會連線 Frankfurter / ExchangeRate-API，沒有廣告或追蹤。",
+      "lead": "帳本資料留在你的裝置與你自己的 iCloud。自動匯率會連線 Frankfurter / ExchangeRate-API；無廣告、無追蹤。",
       "upd": "最後更新",
-      "vow": "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。 啟用自動匯率時，MoneyTag 會將三碼基準幣別代碼及必要的網路請求傳送至 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基礎架構可能處理 IP 位址、概略區域、互動資料與診斷資訊。 這些處理僅用於 App 功能與分析，資料可能與你連結，但不會用於追蹤，也不涉及廣告。 關閉自動匯率並使用手動匯率，即可避免這些請求。 參考匯率由 Frankfurter 或 ExchangeRate-API 提供；僅供資訊參考。",
+      "vow": "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。 開啟 iCloud 同步時，另有一份副本存放在你自己的 iCloud。 啟用自動匯率時，MoneyTag 會將三碼基準幣別代碼及必要的網路請求傳送至 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基礎架構可能處理 IP 位址、概略區域、互動資料與診斷資訊。 這些處理僅用於 App 功能與分析，資料可能與你連結，但不會用於追蹤，也不涉及廣告。 關閉自動匯率並使用手動匯率，即可避免這些請求。 參考匯率由 Frankfurter 或 ExchangeRate-API 提供；僅供資訊參考。",
       "sec": [
         [
           "本政策適用範圍",
@@ -85,7 +85,7 @@
         ],
         [
           "你的帳本存放在哪裡",
-          "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。"
+          "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。 開啟 iCloud 同步時，另有一份副本存放在你自己的 iCloud。"
         ],
         [
           "匯率",
@@ -101,7 +101,7 @@
         ],
         [
           "兒童",
-          "帳本資料只留在這部裝置；自動匯率會連線 Frankfurter / ExchangeRate-API，沒有廣告或追蹤。 啟用自動匯率時，MoneyTag 會將三碼基準幣別代碼及必要的網路請求傳送至 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基礎架構可能處理 IP 位址、概略區域、互動資料與診斷資訊。 這些處理僅用於 App 功能與分析，資料可能與你連結，但不會用於追蹤，也不涉及廣告。 關閉自動匯率並使用手動匯率，即可避免這些請求。"
+          "帳本資料留在你的裝置與你自己的 iCloud。自動匯率會連線 Frankfurter / ExchangeRate-API；無廣告、無追蹤。 啟用自動匯率時，MoneyTag 會將三碼基準幣別代碼及必要的網路請求傳送至 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基礎架構可能處理 IP 位址、概略區域、互動資料與診斷資訊。 這些處理僅用於 App 功能與分析，資料可能與你連結，但不會用於追蹤，也不涉及廣告。 關閉自動匯率並使用手動匯率，即可避免這些請求。"
         ],
         [
           "你的掌控權與刪除",
@@ -126,10 +126,10 @@
       "隐私"
     ],
     "lang": "语言",
-    "foot": "账本数据只保留在这台设备上；自动汇率会连接 Frankfurter / ExchangeRate-API，不含广告或跟踪。",
+    "foot": "账本数据留在你的设备与你自己的 iCloud。自动汇率会连接 Frankfurter / ExchangeRate-API；无广告、无追踪。",
     "s": {
       "title": "MoneyTag 支持 — 项目、标签与专业版",
-      "meta": "账本数据只保留在这台设备上；自动汇率会连接 Frankfurter / ExchangeRate-API，不含广告或跟踪。",
+      "meta": "账本数据留在你的设备与你自己的 iCloud。自动汇率会连接 Frankfurter / ExchangeRate-API；无广告、无追踪。",
       "eyebrow": "支持",
       "h1": "MoneyTag 使用说明",
       "lead": "每个项目都有自己的账本：收入减支出，就是这个项目的净额。以下是大家最常问的问题；没有找到答案，欢迎写信给我们，每封信都有人亲自看。",
@@ -157,7 +157,7 @@
         ],
         [
           "免费版能用什么？专业版多了什么？",
-          "免费版 · 1 个项目 · 还可记 5 笔. 无限项目、标签与报表，一次购买、无订阅. 导出 CSV · 导出 PDF · 导出图片 · 备份与还原."
+          "免费版 · 1 个项目 · 还可记 5 笔. 无限项目、标签与报表，一次购买永久使用. 导出 CSV · 导出 PDF · 导出图片 · 备份与还原."
         ],
         [
           "我买过专业版，但换新设备后又锁上了。",
@@ -165,11 +165,11 @@
         ],
         [
           "我的数据存在哪里？有云备份吗？",
-          "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。 启用自动汇率时，MoneyTag 会将三位基准货币代码和必要的网络请求发送到 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基础设施可能处理 IP 地址、大致区域、交互数据和诊断信息。 这些处理仅用于 App 功能和分析，数据可能与你关联，但不会用于跟踪，也不涉及广告。 关闭自动汇率并使用手动汇率，即可避免这些请求。 参考汇率由 Frankfurter 或 ExchangeRate-API 提供；仅供信息参考。 专业版是一次性买断，付款完全由 Apple 通过 App Store 处理。我们看不到也不保存你的付款信息；App 只会从 Apple 得知这笔购买是否存在，并把解锁状态记录在你的设备上。恢复购买是向 Apple 查询，而不是向我们。"
+          "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。 开启 iCloud 同步时，另有一份副本存放在你自己的 iCloud。 启用自动汇率时，MoneyTag 会将三位基准货币代码和必要的网络请求发送到 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基础设施可能处理 IP 地址、大致区域、交互数据和诊断信息。 这些处理仅用于 App 功能和分析，数据可能与你关联，但不会用于跟踪，也不涉及广告。 关闭自动汇率并使用手动汇率，即可避免这些请求。 参考汇率由 Frankfurter 或 ExchangeRate-API 提供；仅供信息参考。 专业版是一次性买断，付款完全由 Apple 通过 App Store 处理。我们看不到也不保存你的付款信息；App 只会从 Apple 得知这笔购买是否存在，并把解锁状态记录在你的设备上。恢复购买是向 Apple 查询，而不是向我们。"
         ],
         [
           "Apple Watch App 和小组件会显示什么？",
-          "手表 App 可以直接在手腕上记一笔，并查看当前项目的收入、支出与净额；小组件则把同样的状态显示在主屏幕与锁定屏幕。 项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。"
+          "手表 App 可以直接在手腕上记一笔，并查看当前项目的收入、支出与净额；小组件则把同样的状态显示在主屏幕与锁定屏幕。 项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。 开启 iCloud 同步时，另有一份副本存放在你自己的 iCloud。"
         ],
         [
           "MoneyTag 需要联网或任何权限吗？",
@@ -186,12 +186,12 @@
     },
     "p": {
       "title": "MoneyTag 隐私政策",
-      "meta": "账本数据只保留在这台设备上；自动汇率会连接 Frankfurter / ExchangeRate-API，不含广告或跟踪。",
+      "meta": "账本数据留在你的设备与你自己的 iCloud。自动汇率会连接 Frankfurter / ExchangeRate-API；无广告、无追踪。",
       "eyebrow": "隐私",
       "h1": "隐私政策",
-      "lead": "账本数据只保留在这台设备上；自动汇率会连接 Frankfurter / ExchangeRate-API，不含广告或跟踪。",
+      "lead": "账本数据留在你的设备与你自己的 iCloud。自动汇率会连接 Frankfurter / ExchangeRate-API；无广告、无追踪。",
       "upd": "最后更新",
-      "vow": "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。 启用自动汇率时，MoneyTag 会将三位基准货币代码和必要的网络请求发送到 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基础设施可能处理 IP 地址、大致区域、交互数据和诊断信息。 这些处理仅用于 App 功能和分析，数据可能与你关联，但不会用于跟踪，也不涉及广告。 关闭自动汇率并使用手动汇率，即可避免这些请求。 参考汇率由 Frankfurter 或 ExchangeRate-API 提供；仅供信息参考。",
+      "vow": "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。 开启 iCloud 同步时，另有一份副本存放在你自己的 iCloud。 启用自动汇率时，MoneyTag 会将三位基准货币代码和必要的网络请求发送到 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基础设施可能处理 IP 地址、大致区域、交互数据和诊断信息。 这些处理仅用于 App 功能和分析，数据可能与你关联，但不会用于跟踪，也不涉及广告。 关闭自动汇率并使用手动汇率，即可避免这些请求。 参考汇率由 Frankfurter 或 ExchangeRate-API 提供；仅供信息参考。",
       "sec": [
         [
           "本政策适用范围",
@@ -203,7 +203,7 @@
         ],
         [
           "你的账本存放在哪里",
-          "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。"
+          "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。 开启 iCloud 同步时，另有一份副本存放在你自己的 iCloud。"
         ],
         [
           "汇率",
@@ -219,7 +219,7 @@
         ],
         [
           "儿童",
-          "账本数据只保留在这台设备上；自动汇率会连接 Frankfurter / ExchangeRate-API，不含广告或跟踪。 启用自动汇率时，MoneyTag 会将三位基准货币代码和必要的网络请求发送到 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基础设施可能处理 IP 地址、大致区域、交互数据和诊断信息。 这些处理仅用于 App 功能和分析，数据可能与你关联，但不会用于跟踪，也不涉及广告。 关闭自动汇率并使用手动汇率，即可避免这些请求。"
+          "账本数据留在你的设备与你自己的 iCloud。自动汇率会连接 Frankfurter / ExchangeRate-API；无广告、无追踪。 启用自动汇率时，MoneyTag 会将三位基准货币代码和必要的网络请求发送到 api.frankfurter.dev / open.er-api.com。 Frankfurter / ExchangeRate-API 使用的 Cloudflare 基础设施可能处理 IP 地址、大致区域、交互数据和诊断信息。 这些处理仅用于 App 功能和分析，数据可能与你关联，但不会用于跟踪，也不涉及广告。 关闭自动汇率并使用手动汇率，即可避免这些请求。"
         ],
         [
           "你的控制权与删除",
@@ -244,10 +244,10 @@
       "プライバシー"
     ],
     "lang": "言語",
-    "foot": "帳簿データはこのデバイス内に保存されます。自動為替レートは Frankfurter / ExchangeRate-API に接続しますが、広告やトラッキングはありません。",
+    "foot": "記録はお使いのデバイスとご自身のiCloudに保存されます。自動レートはFrankfurter / ExchangeRate-APIに接続します。広告も追跡もありません。",
     "s": {
       "title": "MoneyTag サポート — プロジェクト・タグ・買い切り版",
-      "meta": "帳簿データはこのデバイス内に保存されます。自動為替レートは Frankfurter / ExchangeRate-API に接続しますが、広告やトラッキングはありません。",
+      "meta": "記録はお使いのデバイスとご自身のiCloudに保存されます。自動レートはFrankfurter / ExchangeRate-APIに接続します。広告も追跡もありません。",
       "eyebrow": "サポート",
       "h1": "MoneyTag のヘルプ",
       "lead": "プロジェクトごとに帳簿は独立しています。収入から支出を引いた金額が、そのプロジェクトの純額です。よくある質問をまとめました。解決しない場合はメールでご連絡ください。すべて開発者本人が読んでいます。",
@@ -275,7 +275,7 @@
         ],
         [
           "無料でどこまで使えますか？買い切り版で何が増えますか？",
-          "無料版 · プロジェクト 1 件 · 残り 5 件. プロジェクト・タグ・レポートが無制限。買い切りでサブスクなし. CSV書き出し · PDF書き出し · 画像を書き出す · バックアップと復元."
+          "無料版 · プロジェクト 1 件 · 残り 5 件. プロジェクト・タグ・レポートが無制限。買い切りでずっと使えます. CSV書き出し · PDF書き出し · 画像を書き出す · バックアップと復元."
         ],
         [
           "買い切り版を購入済みですが、新しい端末でロックされています。",
@@ -283,11 +283,11 @@
         ],
         [
           "データはどこに保存されますか？クラウドバックアップはありますか？",
-          "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。 自動レートをオンにすると、MoneyTag は3文字の基準通貨コードと必要なネットワークリクエストを api.frankfurter.dev / open.er-api.com に送信します。 Frankfurter / ExchangeRate-API が利用する Cloudflare 基盤では、IP アドレス、おおよその地域、操作データ、診断情報が処理される場合があります。 この処理は App の機能提供と分析のために行われ、あなたに関連付けられる場合がありますが、トラッキングには使われず、広告もありません。 自動レートをオフにして手動レートを使えば、これらのリクエストを避けられます。 参考レートは Frankfurter または ExchangeRate-API から提供され、情報提供のみを目的とします。 買い切り版は一度きりの購入で、決済はすべて Apple が App Store を通じて処理します。お支払い情報を当方が見ることも保存することもありません。アプリは購入の有無を Apple から受け取り、解除状態を端末内に記録するだけです。購入の復元は Apple に問い合わせる仕組みで、当方は介在しません。"
+          "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。 iCloud同期がオンのときは、あなた自身のiCloudにも1つコピーが保存されます。 自動レートをオンにすると、MoneyTag は3文字の基準通貨コードと必要なネットワークリクエストを api.frankfurter.dev / open.er-api.com に送信します。 Frankfurter / ExchangeRate-API が利用する Cloudflare 基盤では、IP アドレス、おおよその地域、操作データ、診断情報が処理される場合があります。 この処理は App の機能提供と分析のために行われ、あなたに関連付けられる場合がありますが、トラッキングには使われず、広告もありません。 自動レートをオフにして手動レートを使えば、これらのリクエストを避けられます。 参考レートは Frankfurter または ExchangeRate-API から提供され、情報提供のみを目的とします。 買い切り版は一度きりの購入で、決済はすべて Apple が App Store を通じて処理します。お支払い情報を当方が見ることも保存することもありません。アプリは購入の有無を Apple から受け取り、解除状態を端末内に記録するだけです。購入の復元は Apple に問い合わせる仕組みで、当方は介在しません。"
         ],
         [
           "Apple Watch アプリとウィジェットには何が表示されますか？",
-          "Watch アプリでは手首から取引を追加でき、現在のプロジェクトの収入・支出・純額を確認できます。ウィジェットは同じ状況をホーム画面とロック画面に表示します。 プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。"
+          "Watch アプリでは手首から取引を追加でき、現在のプロジェクトの収入・支出・純額を確認できます。ウィジェットは同じ状況をホーム画面とロック画面に表示します。 プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。 iCloud同期がオンのときは、あなた自身のiCloudにも1つコピーが保存されます。"
         ],
         [
           "インターネット接続や許可は必要ですか？",
@@ -304,12 +304,12 @@
     },
     "p": {
       "title": "MoneyTag プライバシーポリシー",
-      "meta": "帳簿データはこのデバイス内に保存されます。自動為替レートは Frankfurter / ExchangeRate-API に接続しますが、広告やトラッキングはありません。",
+      "meta": "記録はお使いのデバイスとご自身のiCloudに保存されます。自動レートはFrankfurter / ExchangeRate-APIに接続します。広告も追跡もありません。",
       "eyebrow": "プライバシー",
       "h1": "プライバシーポリシー",
-      "lead": "帳簿データはこのデバイス内に保存されます。自動為替レートは Frankfurter / ExchangeRate-API に接続しますが、広告やトラッキングはありません。",
+      "lead": "記録はお使いのデバイスとご自身のiCloudに保存されます。自動レートはFrankfurter / ExchangeRate-APIに接続します。広告も追跡もありません。",
       "upd": "最終更新",
-      "vow": "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。 自動レートをオンにすると、MoneyTag は3文字の基準通貨コードと必要なネットワークリクエストを api.frankfurter.dev / open.er-api.com に送信します。 Frankfurter / ExchangeRate-API が利用する Cloudflare 基盤では、IP アドレス、おおよその地域、操作データ、診断情報が処理される場合があります。 この処理は App の機能提供と分析のために行われ、あなたに関連付けられる場合がありますが、トラッキングには使われず、広告もありません。 自動レートをオフにして手動レートを使えば、これらのリクエストを避けられます。 参考レートは Frankfurter または ExchangeRate-API から提供され、情報提供のみを目的とします。",
+      "vow": "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。 iCloud同期がオンのときは、あなた自身のiCloudにも1つコピーが保存されます。 自動レートをオンにすると、MoneyTag は3文字の基準通貨コードと必要なネットワークリクエストを api.frankfurter.dev / open.er-api.com に送信します。 Frankfurter / ExchangeRate-API が利用する Cloudflare 基盤では、IP アドレス、おおよその地域、操作データ、診断情報が処理される場合があります。 この処理は App の機能提供と分析のために行われ、あなたに関連付けられる場合がありますが、トラッキングには使われず、広告もありません。 自動レートをオフにして手動レートを使えば、これらのリクエストを避けられます。 参考レートは Frankfurter または ExchangeRate-API から提供され、情報提供のみを目的とします。",
       "sec": [
         [
           "対象範囲",
@@ -321,7 +321,7 @@
         ],
         [
           "帳簿の保存場所",
-          "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。"
+          "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。 iCloud同期がオンのときは、あなた自身のiCloudにも1つコピーが保存されます。"
         ],
         [
           "為替レート",
@@ -337,7 +337,7 @@
         ],
         [
           "お子様について",
-          "帳簿データはこのデバイス内に保存されます。自動為替レートは Frankfurter / ExchangeRate-API に接続しますが、広告やトラッキングはありません。 自動レートをオンにすると、MoneyTag は3文字の基準通貨コードと必要なネットワークリクエストを api.frankfurter.dev / open.er-api.com に送信します。 Frankfurter / ExchangeRate-API が利用する Cloudflare 基盤では、IP アドレス、おおよその地域、操作データ、診断情報が処理される場合があります。 この処理は App の機能提供と分析のために行われ、あなたに関連付けられる場合がありますが、トラッキングには使われず、広告もありません。 自動レートをオフにして手動レートを使えば、これらのリクエストを避けられます。"
+          "記録はお使いのデバイスとご自身のiCloudに保存されます。自動レートはFrankfurter / ExchangeRate-APIに接続します。広告も追跡もありません。 自動レートをオンにすると、MoneyTag は3文字の基準通貨コードと必要なネットワークリクエストを api.frankfurter.dev / open.er-api.com に送信します。 Frankfurter / ExchangeRate-API が利用する Cloudflare 基盤では、IP アドレス、おおよその地域、操作データ、診断情報が処理される場合があります。 この処理は App の機能提供と分析のために行われ、あなたに関連付けられる場合がありますが、トラッキングには使われず、広告もありません。 自動レートをオフにして手動レートを使えば、これらのリクエストを避けられます。"
         ],
         [
           "利用者の管理と削除",
@@ -362,10 +362,10 @@
       "개인정보"
     ],
     "lang": "언어",
-    "foot": "장부 데이터는 이 기기에 보관됩니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결되며 광고나 추적은 없습니다.",
+    "foot": "장부는 내 기기와 내 iCloud에 남습니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결하며, 광고와 추적은 없습니다.",
     "s": {
       "title": "MoneyTag 지원 — 프로젝트, 태그, Pro",
-      "meta": "장부 데이터는 이 기기에 보관됩니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결되며 광고나 추적은 없습니다.",
+      "meta": "장부는 내 기기와 내 iCloud에 남습니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결하며, 광고와 추적은 없습니다.",
       "eyebrow": "지원",
       "h1": "MoneyTag 도움말",
       "lead": "프로젝트마다 장부가 따로 있습니다. 수입에서 지출을 빼면 그 프로젝트의 순액입니다. 가장 많이 받는 질문을 모았습니다. 원하는 답이 없다면 메일을 보내 주세요. 모든 메일을 사람이 직접 읽습니다.",
@@ -393,7 +393,7 @@
         ],
         [
           "무료로 어디까지 쓸 수 있고, Pro은 무엇이 더해지나요?",
-          "무료 · 프로젝트 1개 · 5건 남음. 무제한 프로젝트·태그·리포트를 한 번 구매로. 구독 없음. CSV 내보내기 · PDF 내보내기 · 이미지 내보내기 · 백업 및 복원."
+          "무료 · 프로젝트 1개 · 5건 남음. 무제한 프로젝트·태그·리포트를 한 번 구매로 평생. CSV 내보내기 · PDF 내보내기 · 이미지 내보내기 · 백업 및 복원."
         ],
         [
           "Pro을 샀는데 새 기기에서 잠겨 있습니다.",
@@ -401,11 +401,11 @@
         ],
         [
           "데이터는 어디에 저장되나요? 클라우드 백업이 있나요?",
-          "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다. 자동 환율을 켜면 MoneyTag가 세 글자 기준 통화 코드와 필요한 네트워크 요청을 api.frankfurter.dev / open.er-api.com로 보냅니다. Frankfurter / ExchangeRate-API의 Cloudflare 인프라는 IP 주소, 대략적인 지역, 상호작용 데이터와 진단 정보를 처리할 수 있습니다. 이 처리는 App 기능과 분석을 위한 것이며 사용자와 연결될 수 있지만 추적에 사용되지 않고 광고도 포함하지 않습니다. 자동 환율을 끄고 수동 환율을 사용하면 이러한 요청을 피할 수 있습니다. 참고 환율은 Frankfurter 또는 ExchangeRate-API에서 제공되며 정보 제공용입니다. Pro은 일회성 구매이며 결제는 전적으로 Apple이 App Store를 통해 처리합니다. 저희는 결제 정보를 보지도 저장하지도 않습니다. 앱은 구매 존재 여부만 Apple로부터 확인하고 잠금 해제 상태를 기기에 기록할 뿐입니다. 구매 복원은 저희가 아니라 Apple에 확인하는 절차입니다."
+          "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다. iCloud 동기화가 켜져 있으면 사본 하나가 내 iCloud에도 저장됩니다. 자동 환율을 켜면 MoneyTag가 세 글자 기준 통화 코드와 필요한 네트워크 요청을 api.frankfurter.dev / open.er-api.com로 보냅니다. Frankfurter / ExchangeRate-API의 Cloudflare 인프라는 IP 주소, 대략적인 지역, 상호작용 데이터와 진단 정보를 처리할 수 있습니다. 이 처리는 App 기능과 분석을 위한 것이며 사용자와 연결될 수 있지만 추적에 사용되지 않고 광고도 포함하지 않습니다. 자동 환율을 끄고 수동 환율을 사용하면 이러한 요청을 피할 수 있습니다. 참고 환율은 Frankfurter 또는 ExchangeRate-API에서 제공되며 정보 제공용입니다. Pro은 일회성 구매이며 결제는 전적으로 Apple이 App Store를 통해 처리합니다. 저희는 결제 정보를 보지도 저장하지도 않습니다. 앱은 구매 존재 여부만 Apple로부터 확인하고 잠금 해제 상태를 기기에 기록할 뿐입니다. 구매 복원은 저희가 아니라 Apple에 확인하는 절차입니다."
         ],
         [
           "Apple Watch 앱과 위젯에는 무엇이 표시되나요?",
-          "Watch 앱에서는 손목에서 바로 거래를 추가하고 현재 프로젝트의 수입·지출·순액을 확인할 수 있습니다. 위젯은 같은 정보를 홈 화면과 잠금 화면에 보여 줍니다. 프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다."
+          "Watch 앱에서는 손목에서 바로 거래를 추가하고 현재 프로젝트의 수입·지출·순액을 확인할 수 있습니다. 위젯은 같은 정보를 홈 화면과 잠금 화면에 보여 줍니다. 프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다. iCloud 동기화가 켜져 있으면 사본 하나가 내 iCloud에도 저장됩니다."
         ],
         [
           "인터넷 연결이나 권한이 필요한가요?",
@@ -422,12 +422,12 @@
     },
     "p": {
       "title": "MoneyTag 개인정보 처리방침",
-      "meta": "장부 데이터는 이 기기에 보관됩니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결되며 광고나 추적은 없습니다.",
+      "meta": "장부는 내 기기와 내 iCloud에 남습니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결하며, 광고와 추적은 없습니다.",
       "eyebrow": "개인정보",
       "h1": "개인정보 처리방침",
-      "lead": "장부 데이터는 이 기기에 보관됩니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결되며 광고나 추적은 없습니다.",
+      "lead": "장부는 내 기기와 내 iCloud에 남습니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결하며, 광고와 추적은 없습니다.",
       "upd": "최종 업데이트",
-      "vow": "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다. 자동 환율을 켜면 MoneyTag가 세 글자 기준 통화 코드와 필요한 네트워크 요청을 api.frankfurter.dev / open.er-api.com로 보냅니다. Frankfurter / ExchangeRate-API의 Cloudflare 인프라는 IP 주소, 대략적인 지역, 상호작용 데이터와 진단 정보를 처리할 수 있습니다. 이 처리는 App 기능과 분석을 위한 것이며 사용자와 연결될 수 있지만 추적에 사용되지 않고 광고도 포함하지 않습니다. 자동 환율을 끄고 수동 환율을 사용하면 이러한 요청을 피할 수 있습니다. 참고 환율은 Frankfurter 또는 ExchangeRate-API에서 제공되며 정보 제공용입니다.",
+      "vow": "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다. iCloud 동기화가 켜져 있으면 사본 하나가 내 iCloud에도 저장됩니다. 자동 환율을 켜면 MoneyTag가 세 글자 기준 통화 코드와 필요한 네트워크 요청을 api.frankfurter.dev / open.er-api.com로 보냅니다. Frankfurter / ExchangeRate-API의 Cloudflare 인프라는 IP 주소, 대략적인 지역, 상호작용 데이터와 진단 정보를 처리할 수 있습니다. 이 처리는 App 기능과 분석을 위한 것이며 사용자와 연결될 수 있지만 추적에 사용되지 않고 광고도 포함하지 않습니다. 자동 환율을 끄고 수동 환율을 사용하면 이러한 요청을 피할 수 있습니다. 참고 환율은 Frankfurter 또는 ExchangeRate-API에서 제공되며 정보 제공용입니다.",
       "sec": [
         [
           "적용 범위",
@@ -439,7 +439,7 @@
         ],
         [
           "장부가 저장되는 곳",
-          "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다."
+          "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다. iCloud 동기화가 켜져 있으면 사본 하나가 내 iCloud에도 저장됩니다."
         ],
         [
           "환율",
@@ -455,7 +455,7 @@
         ],
         [
           "아동",
-          "장부 데이터는 이 기기에 보관됩니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결되며 광고나 추적은 없습니다. 자동 환율을 켜면 MoneyTag가 세 글자 기준 통화 코드와 필요한 네트워크 요청을 api.frankfurter.dev / open.er-api.com로 보냅니다. Frankfurter / ExchangeRate-API의 Cloudflare 인프라는 IP 주소, 대략적인 지역, 상호작용 데이터와 진단 정보를 처리할 수 있습니다. 이 처리는 App 기능과 분석을 위한 것이며 사용자와 연결될 수 있지만 추적에 사용되지 않고 광고도 포함하지 않습니다. 자동 환율을 끄고 수동 환율을 사용하면 이러한 요청을 피할 수 있습니다."
+          "장부는 내 기기와 내 iCloud에 남습니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결하며, 광고와 추적은 없습니다. 자동 환율을 켜면 MoneyTag가 세 글자 기준 통화 코드와 필요한 네트워크 요청을 api.frankfurter.dev / open.er-api.com로 보냅니다. Frankfurter / ExchangeRate-API의 Cloudflare 인프라는 IP 주소, 대략적인 지역, 상호작용 데이터와 진단 정보를 처리할 수 있습니다. 이 처리는 App 기능과 분석을 위한 것이며 사용자와 연결될 수 있지만 추적에 사용되지 않고 광고도 포함하지 않습니다. 자동 환율을 끄고 수동 환율을 사용하면 이러한 요청을 피할 수 있습니다."
         ],
         [
           "이용자의 통제권과 삭제",

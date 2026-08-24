@@ -65,8 +65,8 @@
   },
   "groups": {
     "en": [
-      "Ledger data stays on this device. Automatic rates contact Frankfurter / ExchangeRate-API; no ads or tracking.",
-      "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter / ExchangeRate-API.",
+      "Your ledger stays on your devices and your own iCloud. Automatic rates contact Frankfurter / ExchangeRate-API; no ads or tracking.",
+      "Projects, transactions, amounts, notes, tags, categories and settings stay in MoneyTag’s on-device storage and are not sent to Frankfurter / ExchangeRate-API. With iCloud Sync on, one copy also lives in your own iCloud.",
       "When automatic rates are on, MoneyTag sends the three-letter base-currency code and the necessary network request to api.frankfurter.dev / open.er-api.com.",
       "Frankfurter / ExchangeRate-API’s Cloudflare infrastructure may process the IP address, approximate region, interaction data and diagnostics.",
       "This processing is for app functionality and analytics, may be linked to you, is not used for tracking, and involves no advertising.",
@@ -77,8 +77,8 @@
       "Any future change to network or data handling will be published here and in the App Store privacy details before release."
     ],
     "zh-Hant": [
-      "帳本資料只留在這部裝置；自動匯率會連線 Frankfurter / ExchangeRate-API，沒有廣告或追蹤。",
-      "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。",
+      "帳本資料留在你的裝置與你自己的 iCloud。自動匯率會連線 Frankfurter / ExchangeRate-API；無廣告、無追蹤。",
+      "專案、交易、金額、備註、標籤、分類與設定都保存在 MoneyTag 的裝置端儲存空間，不會傳送給 Frankfurter / ExchangeRate-API。 開啟 iCloud 同步時，另有一份副本存放在你自己的 iCloud。",
       "啟用自動匯率時，MoneyTag 會將三碼基準幣別代碼及必要的網路請求傳送至 api.frankfurter.dev / open.er-api.com。",
       "Frankfurter / ExchangeRate-API 使用的 Cloudflare 基礎架構可能處理 IP 位址、概略區域、互動資料與診斷資訊。",
       "這些處理僅用於 App 功能與分析，資料可能與你連結，但不會用於追蹤，也不涉及廣告。",
@@ -89,8 +89,8 @@
       "未來若網路或資料處理方式有任何變更，會在發布前更新於此頁與 App Store 隱私詳細資訊。"
     ],
     "zh-Hans": [
-      "账本数据只保留在这台设备上；自动汇率会连接 Frankfurter / ExchangeRate-API，不含广告或跟踪。",
-      "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。",
+      "账本数据留在你的设备与你自己的 iCloud。自动汇率会连接 Frankfurter / ExchangeRate-API；无广告、无追踪。",
+      "项目、交易、金额、备注、标签、分类和设置都保存在 MoneyTag 的设备端存储中，不会发送给 Frankfurter / ExchangeRate-API。 开启 iCloud 同步时，另有一份副本存放在你自己的 iCloud。",
       "启用自动汇率时，MoneyTag 会将三位基准货币代码和必要的网络请求发送到 api.frankfurter.dev / open.er-api.com。",
       "Frankfurter / ExchangeRate-API 使用的 Cloudflare 基础设施可能处理 IP 地址、大致区域、交互数据和诊断信息。",
       "这些处理仅用于 App 功能和分析，数据可能与你关联，但不会用于跟踪，也不涉及广告。",
@@ -101,8 +101,8 @@
       "未来如网络或数据处理方式发生变化，会在发布前更新此页面和 App Store 隐私详细信息。"
     ],
     "ja": [
-      "帳簿データはこのデバイス内に保存されます。自動為替レートは Frankfurter / ExchangeRate-API に接続しますが、広告やトラッキングはありません。",
-      "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。",
+      "記録はお使いのデバイスとご自身のiCloudに保存されます。自動レートはFrankfurter / ExchangeRate-APIに接続します。広告も追跡もありません。",
+      "プロジェクト、取引、金額、メモ、タグ、カテゴリ、設定は MoneyTag のデバイス内ストレージに保存され、Frankfurter / ExchangeRate-API には送信されません。 iCloud同期がオンのときは、あなた自身のiCloudにも1つコピーが保存されます。",
       "自動レートをオンにすると、MoneyTag は3文字の基準通貨コードと必要なネットワークリクエストを api.frankfurter.dev / open.er-api.com に送信します。",
       "Frankfurter / ExchangeRate-API が利用する Cloudflare 基盤では、IP アドレス、おおよその地域、操作データ、診断情報が処理される場合があります。",
       "この処理は App の機能提供と分析のために行われ、あなたに関連付けられる場合がありますが、トラッキングには使われず、広告もありません。",
@@ -113,8 +113,8 @@
       "ネットワークまたはデータ処理が将来変更される場合は、リリース前にこのページと App Store のプライバシー詳細でお知らせします。"
     ],
     "ko": [
-      "장부 데이터는 이 기기에 보관됩니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결되며 광고나 추적은 없습니다.",
-      "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다.",
+      "장부는 내 기기와 내 iCloud에 남습니다. 자동 환율은 Frankfurter / ExchangeRate-API에 연결하며, 광고와 추적은 없습니다.",
+      "프로젝트, 거래, 금액, 메모, 태그, 카테고리와 설정은 MoneyTag의 기기 내 저장소에 남고 Frankfurter / ExchangeRate-API로 전송되지 않습니다. iCloud 동기화가 켜져 있으면 사본 하나가 내 iCloud에도 저장됩니다.",
       "자동 환율을 켜면 MoneyTag가 세 글자 기준 통화 코드와 필요한 네트워크 요청을 api.frankfurter.dev / open.er-api.com로 보냅니다.",
       "Frankfurter / ExchangeRate-API의 Cloudflare 인프라는 IP 주소, 대략적인 지역, 상호작용 데이터와 진단 정보를 처리할 수 있습니다.",
       "이 처리는 App 기능과 분석을 위한 것이며 사용자와 연결될 수 있지만 추적에 사용되지 않고 광고도 포함하지 않습니다.",
@@ -125,8 +125,8 @@
       "향후 네트워크 또는 데이터 처리 방식이 바뀌면 출시 전에 이 페이지와 App Store 개인정보 세부 정보에 공개합니다."
     ],
     "de": [
-      "Deine Buchungsdaten bleiben auf diesem Gerät. Automatische Kurse verbinden sich mit Frankfurter / ExchangeRate-API; keine Werbung und kein Tracking.",
-      "Projekte, Buchungen, Beträge, Notizen, Tags, Kategorien und Einstellungen bleiben im Gerätespeicher von MoneyTag und werden nicht an Frankfurter / ExchangeRate-API gesendet.",
+      "Deine Buchhaltung bleibt auf deinen Geräten und in deiner eigenen iCloud. Automatische Kurse kontaktieren Frankfurter / ExchangeRate-API; keine Werbung, kein Tracking.",
+      "Projekte, Buchungen, Beträge, Notizen, Tags, Kategorien und Einstellungen bleiben im Gerätespeicher von MoneyTag und werden nicht an Frankfurter / ExchangeRate-API gesendet. Bei aktivierter iCloud-Synchronisierung liegt zusätzlich eine Kopie in deiner eigenen iCloud.",
       "Bei aktivierten automatischen Kursen sendet MoneyTag den dreistelligen Code der Basiswährung und die erforderliche Netzwerkanfrage an api.frankfurter.dev / open.er-api.com.",
       "Die Cloudflare-Infrastruktur von Frankfurter / ExchangeRate-API kann IP-Adresse, ungefähre Region, Interaktionsdaten und Diagnosedaten verarbeiten.",
       "Diese Verarbeitung dient App-Funktionalität und Analysen, kann mit dir verknüpft sein, wird nicht zum Tracking genutzt und umfasst keine Werbung.",
@@ -137,8 +137,8 @@
       "Künftige Änderungen an Netzwerk- oder Datenverarbeitung werden vor der Veröffentlichung hier und in den App Store-Datenschutzangaben bekannt gegeben."
     ],
     "fr": [
-      "Les données de votre registre restent sur cet appareil. Les taux automatiques contactent Frankfurter / ExchangeRate-API, sans publicité ni suivi.",
-      "Projets, opérations, montants, notes, tags, catégories et réglages restent dans le stockage local de MoneyTag et ne sont pas envoyés à Frankfurter / ExchangeRate-API.",
+      "Votre livre reste sur vos appareils et dans votre propre iCloud. Les taux automatiques contactent Frankfurter / ExchangeRate-API ; aucune publicité ni suivi.",
+      "Projets, opérations, montants, notes, tags, catégories et réglages restent dans le stockage local de MoneyTag et ne sont pas envoyés à Frankfurter / ExchangeRate-API. Lorsque la synchro iCloud est activée, une copie se trouve aussi dans votre propre iCloud.",
       "Lorsque les taux automatiques sont activés, MoneyTag envoie le code à trois lettres de la devise de base et la requête réseau nécessaire à api.frankfurter.dev / open.er-api.com.",
       "L’infrastructure Cloudflare de Frankfurter / ExchangeRate-API peut traiter l’adresse IP, la région approximative, les données d’interaction et les diagnostics.",
       "Ce traitement sert au fonctionnement et à l’analyse de l’App, peut être lié à vous, n’est pas utilisé pour le suivi et n’implique aucune publicité.",
@@ -149,8 +149,8 @@
       "Toute modification future du traitement réseau ou des données sera publiée ici et dans les informations de confidentialité de l’App Store avant sa sortie."
     ],
     "es": [
-      "Los datos del libro permanecen en este dispositivo. Los tipos automáticos contactan con Frankfurter / ExchangeRate-API, sin anuncios ni seguimiento.",
-      "Proyectos, operaciones, importes, notas, etiquetas, categorías y ajustes permanecen en el almacenamiento local de MoneyTag y no se envían a Frankfurter / ExchangeRate-API.",
+      "Tu libro permanece en tus dispositivos y en tu propio iCloud. Los tipos automáticos contactan con Frankfurter / ExchangeRate-API; sin anuncios ni rastreo.",
+      "Proyectos, operaciones, importes, notas, etiquetas, categorías y ajustes permanecen en el almacenamiento local de MoneyTag y no se envían a Frankfurter / ExchangeRate-API. Con la sincronización de iCloud activada, también hay una copia en tu propio iCloud.",
       "Al activar los tipos automáticos, MoneyTag envía el código de tres letras de la moneda base y la solicitud de red necesaria a api.frankfurter.dev / open.er-api.com.",
       "La infraestructura de Cloudflare de Frankfurter / ExchangeRate-API puede tratar la dirección IP, la región aproximada, los datos de interacción y los diagnósticos.",
       "Este tratamiento se usa para la funcionalidad y el análisis de la App, puede vincularse contigo, no se usa para seguimiento y no incluye publicidad.",
@@ -161,8 +161,8 @@
       "Cualquier cambio futuro en el tratamiento de la red o los datos se publicará aquí y en los detalles de privacidad de App Store antes de su lanzamiento."
     ],
     "it": [
-      "I dati del registro restano su questo dispositivo. I tassi automatici contattano Frankfurter / ExchangeRate-API, senza pubblicità né tracciamento.",
-      "Progetti, operazioni, importi, note, tag, categorie e impostazioni restano nell’archivio locale di MoneyTag e non vengono inviati a Frankfurter / ExchangeRate-API.",
+      "Il tuo registro resta sui tuoi dispositivi e nel tuo iCloud. I tassi automatici contattano Frankfurter / ExchangeRate-API; nessuna pubblicità né tracciamento.",
+      "Progetti, operazioni, importi, note, tag, categorie e impostazioni restano nell’archivio locale di MoneyTag e non vengono inviati a Frankfurter / ExchangeRate-API. Con la sincronizzazione iCloud attiva, una copia risiede anche nel tuo iCloud.",
       "Con i tassi automatici attivi, MoneyTag invia il codice di tre lettere della valuta base e la richiesta di rete necessaria a api.frankfurter.dev / open.er-api.com.",
       "L’infrastruttura Cloudflare di Frankfurter / ExchangeRate-API può trattare indirizzo IP, area approssimativa, dati di interazione e diagnostica.",
       "Questo trattamento serve alla funzionalità e all’analisi dell’App, può essere collegato a te, non è usato per il tracciamento e non comporta pubblicità.",
@@ -173,8 +173,8 @@
       "Ogni futura modifica al trattamento della rete o dei dati sarà pubblicata qui e nei dettagli sulla privacy dell’App Store prima del rilascio."
     ],
     "pt": [
-      "Os dados do livro ficam neste dispositivo. As taxas automáticas contactam o Frankfurter / ExchangeRate-API, sem publicidade nem seguimento.",
-      "Projetos, transações, montantes, notas, etiquetas, categorias e definições ficam no armazenamento local do MoneyTag e não são enviados ao Frankfurter / ExchangeRate-API.",
+      "Seu livro fica nos seus dispositivos e no seu próprio iCloud. As taxas automáticas contactam Frankfurter / ExchangeRate-API; sem anúncios nem rastreamento.",
+      "Projetos, transações, montantes, notas, etiquetas, categorias e definições ficam no armazenamento local do MoneyTag e não são enviados ao Frankfurter / ExchangeRate-API. Com a sincronização do iCloud ativada, também fica uma cópia no seu próprio iCloud.",
       "Com as taxas automáticas ativas, o MoneyTag envia o código de três letras da moeda base e o pedido de rede necessário para api.frankfurter.dev / open.er-api.com.",
       "A infraestrutura Cloudflare do Frankfurter / ExchangeRate-API pode processar o endereço IP, a região aproximada, dados de interação e diagnósticos.",
       "Este processamento serve a funcionalidade e a análise da App, pode estar associado a si, não é usado para seguimento e não envolve publicidade.",
@@ -185,8 +185,8 @@
       "Qualquer futura alteração ao tratamento da rede ou dos dados será publicada aqui e nos detalhes de privacidade da App Store antes do lançamento."
     ],
     "nl": [
-      "Je boekhoudgegevens blijven op dit apparaat. Automatische koersen maken verbinding met Frankfurter / ExchangeRate-API; geen reclame of tracking.",
-      "Projecten, transacties, bedragen, notities, tags, categorieën en instellingen blijven in de lokale opslag van MoneyTag en worden niet naar Frankfurter / ExchangeRate-API verzonden.",
+      "Je boekhouding blijft op je apparaten en in je eigen iCloud. Automatische koersen benaderen Frankfurter / ExchangeRate-API; geen advertenties of tracking.",
+      "Projecten, transacties, bedragen, notities, tags, categorieën en instellingen blijven in de lokale opslag van MoneyTag en worden niet naar Frankfurter / ExchangeRate-API verzonden. Met iCloud-synchronisatie aan staat er ook een kopie in je eigen iCloud.",
       "Als automatische koersen aanstaan, stuurt MoneyTag de drielettercode van de basisvaluta en de noodzakelijke netwerkaanvraag naar api.frankfurter.dev / open.er-api.com.",
       "De Cloudflare-infrastructuur van Frankfurter / ExchangeRate-API kan het IP-adres, de globale regio, interactiegegevens en diagnostische gegevens verwerken.",
       "Deze verwerking dient voor appfunctionaliteit en analyse, kan aan jou worden gekoppeld, wordt niet gebruikt voor tracking en omvat geen reclame.",
@@ -197,8 +197,8 @@
       "Elke toekomstige wijziging in netwerk- of gegevensverwerking wordt vóór uitgave hier en in de privacygegevens van de App Store gepubliceerd."
     ],
     "ru": [
-      "Данные учёта остаются на этом устройстве. Автокурсы обращаются к Frankfurter / ExchangeRate-API; без рекламы и отслеживания.",
-      "Проекты, операции, суммы, заметки, теги, категории и настройки хранятся локально в MoneyTag и не отправляются в Frankfurter / ExchangeRate-API.",
+      "Книга остаётся на ваших устройствах и в вашем iCloud. Автоматические курсы обращаются к Frankfurter / ExchangeRate-API; без рекламы и слежения.",
+      "Проекты, операции, суммы, заметки, теги, категории и настройки хранятся локально в MoneyTag и не отправляются в Frankfurter / ExchangeRate-API. Когда синхронизация iCloud включена, одна копия хранится и в вашем iCloud.",
       "При включённых автокурсах MoneyTag отправляет трёхбуквенный код базовой валюты и необходимый сетевой запрос на api.frankfurter.dev / open.er-api.com.",
       "Инфраструктура Cloudflare, используемая Frankfurter / ExchangeRate-API, может обрабатывать IP-адрес, примерный регион, данные взаимодействия и диагностику.",
       "Эта обработка нужна для работы и аналитики App, может быть связана с вами, не используется для отслеживания и не включает рекламу.",
@@ -209,8 +209,8 @@
       "Любые будущие изменения сетевой обработки или обработки данных будут опубликованы здесь и в сведениях о конфиденциальности App Store до выпуска."
     ],
     "pl": [
-      "Dane księgi pozostają na tym urządzeniu. Kursy automatyczne łączą się z Frankfurter / ExchangeRate-API; bez reklam i śledzenia.",
-      "Projekty, transakcje, kwoty, notatki, tagi, kategorie i ustawienia pozostają w lokalnej pamięci MoneyTag i nie są wysyłane do Frankfurter / ExchangeRate-API.",
+      "Księga pozostaje na Twoich urządzeniach i w Twoim iCloud. Kursy automatyczne łączą się z Frankfurter / ExchangeRate-API; bez reklam i śledzenia.",
+      "Projekty, transakcje, kwoty, notatki, tagi, kategorie i ustawienia pozostają w lokalnej pamięci MoneyTag i nie są wysyłane do Frankfurter / ExchangeRate-API. Przy włączonej synchronizacji iCloud jedna kopia jest też w Twoim iCloud.",
       "Po włączeniu kursów automatycznych MoneyTag wysyła trzyliterowy kod waluty bazowej i niezbędne żądanie sieciowe do api.frankfurter.dev / open.er-api.com.",
       "Infrastruktura Cloudflare używana przez Frankfurter / ExchangeRate-API może przetwarzać adres IP, przybliżony region, dane interakcji i diagnostykę.",
       "Przetwarzanie służy funkcjom i analizie App, może być powiązane z Tobą, nie jest używane do śledzenia i nie obejmuje reklam.",
@@ -221,8 +221,8 @@
       "Każda przyszła zmiana obsługi sieci lub danych zostanie opublikowana tutaj i w informacjach o prywatności App Store przed wydaniem."
     ],
     "tr": [
-      "Defter verileri bu cihazda kalır. Otomatik kurlar Frankfurter / ExchangeRate-API’a bağlanır; reklam ve takip yoktur.",
-      "Projeler, işlemler, tutarlar, notlar, etiketler, kategoriler ve ayarlar MoneyTag’in cihaz içi depolamasında kalır ve Frankfurter / ExchangeRate-API’a gönderilmez.",
+      "Defterin cihazlarında ve kendi iCloud’unda kalır. Otomatik kurlar Frankfurter / ExchangeRate-API’ye bağlanır; reklam ve izleme yok.",
+      "Projeler, işlemler, tutarlar, notlar, etiketler, kategoriler ve ayarlar MoneyTag’in cihaz içi depolamasında kalır ve Frankfurter / ExchangeRate-API’a gönderilmez. iCloud eşitleme açıkken bir kopya da kendi iCloud’unda durur.",
       "Otomatik kurlar açıkken MoneyTag, üç harfli baz para birimi kodunu ve gerekli ağ isteğini api.frankfurter.dev / open.er-api.com adresine gönderir.",
       "Frankfurter / ExchangeRate-API’ın Cloudflare altyapısı IP adresini, yaklaşık bölgeyi, etkileşim verilerini ve tanılama bilgilerini işleyebilir.",
       "Bu işleme App işlevleri ve analiz içindir, sizinle ilişkilendirilebilir, takip için kullanılmaz ve reklam içermez.",
@@ -233,8 +233,8 @@
       "Ağ veya veri işlemedeki gelecekteki değişiklikler yayımlanmadan önce burada ve App Store gizlilik ayrıntılarında açıklanacaktır."
     ],
     "sv": [
-      "Bokföringsdata stannar på den här enheten. Automatiska kurser kontaktar Frankfurter / ExchangeRate-API; ingen reklam eller spårning.",
-      "Projekt, transaktioner, belopp, anteckningar, taggar, kategorier och inställningar stannar i MoneyTags lokala lagring och skickas inte till Frankfurter / ExchangeRate-API.",
+      "Din bok stannar på dina enheter och i ditt eget iCloud. Automatiska kurser kontaktar Frankfurter / ExchangeRate-API; inga annonser eller spårning.",
+      "Projekt, transaktioner, belopp, anteckningar, taggar, kategorier och inställningar stannar i MoneyTags lokala lagring och skickas inte till Frankfurter / ExchangeRate-API. När iCloud-synk är på finns en kopia även i ditt eget iCloud.",
       "När automatiska kurser är på skickar MoneyTag den treställiga koden för basvalutan och den nödvändiga nätverksbegäran till api.frankfurter.dev / open.er-api.com.",
       "Frankfurter / ExchangeRate-APIs Cloudflare-infrastruktur kan behandla IP-adress, ungefärlig region, interaktionsdata och diagnostik.",
       "Behandlingen används för App-funktioner och analys, kan kopplas till dig, används inte för spårning och omfattar ingen reklam.",
@@ -245,8 +245,8 @@
       "Framtida ändringar av nätverks- eller databehandling publiceras här och i App Stores integritetsuppgifter före lansering."
     ],
     "da": [
-      "Bogføringsdata bliver på denne enhed. Automatiske kurser kontakter Frankfurter / ExchangeRate-API; ingen annoncer eller sporing.",
-      "Projekter, posteringer, beløb, noter, tags, kategorier og indstillinger bliver i MoneyTags lokale lager og sendes ikke til Frankfurter / ExchangeRate-API.",
+      "Dit regnskab bliver på dine enheder og i dit eget iCloud. Automatiske kurser kontakter Frankfurter / ExchangeRate-API; ingen annoncer eller sporing.",
+      "Projekter, posteringer, beløb, noter, tags, kategorier og indstillinger bliver i MoneyTags lokale lager og sendes ikke til Frankfurter / ExchangeRate-API. Når iCloud-synk er slået til, ligger en kopi også i dit eget iCloud.",
       "Når automatiske kurser er slået til, sender MoneyTag den trebogstavede kode for basisvalutaen og den nødvendige netværksanmodning til api.frankfurter.dev / open.er-api.com.",
       "Frankfurter / ExchangeRate-APIs Cloudflare-infrastruktur kan behandle IP-adresse, omtrentlig region, interaktionsdata og diagnostik.",
       "Behandlingen bruges til App-funktionalitet og analyse, kan knyttes til dig, bruges ikke til sporing og omfatter ingen annoncer.",
@@ -257,8 +257,8 @@
       "Fremtidige ændringer i netværks- eller databehandling offentliggøres her og i App Stores anonymitetsoplysninger før udgivelse."
     ],
     "no": [
-      "Regnskapsdata blir på denne enheten. Automatiske kurser kontakter Frankfurter / ExchangeRate-API; ingen annonser eller sporing.",
-      "Prosjekter, transaksjoner, beløp, notater, etiketter, kategorier og innstillinger blir i MoneyTags lokale lagring og sendes ikke til Frankfurter / ExchangeRate-API.",
+      "Regnskapet blir på enhetene dine og i din egen iCloud. Automatiske kurser kontakter Frankfurter / ExchangeRate-API; ingen annonser eller sporing.",
+      "Prosjekter, transaksjoner, beløp, notater, etiketter, kategorier og innstillinger blir i MoneyTags lokale lagring og sendes ikke til Frankfurter / ExchangeRate-API. Når iCloud-synk er på, ligger en kopi også i din egen iCloud.",
       "Når automatiske kurser er på, sender MoneyTag den trebokstavers koden for basisvalutaen og den nødvendige nettverksforespørselen til api.frankfurter.dev / open.er-api.com.",
       "Frankfurter / ExchangeRate-APIs Cloudflare-infrastruktur kan behandle IP-adresse, omtrentlig region, samhandlingsdata og diagnostikk.",
       "Behandlingen brukes til App-funksjonalitet og analyse, kan knyttes til deg, brukes ikke til sporing og omfatter ingen annonser.",
@@ -269,8 +269,8 @@
       "Fremtidige endringer i nettverks- eller databehandling publiseres her og i App Store-personverndetaljene før lansering."
     ],
     "fi": [
-      "Kirjanpitotiedot pysyvät tällä laitteella. Automaattiset kurssit ottavat yhteyden Frankfurter / ExchangeRate-APIiin; ei mainoksia eikä seurantaa.",
-      "Projektit, tapahtumat, summat, muistiinpanot, tunnisteet, luokat ja asetukset pysyvät MoneyTagin laitetallennuksessa eikä niitä lähetetä Frankfurter / ExchangeRate-APIille.",
+      "Kirjanpito pysyy laitteillasi ja omassa iCloudissasi. Automaattikurssit ottavat yhteyden Frankfurteriin / ExchangeRate-APIin; ei mainoksia eikä seurantaa.",
+      "Projektit, tapahtumat, summat, muistiinpanot, tunnisteet, luokat ja asetukset pysyvät MoneyTagin laitetallennuksessa eikä niitä lähetetä Frankfurter / ExchangeRate-APIille. Kun iCloud-synkronointi on päällä, yksi kopio on myös omassa iCloudissasi.",
       "Kun automaattiset kurssit ovat käytössä, MoneyTag lähettää kolmikirjaimisen perusvaluuttakoodin ja tarvittavan verkkopyynnön osoitteeseen api.frankfurter.dev / open.er-api.com.",
       "Frankfurter / ExchangeRate-APIin Cloudflare-infrastruktuuri voi käsitellä IP-osoitetta, likimääräistä aluetta, vuorovaikutustietoja ja diagnostiikkaa.",
       "Käsittely palvelee Appin toimintoja ja analytiikkaa, voidaan yhdistää sinuun, sitä ei käytetä seurantaan eikä siihen liity mainontaa.",
@@ -281,8 +281,8 @@
       "Tulevat verkko- tai tietojenkäsittelyn muutokset julkaistaan täällä ja App Storen tietosuojatiedoissa ennen julkaisua."
     ],
     "id": [
-      "Data buku besar tetap di perangkat ini. Kurs otomatis menghubungi Frankfurter / ExchangeRate-API; tanpa iklan atau pelacakan.",
-      "Proyek, transaksi, jumlah, catatan, tag, kategori, dan pengaturan tetap di penyimpanan perangkat MoneyTag dan tidak dikirim ke Frankfurter / ExchangeRate-API.",
+      "Buku Anda tetap di perangkat Anda dan iCloud Anda sendiri. Kurs otomatis menghubungi Frankfurter / ExchangeRate-API; tanpa iklan atau pelacakan.",
+      "Proyek, transaksi, jumlah, catatan, tag, kategori, dan pengaturan tetap di penyimpanan perangkat MoneyTag dan tidak dikirim ke Frankfurter / ExchangeRate-API. Saat sinkronisasi iCloud aktif, satu salinan juga ada di iCloud Anda sendiri.",
       "Saat kurs otomatis aktif, MoneyTag mengirim kode tiga huruf mata uang dasar dan permintaan jaringan yang diperlukan ke api.frankfurter.dev / open.er-api.com.",
       "Infrastruktur Cloudflare Frankfurter / ExchangeRate-API dapat memproses alamat IP, perkiraan wilayah, data interaksi, dan diagnostik.",
       "Pemrosesan ini untuk fungsi dan analitik App, dapat ditautkan kepada Anda, tidak digunakan untuk pelacakan, dan tidak melibatkan iklan.",
@@ -293,8 +293,8 @@
       "Perubahan mendatang pada pemrosesan jaringan atau data akan diumumkan di sini dan di detail privasi App Store sebelum dirilis."
     ],
     "ms": [
-      "Data lejar kekal pada peranti ini. Kadar automatik menghubungi Frankfurter / ExchangeRate-API; tiada iklan atau penjejakan.",
-      "Projek, transaksi, amaun, nota, tag, kategori dan tetapan kekal dalam storan peranti MoneyTag dan tidak dihantar kepada Frankfurter / ExchangeRate-API.",
+      "Buku anda kekal pada peranti anda dan iCloud anda sendiri. Kadar automatik menghubungi Frankfurter / ExchangeRate-API; tiada iklan atau penjejakan.",
+      "Projek, transaksi, amaun, nota, tag, kategori dan tetapan kekal dalam storan peranti MoneyTag dan tidak dihantar kepada Frankfurter / ExchangeRate-API. Apabila penyegerakan iCloud dihidupkan, satu salinan turut berada dalam iCloud anda sendiri.",
       "Apabila kadar automatik dihidupkan, MoneyTag menghantar kod tiga huruf mata wang asas dan permintaan rangkaian yang diperlukan ke api.frankfurter.dev / open.er-api.com.",
       "Infrastruktur Cloudflare Frankfurter / ExchangeRate-API mungkin memproses alamat IP, rantau anggaran, data interaksi dan diagnostik.",
       "Pemprosesan ini untuk fungsi dan analitik App, mungkin dipautkan kepada anda, tidak digunakan untuk penjejakan dan tidak melibatkan iklan.",
@@ -305,8 +305,8 @@
       "Sebarang perubahan masa hadapan pada pemprosesan rangkaian atau data akan diterbitkan di sini dan dalam butiran privasi App Store sebelum dikeluarkan."
     ],
     "vi": [
-      "Dữ liệu sổ thu chi được giữ trên thiết bị này. Tỷ giá tự động kết nối với Frankfurter / ExchangeRate-API; không quảng cáo hay theo dõi.",
-      "Dự án, giao dịch, số tiền, ghi chú, thẻ, danh mục và cài đặt nằm trong bộ nhớ trên thiết bị của MoneyTag và không được gửi đến Frankfurter / ExchangeRate-API.",
+      "Sổ của bạn nằm trên các thiết bị của bạn và iCloud của riêng bạn. Tỷ giá tự động kết nối Frankfurter / ExchangeRate-API; không quảng cáo, không theo dõi.",
+      "Dự án, giao dịch, số tiền, ghi chú, thẻ, danh mục và cài đặt nằm trong bộ nhớ trên thiết bị của MoneyTag và không được gửi đến Frankfurter / ExchangeRate-API. Khi bật đồng bộ iCloud, một bản sao cũng nằm trong iCloud của riêng bạn.",
       "Khi bật tỷ giá tự động, MoneyTag gửi mã tiền tệ cơ sở gồm ba chữ cái và yêu cầu mạng cần thiết đến api.frankfurter.dev / open.er-api.com.",
       "Hạ tầng Cloudflare của Frankfurter / ExchangeRate-API có thể xử lý địa chỉ IP, khu vực gần đúng, dữ liệu tương tác và thông tin chẩn đoán.",
       "Việc xử lý này phục vụ chức năng và phân tích của App, có thể được liên kết với bạn, không dùng để theo dõi và không liên quan đến quảng cáo.",
@@ -317,8 +317,8 @@
       "Mọi thay đổi sau này về xử lý mạng hoặc dữ liệu sẽ được công bố tại đây và trong chi tiết quyền riêng tư trên App Store trước khi phát hành."
     ],
     "th": [
-      "ข้อมูลบัญชีจะอยู่บนอุปกรณ์นี้ อัตราแลกเปลี่ยนอัตโนมัติเชื่อมต่อกับ Frankfurter / ExchangeRate-API โดยไม่มีโฆษณาหรือการติดตาม",
-      "โปรเจกต์ รายการ จำนวนเงิน บันทึก แท็ก หมวดหมู่ และการตั้งค่าจะอยู่ในพื้นที่จัดเก็บบนอุปกรณ์ของ MoneyTag และไม่ถูกส่งไปยัง Frankfurter / ExchangeRate-API",
+      "บัญชีของคุณอยู่บนอุปกรณ์ของคุณและ iCloud ของคุณเอง อัตราอัตโนมัติติดต่อ Frankfurter / ExchangeRate-API ไม่มีโฆษณาและการติดตาม",
+      "โปรเจกต์ รายการ จำนวนเงิน บันทึก แท็ก หมวดหมู่ และการตั้งค่าจะอยู่ในพื้นที่จัดเก็บบนอุปกรณ์ของ MoneyTag และไม่ถูกส่งไปยัง Frankfurter / ExchangeRate-API เมื่อเปิดซิงก์ iCloud จะมีสำเนาหนึ่งชุดอยู่ใน iCloud ของคุณเองด้วย",
       "เมื่อเปิดอัตราแลกเปลี่ยนอัตโนมัติ MoneyTag จะส่งรหัสสกุลเงินหลักสามตัวอักษรและคำขอเครือข่ายที่จำเป็นไปยัง api.frankfurter.dev / open.er-api.com",
       "โครงสร้างพื้นฐาน Cloudflare ของ Frankfurter / ExchangeRate-API อาจประมวลผลที่อยู่ IP ภูมิภาคโดยประมาณ ข้อมูลการโต้ตอบ และข้อมูลวินิจฉัย",
       "การประมวลผลนี้ใช้เพื่อการทำงานและการวิเคราะห์ของ App อาจเชื่อมโยงกับคุณ ไม่ใช้เพื่อติดตาม และไม่มีโฆษณา",
@@ -329,8 +329,8 @@
       "หากการประมวลผลเครือข่ายหรือข้อมูลเปลี่ยนแปลงในอนาคต เราจะเผยแพร่ที่นี่และในรายละเอียดความเป็นส่วนตัวของ App Store ก่อนเปิดตัว"
     ],
     "hi": [
-      "बहीखाता डेटा इसी डिवाइस पर रहता है। स्वचालित दरें Frankfurter / ExchangeRate-API से जुड़ती हैं; कोई विज्ञापन या ट्रैकिंग नहीं।",
-      "प्रोजेक्ट, लेन-देन, राशि, नोट, टैग, श्रेणियाँ और सेटिंग MoneyTag के ऑन-डिवाइस स्टोरेज में रहते हैं और Frankfurter / ExchangeRate-API को नहीं भेजे जाते।",
+      "आपका बहीखाता आपके उपकरणों और आपके अपने iCloud में रहता है। स्वचालित दरें Frankfurter / ExchangeRate-API से संपर्क करती हैं; कोई विज्ञापन या ट्रैकिंग नहीं।",
+      "प्रोजेक्ट, लेन-देन, राशि, नोट, टैग, श्रेणियाँ और सेटिंग MoneyTag के ऑन-डिवाइस स्टोरेज में रहते हैं और Frankfurter / ExchangeRate-API को नहीं भेजे जाते। iCloud सिंक चालू होने पर एक प्रति आपके अपने iCloud में भी रहती है।",
       "स्वचालित दरें चालू होने पर MoneyTag तीन अक्षरों वाला आधार मुद्रा कोड और आवश्यक नेटवर्क अनुरोध api.frankfurter.dev / open.er-api.com को भेजता है।",
       "Frankfurter / ExchangeRate-API का Cloudflare ढाँचा IP पता, अनुमानित क्षेत्र, इंटरैक्शन डेटा और निदान जानकारी संसाधित कर सकता है।",
       "यह संसाधन App की कार्यक्षमता और विश्लेषण के लिए है, आपसे जुड़ा हो सकता है, ट्रैकिंग के लिए उपयोग नहीं होता और इसमें विज्ञापन नहीं हैं।",
@@ -341,8 +341,8 @@
       "नेटवर्क या डेटा संसाधन में भविष्य का कोई भी बदलाव जारी होने से पहले यहाँ और App Store की गोपनीयता जानकारी में प्रकाशित किया जाएगा।"
     ],
     "ar": [
-      "تبقى بيانات الدفتر على هذا الجهاز. تتصل الأسعار التلقائية بخدمة Frankfurter / ExchangeRate-API، من دون إعلانات أو تتبع.",
-      "تبقى المشاريع والمعاملات والمبالغ والملاحظات والوسوم والفئات والإعدادات في تخزين MoneyTag على الجهاز ولا تُرسل إلى Frankfurter / ExchangeRate-API.",
+      "يبقى دفترك على أجهزتك وفي iCloud الخاص بك. تتصل الأسعار التلقائية بـ Frankfurter / ExchangeRate-API؛ بلا إعلانات ولا تتبع.",
+      "تبقى المشاريع والمعاملات والمبالغ والملاحظات والوسوم والفئات والإعدادات في تخزين MoneyTag على الجهاز ولا تُرسل إلى Frankfurter / ExchangeRate-API. عند تفعيل مزامنة iCloud، توجد نسخة أيضًا في iCloud الخاص بك.",
       "عند تشغيل الأسعار التلقائية، يرسل MoneyTag رمز عملة الأساس المكوّن من ثلاثة أحرف وطلب الشبكة الضروري إلى api.frankfurter.dev / open.er-api.com.",
       "قد تعالج بنية Cloudflare التي تستخدمها Frankfurter / ExchangeRate-API عنوان IP والمنطقة التقريبية وبيانات التفاعل ومعلومات التشخيص.",
       "تُستخدم هذه المعالجة لوظائف App والتحليلات، وقد تكون مرتبطة بك، ولا تُستخدم للتتبع ولا تتضمن إعلانات.",
@@ -353,8 +353,8 @@
       "سيُنشر أي تغيير مستقبلي في معالجة الشبكة أو البيانات هنا وفي تفاصيل الخصوصية في App Store قبل الإصدار."
     ],
     "he": [
-      "נתוני הפנקס נשארים במכשיר הזה. שערים אוטומטיים מתחברים ל‑Frankfurter / ExchangeRate-API; ללא פרסומות או מעקב.",
-      "פרויקטים, עסקאות, סכומים, הערות, תגיות, קטגוריות והגדרות נשארים באחסון המקומי של MoneyTag ואינם נשלחים ל‑Frankfurter / ExchangeRate-API.",
+      "הפנקס שלך נשאר במכשירים שלך וב‑iCloud שלך. שערים אוטומטיים פונים ל‑Frankfurter / ExchangeRate-API; ללא פרסומות ומעקב.",
+      "פרויקטים, עסקאות, סכומים, הערות, תגיות, קטגוריות והגדרות נשארים באחסון המקומי של MoneyTag ואינם נשלחים ל‑Frankfurter / ExchangeRate-API. כאשר סנכרון iCloud פעיל, עותק אחד נשמר גם ב‑iCloud שלך.",
       "כאשר שערים אוטומטיים פעילים, MoneyTag שולח את קוד מטבע הבסיס בן שלוש האותיות ואת בקשת הרשת הנחוצה אל api.frankfurter.dev / open.er-api.com.",
       "תשתית Cloudflare של Frankfurter / ExchangeRate-API עשויה לעבד כתובת IP, אזור משוער, נתוני אינטראקציה ואבחון.",
       "העיבוד נועד לתפקוד ולניתוח של ה‑App, עשוי להיות מקושר אליך, אינו משמש למעקב ואינו כולל פרסום.",
@@ -365,8 +365,8 @@
       "כל שינוי עתידי בעיבוד רשת או נתונים יפורסם כאן ובפרטי הפרטיות ב‑App Store לפני ההפצה."
     ],
     "el": [
-      "Τα δεδομένα του βιβλίου μένουν σε αυτή τη συσκευή. Οι αυτόματες ισοτιμίες συνδέονται με το Frankfurter / ExchangeRate-API, χωρίς διαφημίσεις ή παρακολούθηση.",
-      "Έργα, συναλλαγές, ποσά, σημειώσεις, ετικέτες, κατηγορίες και ρυθμίσεις μένουν στην τοπική αποθήκευση του MoneyTag και δεν αποστέλλονται στο Frankfurter / ExchangeRate-API.",
+      "Το βιβλίο σας μένει στις συσκευές σας και στο δικό σας iCloud. Οι αυτόματες ισοτιμίες επικοινωνούν με Frankfurter / ExchangeRate-API· χωρίς διαφημίσεις ή παρακολούθηση.",
+      "Έργα, συναλλαγές, ποσά, σημειώσεις, ετικέτες, κατηγορίες και ρυθμίσεις μένουν στην τοπική αποθήκευση του MoneyTag και δεν αποστέλλονται στο Frankfurter / ExchangeRate-API. Με τον συγχρονισμό iCloud ενεργό, ένα αντίγραφο βρίσκεται και στο δικό σας iCloud.",
       "Όταν είναι ενεργές οι αυτόματες ισοτιμίες, το MoneyTag στέλνει τον τριγράμματο κωδικό του βασικού νομίσματος και το απαραίτητο αίτημα δικτύου στο api.frankfurter.dev / open.er-api.com.",
       "Η υποδομή Cloudflare του Frankfurter / ExchangeRate-API ενδέχεται να επεξεργάζεται τη διεύθυνση IP, την κατά προσέγγιση περιοχή, δεδομένα αλληλεπίδρασης και διαγνωστικά.",
       "Η επεξεργασία εξυπηρετεί τη λειτουργικότητα και την ανάλυση της App, μπορεί να συνδέεται με εσάς, δεν χρησιμοποιείται για παρακολούθηση και δεν περιλαμβάνει διαφημίσεις.",
@@ -377,8 +377,8 @@
       "Κάθε μελλοντική αλλαγή στην επεξεργασία δικτύου ή δεδομένων θα δημοσιεύεται εδώ και στις λεπτομέρειες απορρήτου του App Store πριν από την κυκλοφορία."
     ],
     "cs": [
-      "Údaje účetní knihy zůstávají v tomto zařízení. Automatické kurzy kontaktují Frankfurter / ExchangeRate-API; bez reklam a sledování.",
-      "Projekty, transakce, částky, poznámky, štítky, kategorie a nastavení zůstávají v místním úložišti MoneyTag a neposílají se službě Frankfurter / ExchangeRate-API.",
+      "Vaše kniha zůstává ve vašich zařízeních a ve vašem iCloudu. Automatické kurzy kontaktují Frankfurter / ExchangeRate-API; žádné reklamy ani sledování.",
+      "Projekty, transakce, částky, poznámky, štítky, kategorie a nastavení zůstávají v místním úložišti MoneyTag a neposílají se službě Frankfurter / ExchangeRate-API. Když je synchronizace iCloud zapnutá, jedna kopie je i ve vašem iCloudu.",
       "Při zapnutých automatických kurzech MoneyTag odešle třípísmenný kód základní měny a nezbytný síťový požadavek na api.frankfurter.dev / open.er-api.com.",
       "Infrastruktura Cloudflare služby Frankfurter / ExchangeRate-API může zpracovat IP adresu, přibližnou oblast, údaje o interakci a diagnostiku.",
       "Toto zpracování slouží funkcím a analýze App, může být s vámi propojeno, nepoužívá se ke sledování a nezahrnuje reklamu.",
@@ -389,8 +389,8 @@
       "Každá budoucí změna síťového či datového zpracování bude před vydáním zveřejněna zde a v údajích o soukromí v App Store."
     ],
     "sk": [
-      "Údaje účtovnej knihy zostávajú v tomto zariadení. Automatické kurzy kontaktujú Frankfurter / ExchangeRate-API; bez reklám a sledovania.",
-      "Projekty, transakcie, sumy, poznámky, značky, kategórie a nastavenia zostávajú v miestnom úložisku MoneyTag a neposielajú sa službe Frankfurter / ExchangeRate-API.",
+      "Vaša kniha zostáva vo vašich zariadeniach a vo vašom iCloude. Automatické kurzy kontaktujú Frankfurter / ExchangeRate-API; žiadne reklamy ani sledovanie.",
+      "Projekty, transakcie, sumy, poznámky, značky, kategórie a nastavenia zostávajú v miestnom úložisku MoneyTag a neposielajú sa službe Frankfurter / ExchangeRate-API. Keď je synchronizácia iCloud zapnutá, jedna kópia je aj vo vašom iCloude.",
       "Pri zapnutých automatických kurzoch MoneyTag odošle trojpísmenový kód základnej meny a potrebnú sieťovú požiadavku na api.frankfurter.dev / open.er-api.com.",
       "Infraštruktúra Cloudflare služby Frankfurter / ExchangeRate-API môže spracovať IP adresu, približnú oblasť, údaje o interakcii a diagnostiku.",
       "Toto spracovanie slúži funkciám a analýze App, môže byť s vami prepojené, nepoužíva sa na sledovanie a nezahŕňa reklamu.",
@@ -401,8 +401,8 @@
       "Každá budúca zmena spracovania siete alebo údajov bude pred vydaním zverejnená tu a v údajoch o súkromí v App Store."
     ],
     "hr": [
-      "Podaci knjige ostaju na ovom uređaju. Automatski tečajevi povezuju se s Frankfurter / ExchangeRate-APIom; bez oglasa i praćenja.",
-      "Projekti, transakcije, iznosi, bilješke, oznake, kategorije i postavke ostaju u lokalnoj pohrani MoneyTaga i ne šalju se Frankfurter / ExchangeRate-APIu.",
+      "Vaša knjiga ostaje na vašim uređajima i u vašem iCloudu. Automatski tečajevi kontaktiraju Frankfurter / ExchangeRate-API; bez oglasa i praćenja.",
+      "Projekti, transakcije, iznosi, bilješke, oznake, kategorije i postavke ostaju u lokalnoj pohrani MoneyTaga i ne šalju se Frankfurter / ExchangeRate-APIu. Kada je iCloud sinkronizacija uključena, jedna kopija je i u vašem iCloudu.",
       "Kad su automatski tečajevi uključeni, MoneyTag šalje troslovni kod osnovne valute i potreban mrežni zahtjev na api.frankfurter.dev / open.er-api.com.",
       "Cloudflare infrastruktura koju koristi Frankfurter / ExchangeRate-API može obrađivati IP adresu, približnu regiju, podatke o interakciji i dijagnostiku.",
       "Obrada služi funkcionalnosti i analitici App, može biti povezana s vama, ne koristi se za praćenje i ne uključuje oglašavanje.",
@@ -413,8 +413,8 @@
       "Svaka buduća promjena mrežne obrade ili obrade podataka bit će objavljena ovdje i u pojedinostima privatnosti App Storea prije izdanja."
     ],
     "hu": [
-      "A főkönyvi adatok ezen az eszközön maradnak. Az automatikus árfolyamok a Frankfurter / ExchangeRate-APIhez kapcsolódnak; nincs hirdetés vagy követés.",
-      "A projektek, tranzakciók, összegek, jegyzetek, címkék, kategóriák és beállítások a MoneyTag eszközön tárolt adatai között maradnak, és nem kerülnek a Frankfurter / ExchangeRate-APIhez.",
+      "A könyved az eszközeiden és a saját iCloudodban marad. Az automatikus árfolyamok a Frankfurter / ExchangeRate-API címhez kapcsolódnak; nincs hirdetés és követés.",
+      "A projektek, tranzakciók, összegek, jegyzetek, címkék, kategóriák és beállítások a MoneyTag eszközön tárolt adatai között maradnak, és nem kerülnek a Frankfurter / ExchangeRate-APIhez. Ha az iCloud-szinkron be van kapcsolva, egy másolat a saját iCloudodban is ott van.",
       "Bekapcsolt automatikus árfolyamoknál a MoneyTag elküldi a hárombetűs alapdeviza-kódot és a szükséges hálózati kérést az api.frankfurter.dev / open.er-api.com címre.",
       "A Frankfurter / ExchangeRate-API Cloudflare-infrastruktúrája kezelheti az IP-címet, a hozzávetőleges régiót, az interakciós adatokat és a diagnosztikát.",
       "Ez a kezelés az App működését és elemzését szolgálja, Önhöz kapcsolható, nem használjuk követésre, és nem jár hirdetéssel.",
@@ -425,8 +425,8 @@
       "A hálózati vagy adatkezelés jövőbeli változásait a kiadás előtt itt és az App Store adatvédelmi részleteiben tesszük közzé."
     ],
     "ro": [
-      "Datele registrului rămân pe acest dispozitiv. Cursurile automate contactează Frankfurter / ExchangeRate-API; fără reclame sau urmărire.",
-      "Proiectele, tranzacțiile, sumele, notițele, etichetele, categoriile și setările rămân în stocarea locală MoneyTag și nu sunt trimise la Frankfurter / ExchangeRate-API.",
+      "Registrul tău rămâne pe dispozitivele tale și în propriul tău iCloud. Cursurile automate contactează Frankfurter / ExchangeRate-API; fără reclame sau urmărire.",
+      "Proiectele, tranzacțiile, sumele, notițele, etichetele, categoriile și setările rămân în stocarea locală MoneyTag și nu sunt trimise la Frankfurter / ExchangeRate-API. Când sincronizarea iCloud este activă, o copie se află și în propriul tău iCloud.",
       "Când cursurile automate sunt active, MoneyTag trimite codul de trei litere al monedei de bază și cererea de rețea necesară la api.frankfurter.dev / open.er-api.com.",
       "Infrastructura Cloudflare a Frankfurter / ExchangeRate-API poate prelucra adresa IP, regiunea aproximativă, datele de interacțiune și informațiile de diagnostic.",
       "Această prelucrare servește funcționalității și analizei App, poate fi asociată cu dvs., nu este folosită pentru urmărire și nu implică publicitate.",
@@ -437,8 +437,8 @@
       "Orice schimbare viitoare a prelucrării rețelei sau datelor va fi publicată aici și în detaliile de confidențialitate din App Store înainte de lansare."
     ],
     "uk": [
-      "Дані обліку залишаються на цьому пристрої. Автокурси звертаються до Frankfurter / ExchangeRate-API; без реклами й відстеження.",
-      "Проєкти, операції, суми, нотатки, теги, категорії та налаштування зберігаються локально в MoneyTag і не надсилаються до Frankfurter / ExchangeRate-API.",
+      "Ваша книга залишається на ваших пристроях і у вашому iCloud. Автоматичні курси звертаються до Frankfurter / ExchangeRate-API; без реклами та стеження.",
+      "Проєкти, операції, суми, нотатки, теги, категорії та налаштування зберігаються локально в MoneyTag і не надсилаються до Frankfurter / ExchangeRate-API. Коли синхронізація iCloud увімкнена, одна копія зберігається і у вашому iCloud.",
       "Коли автокурси ввімкнено, MoneyTag надсилає трибуквений код базової валюти та необхідний мережевий запит на api.frankfurter.dev / open.er-api.com.",
       "Інфраструктура Cloudflare, яку використовує Frankfurter / ExchangeRate-API, може обробляти IP-адресу, приблизний регіон, дані взаємодії та діагностику.",
       "Ця обробка потрібна для функцій і аналітики App, може бути пов’язана з вами, не використовується для відстеження й не містить реклами.",
@@ -449,8 +449,8 @@
       "Будь-які майбутні зміни мережевої обробки чи обробки даних буде опубліковано тут і в деталях конфіденційності App Store до випуску."
     ],
     "ca": [
-      "Les dades del llibre es queden en aquest dispositiu. Els tipus automàtics contacten amb Frankfurter / ExchangeRate-API, sense anuncis ni seguiment.",
-      "Projectes, operacions, imports, notes, etiquetes, categories i ajustos romanen a l’emmagatzematge local de MoneyTag i no s’envien a Frankfurter / ExchangeRate-API.",
+      "El teu llibre es queda als teus dispositius i al teu propi iCloud. Els tipus automàtics contacten amb Frankfurter / ExchangeRate-API; sense anuncis ni seguiment.",
+      "Projectes, operacions, imports, notes, etiquetes, categories i ajustos romanen a l’emmagatzematge local de MoneyTag i no s’envien a Frankfurter / ExchangeRate-API. Amb la sincronització d’iCloud activada, també hi ha una còpia al teu propi iCloud.",
       "Quan els tipus automàtics estan activats, MoneyTag envia el codi de tres lletres de la moneda base i la sol·licitud de xarxa necessària a api.frankfurter.dev / open.er-api.com.",
       "La infraestructura Cloudflare de Frankfurter / ExchangeRate-API pot tractar l’adreça IP, la regió aproximada, les dades d’interacció i els diagnòstics.",
       "Aquest tractament serveix per a la funcionalitat i l’anàlisi de l’App, pot estar vinculat amb tu, no s’utilitza per al seguiment i no inclou publicitat.",
@@ -461,8 +461,8 @@
       "Qualsevol canvi futur en el tractament de xarxa o dades es publicarà aquí i als detalls de privacitat de l’App Store abans del llançament."
     ],
     "bn": [
-      "হিসাবের তথ্য এই ডিভাইসেই থাকে। স্বয়ংক্রিয় হার Frankfurter / ExchangeRate-API-এর সঙ্গে সংযোগ করে; কোনো বিজ্ঞাপন বা ট্র্যাকিং নেই।",
-      "প্রজেক্ট, লেনদেন, পরিমাণ, নোট, ট্যাগ, বিভাগ ও সেটিং MoneyTag-এর ডিভাইস-ভিত্তিক স্টোরেজে থাকে এবং Frankfurter / ExchangeRate-API-এ পাঠানো হয় না।",
+      "আপনার হিসাব আপনার ডিভাইস ও আপনার নিজের iCloud-এ থাকে। স্বয়ংক্রিয় হার Frankfurter / ExchangeRate-API-এর সঙ্গে যোগাযোগ করে; কোনো বিজ্ঞাপন বা ট্র্যাকিং নেই।",
+      "প্রজেক্ট, লেনদেন, পরিমাণ, নোট, ট্যাগ, বিভাগ ও সেটিং MoneyTag-এর ডিভাইস-ভিত্তিক স্টোরেজে থাকে এবং Frankfurter / ExchangeRate-API-এ পাঠানো হয় না। iCloud সিঙ্ক চালু থাকলে একটি অনুলিপি আপনার নিজের iCloud-এও থাকে।",
       "স্বয়ংক্রিয় হার চালু থাকলে MoneyTag তিন অক্ষরের ভিত্তি মুদ্রার কোড ও প্রয়োজনীয় নেটওয়ার্ক অনুরোধ api.frankfurter.dev / open.er-api.com-এ পাঠায়।",
       "Frankfurter / ExchangeRate-API-এর Cloudflare অবকাঠামো IP ঠিকানা, আনুমানিক অঞ্চল, ইন্টারঅ্যাকশন ডেটা ও ডায়াগনস্টিক তথ্য প্রক্রিয়া করতে পারে।",
       "এই প্রক্রিয়াকরণ App-এর কার্যকারিতা ও বিশ্লেষণের জন্য, আপনার সঙ্গে যুক্ত হতে পারে, ট্র্যাকিংয়ে ব্যবহৃত হয় না এবং এতে বিজ্ঞাপন নেই।",
@@ -473,8 +473,8 @@
       "নেটওয়ার্ক বা তথ্য প্রক্রিয়াকরণে ভবিষ্যৎ পরিবর্তন প্রকাশের আগে এখানে ও App Store-এর গোপনীয়তার বিবরণে জানানো হবে।"
     ],
     "gu": [
-      "હિસાબની માહિતી આ ઉપકરણ પર જ રહે છે. આપમેળે દર Frankfurter / ExchangeRate-API સાથે જોડાય છે; જાહેરાત કે ટ્રેકિંગ નથી.",
-      "પ્રોજેક્ટ, વ્યવહાર, રકમ, નોંધ, ટૅગ, શ્રેણી અને સેટિંગ MoneyTagના ઉપકરણ સંગ્રહમાં રહે છે અને Frankfurter / ExchangeRate-APIને મોકલાતા નથી.",
+      "તમારો ચોપડો તમારા ઉપકરણો અને તમારા પોતાના iCloud માં રહે છે. સ્વચાલિત દરો Frankfurter / ExchangeRate-API નો સંપર્ક કરે છે; કોઈ જાહેરાત કે ટ્રેકિંગ નથી.",
+      "પ્રોજેક્ટ, વ્યવહાર, રકમ, નોંધ, ટૅગ, શ્રેણી અને સેટિંગ MoneyTagના ઉપકરણ સંગ્રહમાં રહે છે અને Frankfurter / ExchangeRate-APIને મોકલાતા નથી. iCloud સિંક ચાલુ હોય ત્યારે એક નકલ તમારા પોતાના iCloud માં પણ રહે છે.",
       "આપમેળે દર ચાલુ હોય ત્યારે MoneyTag ત્રણ અક્ષરનો આધાર ચલણ કોડ અને જરૂરી નેટવર્ક વિનંતી api.frankfurter.dev / open.er-api.com પર મોકલે છે.",
       "Frankfurter / ExchangeRate-APIનું Cloudflare માળખું IP સરનામું, અંદાજિત વિસ્તાર, ક્રિયાપ્રતિક્રિયા ડેટા અને નિદાન માહિતી પ્રક્રિયા કરી શકે છે.",
       "આ પ્રક્રિયા Appની કાર્યક્ષમતા અને વિશ્લેષણ માટે છે, તમારી સાથે જોડાઈ શકે છે, ટ્રેકિંગ માટે વપરાતી નથી અને તેમાં જાહેરાત નથી.",
@@ -485,8 +485,8 @@
       "નેટવર્ક અથવા ડેટા પ્રક્રિયામાં ભાવિ ફેરફાર પ્રકાશન પહેલાં અહીં અને App Storeની ગોપનીયતા વિગતોમાં જાહેર થશે."
     ],
     "kn": [
-      "ಲೆಕ್ಕದ ಡೇಟಾ ಈ ಸಾಧನದಲ್ಲೇ ಉಳಿಯುತ್ತದೆ. ಸ್ವಯಂ ದರಗಳು Frankfurter / ExchangeRate-API ಅನ್ನು ಸಂಪರ್ಕಿಸುತ್ತವೆ; ಜಾಹೀರಾತು ಅಥವಾ ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ.",
-      "ಪ್ರಾಜೆಕ್ಟ್‌ಗಳು, ವಹಿವಾಟುಗಳು, ಮೊತ್ತಗಳು, ಟಿಪ್ಪಣಿಗಳು, ಟ್ಯಾಗ್‌ಗಳು, ವರ್ಗಗಳು ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು MoneyTagನ ಸಾಧನ ಸಂಗ್ರಹದಲ್ಲೇ ಇರುತ್ತವೆ ಮತ್ತು Frankfurter / ExchangeRate-APIಗೆ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ.",
+      "ನಿಮ್ಮ ಲೆಕ್ಕಪುಸ್ತಕ ನಿಮ್ಮ ಸಾಧನಗಳಲ್ಲಿ ಮತ್ತು ನಿಮ್ಮ ಸ್ವಂತ iCloud ನಲ್ಲಿ ಉಳಿಯುತ್ತದೆ. ಸ್ವಯಂಚಾಲಿತ ದರಗಳು Frankfurter / ExchangeRate-API ಸಂಪರ್ಕಿಸುತ್ತವೆ; ಜಾಹೀರಾತು ಅಥವಾ ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ.",
+      "ಪ್ರಾಜೆಕ್ಟ್‌ಗಳು, ವಹಿವಾಟುಗಳು, ಮೊತ್ತಗಳು, ಟಿಪ್ಪಣಿಗಳು, ಟ್ಯಾಗ್‌ಗಳು, ವರ್ಗಗಳು ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು MoneyTagನ ಸಾಧನ ಸಂಗ್ರಹದಲ್ಲೇ ಇರುತ್ತವೆ ಮತ್ತು Frankfurter / ExchangeRate-APIಗೆ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ. iCloud ಸಿಂಕ್ ಆನ್ ಇದ್ದಾಗ ಒಂದು ಪ್ರತಿ ನಿಮ್ಮ ಸ್ವಂತ iCloud ನಲ್ಲಿಯೂ ಇರುತ್ತದೆ.",
       "ಸ್ವಯಂ ದರಗಳು ಆನ್ ಆಗಿರುವಾಗ MoneyTag ಮೂರು ಅಕ್ಷರದ ಮೂಲ ಕರೆನ್ಸಿ ಕೋಡ್ ಮತ್ತು ಅಗತ್ಯ ನೆಟ್‌ವರ್ಕ್ ವಿನಂತಿಯನ್ನು api.frankfurter.dev / open.er-api.comಗೆ ಕಳುಹಿಸುತ್ತದೆ.",
       "Frankfurter / ExchangeRate-APIನ Cloudflare ಮೂಲಸೌಕರ್ಯವು IP ವಿಳಾಸ, ಅಂದಾಜು ಪ್ರದೇಶ, ಸಂವಹನ ಡೇಟಾ ಮತ್ತು ತಪಾಸಣಾ ಮಾಹಿತಿಯನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಬಹುದು.",
       "ಈ ಪ್ರಕ್ರಿಯೆ App ಕಾರ್ಯ ಮತ್ತು ವಿಶ್ಲೇಷಣೆಗೆ ಮಾತ್ರ, ನಿಮ್ಮೊಂದಿಗೆ ಸಂಪರ್ಕಿತವಾಗಬಹುದು, ಟ್ರ್ಯಾಕಿಂಗ್‌ಗೆ ಬಳಸುವುದಿಲ್ಲ ಮತ್ತು ಜಾಹೀರಾತು ಒಳಗೊಂಡಿಲ್ಲ.",
@@ -497,8 +497,8 @@
       "ನೆಟ್‌ವರ್ಕ್ ಅಥವಾ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆಯ ಭವಿಷ್ಯದ ಬದಲಾವಣೆಗಳನ್ನು ಬಿಡುಗಡೆಗೂ ಮೊದಲು ಇಲ್ಲಿ ಮತ್ತು App Store ಗೌಪ್ಯತಾ ವಿವರಗಳಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗುತ್ತದೆ."
     ],
     "ml": [
-      "കണക്കുപുസ്തക ഡാറ്റ ഈ ഉപകരണത്തിൽ തന്നെ നിലനിൽക്കും. സ്വയമേവയുള്ള നിരക്കുകൾ Frankfurter / ExchangeRate-API-നെ ബന്ധപ്പെടും; പരസ്യമോ ട്രാക്കിംഗോ ഇല്ല.",
-      "പ്രോജക്റ്റുകൾ, ഇടപാടുകൾ, തുകകൾ, കുറിപ്പുകൾ, ടാഗുകൾ, വിഭാഗങ്ങൾ, ക്രമീകരണങ്ങൾ എന്നിവ MoneyTag-ന്റെ ഉപകരണ സംഭരണത്തിൽ തുടരും; Frankfurter / ExchangeRate-API-ലേക്ക് അയയ്ക്കില്ല.",
+      "നിങ്ങളുടെ കണക്ക് നിങ്ങളുടെ ഉപകരണങ്ങളിലും നിങ്ങളുടെ സ്വന്തം iCloud-ലും തുടരും. യാന്ത്രിക നിരക്കുകൾ Frankfurter / ExchangeRate-API-യുമായി ബന്ധപ്പെടും; പരസ്യമോ ട്രാക്കിംഗോ ഇല്ല.",
+      "പ്രോജക്റ്റുകൾ, ഇടപാടുകൾ, തുകകൾ, കുറിപ്പുകൾ, ടാഗുകൾ, വിഭാഗങ്ങൾ, ക്രമീകരണങ്ങൾ എന്നിവ MoneyTag-ന്റെ ഉപകരണ സംഭരണത്തിൽ തുടരും; Frankfurter / ExchangeRate-API-ലേക്ക് അയയ്ക്കില്ല. iCloud സിങ്ക് ഓണായിരിക്കുമ്പോൾ ഒരു പകർപ്പ് നിങ്ങളുടെ സ്വന്തം iCloud-ലും ഉണ്ടാകും.",
       "സ്വയമേവയുള്ള നിരക്കുകൾ ഓണായിരിക്കുമ്പോൾ MoneyTag മൂന്ന് അക്ഷരമുള്ള അടിസ്ഥാന കറൻസി കോഡും ആവശ്യമായ നെറ്റ്‌വർക്ക് അഭ്യർത്ഥനയും api.frankfurter.dev / open.er-api.com-ലേക്ക് അയയ്ക്കും.",
       "Frankfurter / ExchangeRate-API-ന്റെ Cloudflare അടിസ്ഥാനസൗകര്യം IP വിലാസം, ഏകദേശ പ്രദേശം, ഇടപെടൽ ഡാറ്റ, ഡയഗ്നോസ്റ്റിക് വിവരങ്ങൾ എന്നിവ പ്രോസസ് ചെയ്യാം.",
       "ഈ പ്രോസസിംഗ് App പ്രവർത്തനത്തിനും വിശകലനത്തിനുമാണ്; നിങ്ങളുമായി ബന്ധിപ്പിക്കപ്പെടാം, ട്രാക്കിംഗിന് ഉപയോഗിക്കില്ല, പരസ്യവും ഇല്ല.",
@@ -509,8 +509,8 @@
       "നെറ്റ്‌വർക്ക് അല്ലെങ്കിൽ ഡാറ്റ പ്രോസസിംഗിലെ ഭാവി മാറ്റങ്ങൾ പുറത്തിറക്കുന്നതിന് മുമ്പ് ഇവിടെയും App Store സ്വകാര്യതാ വിശദാംശങ്ങളിലും പ്രസിദ്ധീകരിക്കും."
     ],
     "mr": [
-      "हिशोबाची माहिती या डिव्हाइसवरच राहते. स्वयंचलित दर Frankfurter / ExchangeRate-API शी जोडले जातात; जाहिरात किंवा ट्रॅकिंग नाही.",
-      "प्रकल्प, व्यवहार, रक्कम, नोंदी, टॅग, श्रेणी आणि सेटिंग MoneyTagच्या डिव्हाइसवरील साठवणीत राहतात आणि Frankfurter / ExchangeRate-APIकडे पाठवले जात नाहीत.",
+      "तुमची वही तुमच्या उपकरणांवर आणि तुमच्या स्वतःच्या iCloud मध्ये राहते. स्वयंचलित दर Frankfurter / ExchangeRate-API शी संपर्क साधतात; जाहिराती किंवा ट्रॅकिंग नाही.",
+      "प्रकल्प, व्यवहार, रक्कम, नोंदी, टॅग, श्रेणी आणि सेटिंग MoneyTagच्या डिव्हाइसवरील साठवणीत राहतात आणि Frankfurter / ExchangeRate-APIकडे पाठवले जात नाहीत. iCloud सिंक चालू असताना एक प्रत तुमच्या स्वतःच्या iCloud मध्येही राहते.",
       "स्वयंचलित दर सुरू असताना MoneyTag तीन अक्षरी मूळ चलन कोड आणि आवश्यक नेटवर्क विनंती api.frankfurter.dev / open.er-api.com कडे पाठवते.",
       "Frankfurter / ExchangeRate-APIची Cloudflare पायाभूत सुविधा IP पत्ता, अंदाजे प्रदेश, परस्परसंवाद डेटा आणि निदान माहिती प्रक्रिया करू शकते.",
       "ही प्रक्रिया App कार्यक्षमता आणि विश्लेषणासाठी आहे, तुमच्याशी जोडली जाऊ शकते, ट्रॅकिंगसाठी वापरली जात नाही आणि जाहिरात समाविष्ट नाही.",
@@ -521,8 +521,8 @@
       "नेटवर्क किंवा डेटा प्रक्रियेत भविष्यातील बदल प्रकाशनापूर्वी येथे आणि App Store गोपनीयता तपशीलांत प्रसिद्ध केले जातील."
     ],
     "or": [
-      "ହିସାବ ତଥ୍ୟ ଏହି ଡିଭାଇସ୍‌ରେ ରହେ। ସ୍ୱୟଂଚାଳିତ ଦର Frankfurter / ExchangeRate-API ସହ ଯୋଗାଯୋଗ କରେ; ବିଜ୍ଞାପନ କିମ୍ବା ଟ୍ରାକିଂ ନାହିଁ।",
-      "ପ୍ରୋଜେକ୍ଟ, କାରବାର, ରାଶି, ଟିପ୍ପଣୀ, ଟ୍ୟାଗ୍, ବର୍ଗ ଓ ସେଟିଂ MoneyTagର ଡିଭାଇସ୍ ସ୍ଟୋରେଜ୍‌ରେ ରହେ ଏବଂ Frankfurter / ExchangeRate-APIକୁ ପଠାଯାଏ ନାହିଁ।",
+      "ଆପଣଙ୍କ ଖାତା ଆପଣଙ୍କ ଉପକରଣ ଓ ଆପଣଙ୍କ ନିଜ iCloud ରେ ରହେ। ସ୍ୱୟଂଚାଳିତ ହାର Frankfurter / ExchangeRate-API ସହ ଯୋଗାଯୋଗ କରେ; କୌଣସି ବିଜ୍ଞାପନ କି ଟ୍ରାକିଂ ନାହିଁ।",
+      "ପ୍ରୋଜେକ୍ଟ, କାରବାର, ରାଶି, ଟିପ୍ପଣୀ, ଟ୍ୟାଗ୍, ବର୍ଗ ଓ ସେଟିଂ MoneyTagର ଡିଭାଇସ୍ ସ୍ଟୋରେଜ୍‌ରେ ରହେ ଏବଂ Frankfurter / ExchangeRate-APIକୁ ପଠାଯାଏ ନାହିଁ। iCloud ସିଙ୍କ୍ ଚାଲୁ ଥିଲେ ଗୋଟିଏ ନକଲ ଆପଣଙ୍କ ନିଜ iCloud ରେ ମଧ୍ୟ ରହେ।",
       "ସ୍ୱୟଂଚାଳିତ ଦର ଚାଲୁ ଥିଲେ MoneyTag ତିନି ଅକ୍ଷରର ମୂଳ ମୁଦ୍ରା କୋଡ୍ ଓ ଆବଶ୍ୟକ ନେଟୱର୍କ ଅନୁରୋଧ api.frankfurter.dev / open.er-api.comକୁ ପଠାଏ।",
       "Frankfurter / ExchangeRate-APIର Cloudflare ଭିତ୍ତିଭୂମି IP ଠିକଣା, ଆନୁମାନିକ ଅଞ୍ଚଳ, ପାରସ୍ପରିକ ତଥ୍ୟ ଓ ଡାୟାଗ୍ନୋଷ୍ଟିକ୍ ସୂଚନା ପ୍ରକ୍ରିୟା କରିପାରେ।",
       "ଏହି ପ୍ରକ୍ରିୟା App କାର୍ଯ୍ୟ ଓ ବିଶ୍ଳେଷଣ ପାଇଁ, ଆପଣଙ୍କ ସହ ଯୋଡ଼ାଯାଇପାରେ, ଟ୍ରାକିଂ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ ନାହିଁ ଏବଂ ବିଜ୍ଞାପନ ନାହିଁ।",
@@ -533,8 +533,8 @@
       "ନେଟୱର୍କ କିମ୍ବା ତଥ୍ୟ ପ୍ରକ୍ରିୟାର ଭବିଷ୍ୟତ ପରିବର୍ତ୍ତନ ରିଲିଜ୍ ପୂର୍ବରୁ ଏଠାରେ ଓ App Store ଗୋପନୀୟତା ବିବରଣୀରେ ପ୍ରକାଶିତ ହେବ।"
     ],
     "pa": [
-      "ਖਾਤੇ ਦਾ ਡਾਟਾ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਹੀ ਰਹਿੰਦਾ ਹੈ। ਆਟੋਮੈਟਿਕ ਦਰਾਂ Frankfurter / ExchangeRate-API ਨਾਲ ਜੁੜਦੀਆਂ ਹਨ; ਕੋਈ ਇਸ਼ਤਿਹਾਰ ਜਾਂ ਟ੍ਰੈਕਿੰਗ ਨਹੀਂ।",
-      "ਪ੍ਰੋਜੈਕਟ, ਲੈਣ-ਦੇਣ, ਰਕਮਾਂ, ਨੋਟ, ਟੈਗ, ਸ਼੍ਰੇਣੀਆਂ ਅਤੇ ਸੈਟਿੰਗਾਂ MoneyTag ਦੀ ਡਿਵਾਈਸ ਸਟੋਰੇਜ ਵਿੱਚ ਰਹਿੰਦੀਆਂ ਹਨ ਅਤੇ Frankfurter / ExchangeRate-API ਨੂੰ ਨਹੀਂ ਭੇਜੀਆਂ ਜਾਂਦੀਆਂ।",
+      "ਤੁਹਾਡੀ ਬਹੀ ਤੁਹਾਡੇ ਡਿਵਾਈਸਾਂ ਅਤੇ ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ। ਆਟੋਮੈਟਿਕ ਦਰਾਂ Frankfurter / ExchangeRate-API ਨਾਲ ਸੰਪਰਕ ਕਰਦੀਆਂ ਹਨ; ਕੋਈ ਇਸ਼ਤਿਹਾਰ ਜਾਂ ਟਰੈਕਿੰਗ ਨਹੀਂ।",
+      "ਪ੍ਰੋਜੈਕਟ, ਲੈਣ-ਦੇਣ, ਰਕਮਾਂ, ਨੋਟ, ਟੈਗ, ਸ਼੍ਰੇਣੀਆਂ ਅਤੇ ਸੈਟਿੰਗਾਂ MoneyTag ਦੀ ਡਿਵਾਈਸ ਸਟੋਰੇਜ ਵਿੱਚ ਰਹਿੰਦੀਆਂ ਹਨ ਅਤੇ Frankfurter / ExchangeRate-API ਨੂੰ ਨਹੀਂ ਭੇਜੀਆਂ ਜਾਂਦੀਆਂ। iCloud ਸਿੰਕ ਚਾਲੂ ਹੋਣ 'ਤੇ ਇੱਕ ਕਾਪੀ ਤੁਹਾਡੇ ਆਪਣੇ iCloud ਵਿੱਚ ਵੀ ਰਹਿੰਦੀ ਹੈ।",
       "ਆਟੋਮੈਟਿਕ ਦਰਾਂ ਚਾਲੂ ਹੋਣ ਤੇ MoneyTag ਤਿੰਨ ਅੱਖਰਾਂ ਵਾਲਾ ਬੇਸ ਕਰੰਸੀ ਕੋਡ ਅਤੇ ਲੋੜੀਂਦੀ ਨੈੱਟਵਰਕ ਬੇਨਤੀ api.frankfurter.dev / open.er-api.com ਨੂੰ ਭੇਜਦਾ ਹੈ।",
       "Frankfurter / ExchangeRate-API ਦਾ Cloudflare ਢਾਂਚਾ IP ਪਤਾ, ਅੰਦਾਜ਼ਨ ਖੇਤਰ, ਇੰਟਰੈਕਸ਼ਨ ਡਾਟਾ ਅਤੇ ਡਾਇਗਨੋਸਟਿਕ ਜਾਣਕਾਰੀ ਸੰਸਾਧਿਤ ਕਰ ਸਕਦਾ ਹੈ।",
       "ਇਹ ਸੰਸਾਧਨ App ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ ਲਈ ਹੈ, ਤੁਹਾਡੇ ਨਾਲ ਜੋੜਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਟ੍ਰੈਕਿੰਗ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾਂਦਾ ਅਤੇ ਇਸ ਵਿੱਚ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ ਹਨ।",
@@ -545,8 +545,8 @@
       "ਨੈੱਟਵਰਕ ਜਾਂ ਡਾਟਾ ਸੰਸਾਧਨ ਵਿੱਚ ਭਵਿੱਖੀ ਬਦਲਾਅ ਰਿਲੀਜ਼ ਤੋਂ ਪਹਿਲਾਂ ਇੱਥੇ ਅਤੇ App Store ਦੀ ਪਰਦੇਦਾਰੀ ਜਾਣਕਾਰੀ ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤੇ ਜਾਣਗੇ।"
     ],
     "sl": [
-      "Podatki knjige ostanejo v tej napravi. Samodejni tečaji se povežejo s Frankfurter / ExchangeRate-APIjem; brez oglasov in sledenja.",
-      "Projekti, transakcije, zneski, opombe, oznake, kategorije in nastavitve ostanejo v lokalni shrambi MoneyTag in se ne pošiljajo Frankfurter / ExchangeRate-APIju.",
+      "Vaša knjiga ostane v vaših napravah in v vašem iCloudu. Samodejni tečaji se povežejo s Frankfurter / ExchangeRate-API; brez oglasov in sledenja.",
+      "Projekti, transakcije, zneski, opombe, oznake, kategorije in nastavitve ostanejo v lokalni shrambi MoneyTag in se ne pošiljajo Frankfurter / ExchangeRate-APIju. Ko je sinhronizacija iCloud vklopljena, je ena kopija tudi v vašem iCloudu.",
       "Ko so samodejni tečaji vklopljeni, MoneyTag pošlje tričrkovno kodo osnovne valute in nujno omrežno zahtevo na api.frankfurter.dev / open.er-api.com.",
       "Frankfurter / ExchangeRate-APIjeva infrastruktura Cloudflare lahko obdeluje naslov IP, približno regijo, podatke o interakciji in diagnostiko.",
       "Obdelava je namenjena delovanju in analitiki App, lahko je povezana z vami, ne uporablja se za sledenje in ne vključuje oglaševanja.",
@@ -557,8 +557,8 @@
       "Vsaka prihodnja sprememba omrežne ali podatkovne obdelave bo pred izdajo objavljena tukaj in v podrobnostih zasebnosti v App Store."
     ],
     "ta": [
-      "கணக்குப் பதிவு தரவு இந்தச் சாதனத்திலேயே இருக்கும். தானியங்கி விகிதங்கள் Frankfurter / ExchangeRate-API-ஐ தொடர்புகொள்ளும்; விளம்பரமோ கண்காணிப்போ இல்லை.",
-      "திட்டங்கள், பரிவர்த்தனைகள், தொகைகள், குறிப்புகள், குறிச்சொற்கள், வகைகள் மற்றும் அமைப்புகள் MoneyTag-ன் சாதனச் சேமிப்பில் இருக்கும்; Frankfurter / ExchangeRate-API-க்கு அனுப்பப்படாது.",
+      "உங்கள் கணக்கு உங்கள் சாதனங்களிலும் உங்கள் சொந்த iCloud இலும் இருக்கும். தானியங்கி விகிதங்கள் Frankfurter / ExchangeRate-API ஐத் தொடர்பு கொள்ளும்; விளம்பரமோ கண்காணிப்போ இல்லை.",
+      "திட்டங்கள், பரிவர்த்தனைகள், தொகைகள், குறிப்புகள், குறிச்சொற்கள், வகைகள் மற்றும் அமைப்புகள் MoneyTag-ன் சாதனச் சேமிப்பில் இருக்கும்; Frankfurter / ExchangeRate-API-க்கு அனுப்பப்படாது. iCloud ஒத்திசைவு இயக்கத்தில் இருக்கும்போது ஒரு நகல் உங்கள் சொந்த iCloud இலும் இருக்கும்.",
       "தானியங்கி விகிதங்கள் இயக்கப்பட்டால் MoneyTag மூன்றெழுத்து அடிப்படை நாணயக் குறியீட்டையும் தேவையான பிணையக் கோரிக்கையையும் api.frankfurter.dev / open.er-api.com-க்கு அனுப்பும்.",
       "Frankfurter / ExchangeRate-API பயன்படுத்தும் Cloudflare கட்டமைப்பு IP முகவரி, தோராயமான பகுதி, தொடர்புத் தரவு மற்றும் கண்டறிதல் தகவலை செயலாக்கலாம்.",
       "இந்தச் செயலாக்கம் App செயல்பாடு மற்றும் பகுப்பாய்வுக்காக மட்டுமே; உங்களுடன் இணைக்கப்படலாம், கண்காணிப்புக்கு பயன்படுத்தப்படாது, விளம்பரமும் இல்லை.",
@@ -569,8 +569,8 @@
       "பிணைய அல்லது தரவுச் செயலாக்கத்தில் எதிர்கால மாற்றம் ஏற்பட்டால் வெளியீட்டுக்கு முன் இங்கும் App Store தனியுரிமை விவரங்களிலும் வெளியிடப்படும்."
     ],
     "te": [
-      "లెడ్జర్ డేటా ఈ పరికరంలోనే ఉంటుంది. ఆటోమేటిక్ రేట్లు Frankfurter / ExchangeRate-APIను సంప్రదిస్తాయి; ప్రకటనలు లేదా ట్రాకింగ్ ఉండవు.",
-      "ప్రాజెక్ట్‌లు, లావాదేవీలు, మొత్తాలు, గమనికలు, ట్యాగ్‌లు, వర్గాలు మరియు సెట్టింగ్‌లు MoneyTag పరికర నిల్వలో ఉంటాయి; Frankfurter / ExchangeRate-APIకు పంపబడవు.",
+      "మీ ఖాతా మీ పరికరాల్లో మరియు మీ స్వంత iCloud లో ఉంటుంది. ఆటోమేటిక్ రేట్లు Frankfurter / ExchangeRate-API ను సంప్రదిస్తాయి; ప్రకటనలు లేదా ట్రాకింగ్ లేదు.",
+      "ప్రాజెక్ట్‌లు, లావాదేవీలు, మొత్తాలు, గమనికలు, ట్యాగ్‌లు, వర్గాలు మరియు సెట్టింగ్‌లు MoneyTag పరికర నిల్వలో ఉంటాయి; Frankfurter / ExchangeRate-APIకు పంపబడవు. iCloud సింక్ ఆన్‌లో ఉన్నప్పుడు ఒక ప్రతి మీ స్వంత iCloud లో కూడా ఉంటుంది.",
       "ఆటోమేటిక్ రేట్లు ఆన్‌లో ఉన్నప్పుడు MoneyTag మూడు అక్షరాల బేస్ కరెన్సీ కోడ్‌ను మరియు అవసరమైన నెట్‌వర్క్ అభ్యర్థనను api.frankfurter.dev / open.er-api.comకు పంపుతుంది.",
       "Frankfurter / ExchangeRate-API యొక్క Cloudflare మౌలిక సదుపాయం IP చిరునామా, సుమారు ప్రాంతం, పరస్పర చర్య డేటా మరియు డయాగ్నస్టిక్ సమాచారాన్ని ప్రాసెస్ చేయవచ్చు.",
       "ఈ ప్రాసెసింగ్ App పనితీరు మరియు విశ్లేషణ కోసం, మీతో అనుసంధానించబడవచ్చు, ట్రాకింగ్‌కు ఉపయోగించబడదు మరియు ప్రకటనలు ఉండవు.",
@@ -581,8 +581,8 @@
       "నెట్‌వర్క్ లేదా డేటా ప్రాసెసింగ్‌లో భవిష్యత్ మార్పులు విడుదలకు ముందు ఇక్కడ మరియు App Store గోప్యతా వివరాల్లో ప్రచురించబడతాయి."
     ],
     "ur": [
-      "کھاتے کا ڈیٹا اسی ڈیوائس پر رہتا ہے۔ خودکار شرحیں Frankfurter / ExchangeRate-API سے رابطہ کرتی ہیں؛ کوئی اشتہار یا ٹریکنگ نہیں۔",
-      "پروجیکٹس، لین دین، رقوم، نوٹس، ٹیگز، زمرے اور سیٹنگز MoneyTag کی آن ڈیوائس اسٹوریج میں رہتے ہیں اور Frankfurter / ExchangeRate-API کو نہیں بھیجے جاتے۔",
+      "آپ کا کھاتہ آپ کے آلات اور آپ کے اپنے iCloud میں رہتا ہے۔ خودکار شرحیں Frankfurter / ExchangeRate-API سے رابطہ کرتی ہیں؛ کوئی اشتہار یا ٹریکنگ نہیں۔",
+      "پروجیکٹس، لین دین، رقوم، نوٹس، ٹیگز، زمرے اور سیٹنگز MoneyTag کی آن ڈیوائس اسٹوریج میں رہتے ہیں اور Frankfurter / ExchangeRate-API کو نہیں بھیجے جاتے۔ iCloud سِنک آن ہونے پر ایک نقل آپ کے اپنے iCloud میں بھی رہتی ہے۔",
       "خودکار شرحیں آن ہونے پر MoneyTag تین حروف والا بنیادی کرنسی کوڈ اور ضروری نیٹ ورک درخواست api.frankfurter.dev / open.er-api.com کو بھیجتا ہے۔",
       "Frankfurter / ExchangeRate-API کا Cloudflare بنیادی ڈھانچہ IP پتہ، اندازاً خطہ، تعامل کا ڈیٹا اور تشخیصی معلومات پراسیس کر سکتا ہے۔",
       "یہ پراسیسنگ App کی فعالیت اور تجزیے کے لیے ہے، آپ سے منسلک ہو سکتی ہے، ٹریکنگ کے لیے استعمال نہیں ہوتی اور اس میں اشتہارات شامل نہیں۔",
