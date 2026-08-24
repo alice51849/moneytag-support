@@ -16,6 +16,7 @@
       "h1": "Hilfe zu MoneyTag",
       "lead": "Jedes Projekt führt seine eigenen Bücher: Einnahmen minus Ausgaben ergeben sein Nettoergebnis. Hier stehen die Fragen, die am häufigsten gestellt werden. Ist Ihre nicht dabei, schreiben Sie uns — jede Nachricht liest ein Mensch.",
       "chips": [
+        "Dasselbe Buch auf iPhone und iPad",
         "Projekte mit eigenem Nettoergebnis",
         "Tags summieren über Projekte hinweg",
         "Eine Währung pro Projekt",
@@ -134,6 +135,7 @@
       "h1": "Aide sur MoneyTag",
       "lead": "Chaque projet tient ses propres comptes : les recettes moins les dépenses donnent son résultat net. Voici les questions qui reviennent le plus souvent. Si la vôtre n’y figure pas, écrivez-nous — une vraie personne lit chaque message.",
       "chips": [
+        "Le même livre sur iPhone et iPad",
         "Un résultat net par projet",
         "Des tags qui totalisent entre projets",
         "Une seule devise par projet",
@@ -252,6 +254,7 @@
       "h1": "Aide sur MoneyTag",
       "lead": "Chaque projet tient ses propres livres : les revenus moins les dépenses donnent son résultat net. Voici les questions les plus courantes. Si la vôtre ne s’y trouve pas, écrivez-nous — une vraie personne lit chaque courriel.",
       "chips": [
+        "Le même livre sur iPhone et iPad",
         "Un résultat net par projet",
         "Des étiquettes qui totalisent entre les projets",
         "Une seule devise par projet",
@@ -370,6 +373,7 @@
       "h1": "Ayuda con MoneyTag",
       "lead": "Cada proyecto lleva sus propias cuentas: los ingresos menos los gastos son su resultado neto. Estas son las preguntas más frecuentes. Si la tuya no está, escríbenos: cada mensaje lo lee una persona real.",
       "chips": [
+        "El mismo libro en iPhone y iPad",
         "Cada proyecto con su resultado neto",
         "Etiquetas que suman entre proyectos",
         "Una sola moneda por proyecto",
@@ -488,6 +492,7 @@
       "h1": "Ayuda con MoneyTag",
       "lead": "Cada proyecto lleva sus propias cuentas: los ingresos menos los gastos dan su resultado neto. Estas son las preguntas más comunes. Si no encuentras la tuya, escríbenos: cada mensaje lo lee una persona real.",
       "chips": [
+        "El mismo libro en iPhone y iPad",
         "Cada proyecto con su resultado neto",
         "Etiquetas que suman entre proyectos",
         "Una sola moneda por proyecto",
@@ -606,6 +611,7 @@
       "h1": "Aiuto su MoneyTag",
       "lead": "Ogni progetto tiene la propria contabilità: entrate meno uscite danno il suo risultato netto. Qui trovi le domande più frequenti. Se la tua non c’è, scrivici: ogni messaggio lo legge una persona in carne e ossa.",
       "chips": [
+        "Lo stesso registro su iPhone e iPad",
         "Ogni progetto con il suo risultato netto",
         "Tag che sommano tra i progetti",
         "Una sola valuta per progetto",
@@ -724,6 +730,7 @@
       "h1": "Ajuda com o MoneyTag",
       "lead": "Cada projeto tem a própria contabilidade: receitas menos despesas dão o resultado líquido dele. Aqui estão as dúvidas mais comuns. Se a sua não estiver na lista, escreva para nós — cada mensagem é lida por uma pessoa de verdade.",
       "chips": [
+        "O mesmo livro no iPhone e no iPad",
         "Cada projeto com seu resultado líquido",
         "Etiquetas que somam entre projetos",
         "Uma moeda por projeto",
@@ -842,6 +849,7 @@
       "h1": "Ajuda com o MoneyTag",
       "lead": "Cada projeto tem as suas próprias contas: receitas menos despesas dão o respetivo resultado líquido. Estas são as perguntas mais frequentes. Se a sua não estiver aqui, escreva-nos — cada mensagem é lida por uma pessoa.",
       "chips": [
+        "O mesmo livro no iPhone e no iPad",
         "Cada projeto com o seu resultado líquido",
         "Etiquetas que somam entre projetos",
         "Uma moeda por projeto",
@@ -960,6 +968,7 @@
       "h1": "Hulp bij MoneyTag",
       "lead": "Elk project houdt zijn eigen boekhouding bij: inkomsten min uitgaven is het nettoresultaat. Hieronder de vragen die het vaakst worden gesteld. Staat die van u er niet bij, mail ons dan — elk bericht wordt door een mens gelezen.",
       "chips": [
+        "Dezelfde boekhouding op iPhone en iPad",
         "Projecten met een eigen nettoresultaat",
         "Tags tellen op over projecten heen",
         "Eén valuta per project",
@@ -1078,6 +1087,7 @@
       "h1": "Hjälp med MoneyTag",
       "lead": "Varje projekt har sin egen bokföring: intäkter minus utgifter ger dess nettoresultat. Här är frågorna vi får oftast. Finns inte din med är du välkommen att mejla — varje meddelande läses av en människa.",
       "chips": [
+        "Samma bok på iPhone och iPad",
         "Projekt med eget nettoresultat",
         "Taggar som summeras över projekt",
         "En valuta per projekt",
@@ -1196,6 +1206,7 @@
       "h1": "Hjælp til MoneyTag",
       "lead": "Hvert projekt fører sit eget regnskab: indtægter minus udgifter giver dets nettoresultat. Her er de spørgsmål, vi oftest får. Er dit ikke med, så skriv til os — hver besked bliver læst af et menneske.",
       "chips": [
+        "Samme regnskab på iPhone og iPad",
         "Projekter med deres eget nettoresultat",
         "Tags, der lægges sammen på tværs af projekter",
         "Én valuta pr. projekt",
@@ -1314,6 +1325,7 @@
       "h1": "Apua MoneyTagin käyttöön",
       "lead": "Jokainen projekti pitää omaa kirjanpitoaan: tulot miinus menot on sen nettotulos. Tässä ovat useimmin kysytyt kysymykset. Jos omaasi ei löydy, laita viestiä — jokaisen viestin lukee oikea ihminen.",
       "chips": [
+        "Sama kirjanpito iPhonessa ja iPadissa",
         "Jokaisella projektilla oma nettotulos",
         "Tunnisteet laskevat yhteen projektien yli",
         "Yksi valuutta per projekti",
@@ -1432,6 +1444,7 @@
       "h1": "Hjelp med MoneyTag",
       "lead": "Hvert prosjekt fører sitt eget regnskap: inntekter minus utgifter gir nettoresultatet. Her er spørsmålene vi får oftest. Er ikke ditt med, så skriv til oss — hver melding blir lest av et menneske.",
       "chips": [
+        "Samme regnskap på iPhone og iPad",
         "Prosjekter med eget nettoresultat",
         "Tagger som summeres på tvers av prosjekter",
         "Én valuta per prosjekt",
@@ -1550,6 +1563,7 @@
       "h1": "Помощь по MoneyTag",
       "lead": "У каждого проекта своя книга учёта: доходы минус расходы — это его чистый итог. Здесь собраны вопросы, которые задают чаще всего. Если вашего нет, напишите нам — каждое письмо читает живой человек.",
       "chips": [
+        "Одна книга на iPhone и iPad",
         "У каждого проекта свой чистый итог",
         "Метки суммируются по всем проектам",
         "Одна валюта на проект",
@@ -1668,6 +1682,7 @@
       "h1": "Pomoc do MoneyTag",
       "lead": "Każdy projekt prowadzi własną księgę: przychody minus wydatki dają jego wynik netto. Poniżej najczęstsze pytania. Jeśli nie ma wśród nich Twojego, napisz do nas — każdą wiadomość czyta żywy człowiek.",
       "chips": [
+        "Ta sama księga na iPhonie i iPadzie",
         "Każdy projekt z własnym wynikiem netto",
         "Tagi sumowane w poprzek projektów",
         "Jedna waluta na projekt",
@@ -1786,6 +1801,7 @@
       "h1": "MoneyTag yardımı",
       "lead": "Her proje kendi defterini tutar: gelirden gideri çıkarınca projenin net sonucu çıkar. En sık gelen sorular burada. Sizinki yoksa yazın — her mesajı gerçek bir insan okuyor.",
       "chips": [
+        "iPhone ve iPad'de aynı defter",
         "Her projenin kendi net sonucu",
         "Projeler arası toplayan etiketler",
         "Proje başına tek para birimi",
@@ -1904,6 +1920,7 @@
       "h1": "Nápověda k MoneyTag",
       "lead": "Každý projekt si vede vlastní účetnictví: příjmy minus výdaje dávají jeho čistý výsledek. Tady jsou nejčastější dotazy. Pokud ten váš chybí, napište nám — každou zprávu čte živý člověk.",
       "chips": [
+        "Stejná kniha na iPhonu i iPadu",
         "Každý projekt s vlastním čistým výsledkem",
         "Štítky sčítající napříč projekty",
         "Jedna měna na projekt",
@@ -2022,6 +2039,7 @@
       "h1": "Pomoc k MoneyTag",
       "lead": "Každý projekt si vedie vlastné účtovníctvo: príjmy mínus výdavky dávajú jeho čistý výsledok. Tu sú najčastejšie otázky. Ak tú vašu nenájdete, napíšte nám — každú správu číta živý človek.",
       "chips": [
+        "Rovnaká kniha na iPhone aj iPade",
         "Každý projekt s vlastným čistým výsledkom",
         "Štítky sčítavajúce naprieč projektmi",
         "Jedna mena na projekt",
@@ -2140,6 +2158,7 @@
       "h1": "Pomoć za MoneyTag",
       "lead": "Svaki projekt vodi svoje knjige: prihodi minus troškovi daju njegov neto rezultat. Ovdje su pitanja koja najčešće dobivamo. Ako vašeg nema, javite nam se — svaku poruku čita stvarna osoba.",
       "chips": [
+        "Ista knjiga na iPhoneu i iPadu",
         "Svaki projekt sa svojim neto rezultatom",
         "Oznake koje zbrajaju kroz projekte",
         "Jedna valuta po projektu",
@@ -2258,6 +2277,7 @@
       "h1": "Segítség a MoneyTaghez",
       "lead": "Minden projekt külön könyvelést vezet: a bevétel mínusz a kiadás adja a nettó eredményét. Itt vannak a leggyakoribb kérdések. Ha a tiéd nincs köztük, írj nekünk — minden üzenetet ember olvas el.",
       "chips": [
+        "Ugyanaz a könyv iPhone-on és iPaden",
         "Minden projektnek saját nettó eredménye",
         "Címkék, amelyek projekteken átívelve összegeznek",
         "Projektenként egyetlen pénznem",
@@ -2376,6 +2396,7 @@
       "h1": "Ajutor pentru MoneyTag",
       "lead": "Fiecare proiect își ține propriile socoteli: veniturile minus cheltuielile dau rezultatul lui net. Mai jos sunt întrebările primite cel mai des. Dacă a ta nu se află printre ele, scrie-ne — fiecare mesaj este citit de un om.",
       "chips": [
+        "Același registru pe iPhone și iPad",
         "Fiecare proiect cu rezultatul lui net",
         "Etichete care se însumează între proiecte",
         "O singură monedă pe proiect",
@@ -2494,6 +2515,7 @@
       "h1": "Довідка з MoneyTag",
       "lead": "Кожен проєкт веде власну книгу обліку: доходи мінус витрати — це його чистий підсумок. Тут зібрано найчастіші запитання. Якщо вашого немає, напишіть нам — кожен лист читає жива людина.",
       "chips": [
+        "Одна книга на iPhone та iPad",
         "У кожного проєкту свій чистий підсумок",
         "Мітки підсумовуються між проєктами",
         "Одна валюта на проєкт",
@@ -2612,6 +2634,7 @@
       "h1": "Βοήθεια για το MoneyTag",
       "lead": "Κάθε έργο κρατά δικά του βιβλία: έσοδα μείον έξοδα δίνουν το καθαρό του αποτέλεσμα. Εδώ είναι οι ερωτήσεις που ακούμε πιο συχνά. Αν λείπει η δική σας, γράψτε μας — κάθε μήνυμα το διαβάζει άνθρωπος.",
       "chips": [
+        "Το ίδιο βιβλίο σε iPhone και iPad",
         "Κάθε έργο με το δικό του καθαρό αποτέλεσμα",
         "Ετικέτες που αθροίζουν σε όλα τα έργα",
         "Ένα νόμισμα ανά έργο",
@@ -2730,6 +2753,7 @@
       "h1": "Ajuda amb el MoneyTag",
       "lead": "Cada projecte porta els seus propis comptes: els ingressos menys les despeses donen el seu resultat net. Aquestes són les preguntes més habituals. Si no hi trobes la teva, escriu-nos: cada missatge el llegeix una persona de debò.",
       "chips": [
+        "El mateix llibre a l'iPhone i l'iPad",
         "Cada projecte amb el seu resultat net",
         "Etiquetes que sumen entre projectes",
         "Una sola moneda per projecte",
@@ -2848,6 +2872,7 @@
       "h1": "Pomoč za MoneyTag",
       "lead": "Vsak projekt vodi svoje knjige: prihodki minus stroški dajo njegov neto izid. Tu so vprašanja, ki jih dobimo najpogosteje. Če vašega ni med njimi, nam pišite — vsako sporočilo prebere resnična oseba.",
       "chips": [
+        "Ista knjiga na iPhonu in iPadu",
         "Vsak projekt s svojim neto izidom",
         "Oznake, ki seštevajo prek projektov",
         "Ena valuta na projekt",
@@ -2966,6 +2991,7 @@
       "h1": "Help with MoneyTag",
       "lead": "Every project keeps its own books: income minus expenses is its net result. Here are the questions we are asked most often. If yours is not answered, drop us a line — a real person reads every message.",
       "chips": [
+        "The same ledger on iPhone and iPad",
         "Projects with their own net result",
         "Tags that total up across projects",
         "One currency per project",
@@ -3084,6 +3110,7 @@
       "h1": "Help with MoneyTag",
       "lead": "Every project keeps its own books: income minus expenses is its net result. These are the questions we get asked most. If yours isn't here, send us an email — a real person reads every message.",
       "chips": [
+        "The same ledger on iPhone and iPad",
         "Projects with their own net result",
         "Tags that tally across projects",
         "One currency per project",
@@ -3202,6 +3229,7 @@
       "h1": "Help with MoneyTag",
       "lead": "Every project keeps its own books: income minus expenses is its net result. Here are the questions we hear most often. If yours isn't covered, send us a note — a real person reads every message.",
       "chips": [
+        "The same ledger on iPhone and iPad",
         "Projects with their own net result",
         "Tags that total across projects",
         "One currency per project",
