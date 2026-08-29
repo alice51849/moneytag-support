@@ -116,6 +116,10 @@
       "cT": "Fragen zum Datenschutz",
       "cL": "Fragen Sie alles zum Umgang von MoneyTag mit Ihren Daten. Sie bekommen eine klare Antwort vom Entwickler.",
       "cB": "E-Mail an den Entwickler"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Weitere Apps von Lumi Studio"
     }
   },
   "fr-FR": {
@@ -235,6 +239,10 @@
       "cT": "Questions sur la confidentialité",
       "cL": "Posez toutes vos questions sur la façon dont MoneyTag traite vos données. Le développeur vous répondra sans détour.",
       "cB": "Écrire au développeur"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Plus d’apps de Lumi Studio"
     }
   },
   "fr-CA": {
@@ -354,6 +362,10 @@
       "cT": "Questions sur la confidentialité",
       "cL": "Demandez ce que vous voulez sur la façon dont MoneyTag traite vos données. Le développeur vous répondra sans détour.",
       "cB": "Écrire au développeur"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Plus d’apps de Lumi Studio"
     }
   },
   "es-ES": {
@@ -473,6 +485,10 @@
       "cT": "Dudas sobre privacidad",
       "cL": "Pregunta lo que quieras sobre cómo trata MoneyTag tus datos. Recibirás una respuesta directa del desarrollador.",
       "cB": "Escribir al desarrollador"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Más apps de Lumi Studio"
     }
   },
   "es-MX": {
@@ -592,6 +608,10 @@
       "cT": "Dudas sobre privacidad",
       "cL": "Pregunta lo que quieras sobre cómo maneja MoneyTag tus datos. El desarrollador te responde directo y sin rodeos.",
       "cB": "Escribir al desarrollador"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Más apps de Lumi Studio"
     }
   },
   "it": {
@@ -711,6 +731,10 @@
       "cT": "Domande sulla privacy",
       "cL": "Chiedi qualsiasi cosa su come MoneyTag tratta i tuoi dati. Riceverai una risposta chiara dallo sviluppatore.",
       "cB": "Scrivi allo sviluppatore"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Altre app di Lumi Studio"
     }
   },
   "pt-BR": {
@@ -830,6 +854,10 @@
       "cT": "Dúvidas sobre privacidade",
       "cL": "Pergunte o que quiser sobre como o MoneyTag lida com seus dados. A resposta vem direta do desenvolvedor.",
       "cB": "Escrever para o desenvolvedor"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Mais apps da Lumi Studio"
     }
   },
   "pt-PT": {
@@ -949,6 +977,10 @@
       "cT": "Questões sobre privacidade",
       "cL": "Pergunte o que quiser sobre a forma como o MoneyTag trata os seus dados. Terá uma resposta franca do programador.",
       "cB": "Escrever ao programador"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Mais apps da Lumi Studio"
     }
   },
   "nl-NL": {
@@ -1068,6 +1100,10 @@
       "cT": "Vragen over privacy",
       "cL": "Vraag gerust alles over hoe MoneyTag met uw gegevens omgaat. U krijgt een recht-voor-zijn-raap antwoord van de ontwikkelaar.",
       "cB": "Mail de ontwikkelaar"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Meer apps van Lumi Studio"
     }
   },
   "sv": {
@@ -1187,6 +1223,10 @@
       "cT": "Frågor om integritet",
       "cL": "Fråga vad du vill om hur MoneyTag hanterar dina uppgifter. Du får ett rakt svar från utvecklaren.",
       "cB": "Mejla utvecklaren"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Fler appar från Lumi Studio"
     }
   },
   "da": {
@@ -1306,6 +1346,10 @@
       "cT": "Spørgsmål om privatliv",
       "cL": "Spørg om alt, hvad angår MoneyTags omgang med dine data. Du får et lige svar fra udvikleren.",
       "cB": "Skriv til udvikleren"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Flere apps fra Lumi Studio"
     }
   },
   "fi": {
@@ -1425,6 +1469,10 @@
       "cT": "Kysyttävää tietosuojasta",
       "cL": "Kysy mitä tahansa siitä, miten MoneyTag käsittelee tietojasi. Saat suoran vastauksen kehittäjältä.",
       "cB": "Lähetä viesti kehittäjälle"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Lisää sovelluksia Lumi Studiolta"
     }
   },
   "no": {
@@ -1544,6 +1592,10 @@
       "cT": "Spørsmål om personvern",
       "cL": "Spør om hva du vil om hvordan MoneyTag håndterer dataene dine. Du får et rett fram svar fra utvikleren.",
       "cB": "Send e-post til utvikleren"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Flere apper fra Lumi Studio"
     }
   },
   "ru": {
@@ -1663,6 +1715,10 @@
       "cT": "Вопросы о конфиденциальности",
       "cL": "Спрашивайте что угодно о том, как MoneyTag обращается с вашими данными. Разработчик ответит прямо и по существу.",
       "cB": "Написать разработчику"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Другие приложения от Lumi Studio"
     }
   },
   "pl": {
@@ -1782,6 +1838,10 @@
       "cT": "Pytania o prywatność",
       "cL": "Pytaj o wszystko, co dotyczy postępowania MoneyTag z Twoimi danymi. Odpowiedź dostaniesz wprost od dewelopera.",
       "cB": "Napisz do dewelopera"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Więcej aplikacji od Lumi Studio"
     }
   },
   "tr": {
@@ -1901,6 +1961,10 @@
       "cT": "Gizlilikle ilgili sorular",
       "cL": "MoneyTag’in verilerinizle nasıl davrandığına dair her şeyi sorabilirsiniz. Geliştiriciden dolambaçsız bir yanıt alırsınız.",
       "cB": "Geliştiriciye e-posta gönder"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Lumi Studio’dan daha fazla uygulama"
     }
   },
   "cs": {
@@ -2020,6 +2084,10 @@
       "cT": "Dotazy k soukromí",
       "cL": "Ptejte se na cokoli ohledně toho, jak MoneyTag zachází s vašimi daty. Dostanete přímou odpověď od vývojáře.",
       "cB": "Napsat vývojáři"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Další aplikace od Lumi Studio"
     }
   },
   "sk": {
@@ -2139,6 +2207,10 @@
       "cT": "Otázky k súkromiu",
       "cL": "Pýtajte sa na čokoľvek o tom, ako MoneyTag zaobchádza s vašimi údajmi. Dostanete priamu odpoveď od vývojára.",
       "cB": "Napísať vývojárovi"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Ďalšie apky od Lumi Studio"
     }
   },
   "hr": {
@@ -2258,6 +2330,10 @@
       "cT": "Pitanja o privatnosti",
       "cL": "Pitajte što god želite o tome kako MoneyTag postupa s vašim podacima. Dobit ćete izravan odgovor od razvijatelja.",
       "cB": "Pišite razvijatelju"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Još aplikacija studija Lumi Studio"
     }
   },
   "hu": {
@@ -2377,6 +2453,10 @@
       "cT": "Kérdések az adatvédelemről",
       "cL": "Kérdezz bármit arról, hogyan bánik a MoneyTag az adataiddal. Egyenes választ kapsz a fejlesztőtől.",
       "cB": "Írj a fejlesztőnek"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "További appok a Lumi Studiótól"
     }
   },
   "ro": {
@@ -2496,6 +2576,10 @@
       "cT": "Întrebări despre confidențialitate",
       "cL": "Întreabă orice despre felul în care MoneyTag se poartă cu datele tale. Vei primi un răspuns direct de la dezvoltator.",
       "cB": "Scrie dezvoltatorului"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Mai multe aplicații de la Lumi Studio"
     }
   },
   "uk": {
@@ -2615,6 +2699,10 @@
       "cT": "Питання про конфіденційність",
       "cL": "Питайте будь-що про те, як MoneyTag поводиться з вашими даними. Розробник відповість прямо й по суті.",
       "cB": "Написати розробнику"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Інші застосунки від Lumi Studio"
     }
   },
   "el": {
@@ -2734,6 +2822,10 @@
       "cT": "Ερωτήσεις για το απόρρητο",
       "cL": "Ρωτήστε ό,τι θέλετε για το πώς χειρίζεται το MoneyTag τα δεδομένα σας. Θα πάρετε ξεκάθαρη απάντηση από τον προγραμματιστή.",
       "cB": "Στείλτε email στον προγραμματιστή"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Περισσότερες εφαρμογές από τη Lumi Studio"
     }
   },
   "ca": {
@@ -2853,6 +2945,10 @@
       "cT": "Dubtes sobre privadesa",
       "cL": "Pregunta el que vulguis sobre com tracta el MoneyTag les teves dades. Tindràs una resposta clara del desenvolupador.",
       "cB": "Escriu al desenvolupador"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Més apps de Lumi Studio"
     }
   },
   "sl-SI": {
@@ -2972,6 +3068,10 @@
       "cT": "Vprašanja o zasebnosti",
       "cL": "Vprašajte karkoli o tem, kako MoneyTag ravna z vašimi podatki. Od razvijalca boste dobili odkrit odgovor.",
       "cB": "Pišite razvijalcu"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "Več aplikacij razvijalca Lumi Studio"
     }
   },
   "en-GB": {
@@ -3091,6 +3191,10 @@
       "cT": "Questions about privacy",
       "cL": "Ask anything about how MoneyTag handles your data. You will get a straight answer from the developer.",
       "cB": "Email the developer"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "More apps from Lumi Studio"
     }
   },
   "en-AU": {
@@ -3210,6 +3314,10 @@
       "cT": "Questions about privacy",
       "cL": "Ask anything about how MoneyTag handles your information. You'll get a straight answer from the developer.",
       "cB": "Email the developer"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "More apps from Lumi Studio"
     }
   },
   "en-CA": {
@@ -3329,6 +3437,10 @@
       "cT": "Questions about privacy",
       "cL": "Ask anything about how MoneyTag handles your information. You'll get a straight answer from the developer.",
       "cB": "Email the developer"
+    },
+    "surface": {
+      "appStore": "MoneyTag · App Store",
+      "moreApps": "More apps from Lumi Studio"
     }
   }
 }

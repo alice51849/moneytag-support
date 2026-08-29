@@ -48,6 +48,7 @@
   <div id="body">__FALLBACK__</div>
 </main>
 
+__CROSSPROMO__
 <footer><p id="foot">__FOOT__</p></footer>
 
 <script>
@@ -56,5 +57,46 @@ window.MONEYTAG_I18N=/*__DATA__*/{};
 <script>
 /*__APP__*/
 </script>
+</body>
+</html>
+<!-- required-surface-template -->
+<!doctype html>
+<html lang="__LOCALE__" dir="__DIR__">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>__SURFACE_TITLE__</title>
+<meta name="description" content="__SURFACE_DESCRIPTION__">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="__CANONICAL__">
+__ALTERNATES__
+<meta property="og:type" content="website">
+<meta property="og:locale" content="__OG_LOCALE__">
+<meta property="og:title" content="__SURFACE_TITLE__">
+<meta property="og:description" content="__SURFACE_DESCRIPTION__">
+<meta property="og:url" content="__CANONICAL__">
+<link rel="stylesheet" href="../surface-generated.css">
+<script type="application/ld+json">__SCHEMA__</script>
+</head>
+<body>
+<header class="surface-header">
+  <a class="surface-brand" href="__HOME_URL__">MoneyTag</a>
+  <nav aria-label="__NAV_LABEL__">__NAV__</nav>
+</header>
+<main>
+  <section class="surface-hero">
+    <p class="surface-eyebrow">__EYEBROW__</p>
+    <h1>__HEADING__</h1>
+    <p>__LEAD__</p>
+  </section>
+  __SECTIONS__
+  __CONTACT__
+</main>
+__SURFACE_CROSSPROMO__
+<details class="surface-languages">
+  <summary>__LANGUAGE__ · __LOCALE_NAME__</summary>
+  <nav aria-label="__LANGUAGE__">__LANGUAGE_LINKS__</nav>
+</details>
+<footer>© 2026 Lumi Studio · MoneyTag</footer>
 </body>
 </html>
