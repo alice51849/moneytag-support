@@ -116,7 +116,8 @@
       "cT": "Fragen zum Datenschutz",
       "cL": "Fragen Sie alles zum Umgang von MoneyTag mit Ihren Daten. Sie bekommen eine klare Antwort vom Entwickler.",
       "cB": "E-Mail an den Entwickler"
-    }
+    },
+    "store": "Im App Store ansehen"
   },
   "fr-FR": {
     "n": "Français",
@@ -235,7 +236,8 @@
       "cT": "Questions sur la confidentialité",
       "cL": "Posez toutes vos questions sur la façon dont MoneyTag traite vos données. Le développeur vous répondra sans détour.",
       "cB": "Écrire au développeur"
-    }
+    },
+    "store": "Voir sur l'App Store"
   },
   "fr-CA": {
     "n": "Français (Canada)",
@@ -354,7 +356,8 @@
       "cT": "Questions sur la confidentialité",
       "cL": "Demandez ce que vous voulez sur la façon dont MoneyTag traite vos données. Le développeur vous répondra sans détour.",
       "cB": "Écrire au développeur"
-    }
+    },
+    "store": "Voir sur l'App Store"
   },
   "es-ES": {
     "n": "Español",
@@ -473,7 +476,8 @@
       "cT": "Dudas sobre privacidad",
       "cL": "Pregunta lo que quieras sobre cómo trata MoneyTag tus datos. Recibirás una respuesta directa del desarrollador.",
       "cB": "Escribir al desarrollador"
-    }
+    },
+    "store": "Ver en el App Store"
   },
   "es-MX": {
     "n": "Español (México)",
@@ -592,7 +596,8 @@
       "cT": "Dudas sobre privacidad",
       "cL": "Pregunta lo que quieras sobre cómo maneja MoneyTag tus datos. El desarrollador te responde directo y sin rodeos.",
       "cB": "Escribir al desarrollador"
-    }
+    },
+    "store": "Ver en el App Store"
   },
   "it": {
     "n": "Italiano",
@@ -711,7 +716,8 @@
       "cT": "Domande sulla privacy",
       "cL": "Chiedi qualsiasi cosa su come MoneyTag tratta i tuoi dati. Riceverai una risposta chiara dallo sviluppatore.",
       "cB": "Scrivi allo sviluppatore"
-    }
+    },
+    "store": "Vedi su App Store"
   },
   "pt-BR": {
     "n": "Português (Brasil)",
@@ -830,7 +836,8 @@
       "cT": "Dúvidas sobre privacidade",
       "cL": "Pergunte o que quiser sobre como o MoneyTag lida com seus dados. A resposta vem direta do desenvolvedor.",
       "cB": "Escrever para o desenvolvedor"
-    }
+    },
+    "store": "Ver na App Store"
   },
   "pt-PT": {
     "n": "Português",
@@ -949,7 +956,8 @@
       "cT": "Questões sobre privacidade",
       "cL": "Pergunte o que quiser sobre a forma como o MoneyTag trata os seus dados. Terá uma resposta franca do programador.",
       "cB": "Escrever ao programador"
-    }
+    },
+    "store": "Ver na App Store"
   },
   "nl-NL": {
     "n": "Nederlands",
@@ -1068,7 +1076,8 @@
       "cT": "Vragen over privacy",
       "cL": "Vraag gerust alles over hoe MoneyTag met uw gegevens omgaat. U krijgt een recht-voor-zijn-raap antwoord van de ontwikkelaar.",
       "cB": "Mail de ontwikkelaar"
-    }
+    },
+    "store": "Bekijk in de App Store"
   },
   "sv": {
     "n": "Svenska",
@@ -1187,7 +1196,8 @@
       "cT": "Frågor om integritet",
       "cL": "Fråga vad du vill om hur MoneyTag hanterar dina uppgifter. Du får ett rakt svar från utvecklaren.",
       "cB": "Mejla utvecklaren"
-    }
+    },
+    "store": "Visa i App Store"
   },
   "da": {
     "n": "Dansk",
@@ -1306,7 +1316,8 @@
       "cT": "Spørgsmål om privatliv",
       "cL": "Spørg om alt, hvad angår MoneyTags omgang med dine data. Du får et lige svar fra udvikleren.",
       "cB": "Skriv til udvikleren"
-    }
+    },
+    "store": "Se i App Store"
   },
   "fi": {
     "n": "Suomi",
@@ -1425,7 +1436,8 @@
       "cT": "Kysyttävää tietosuojasta",
       "cL": "Kysy mitä tahansa siitä, miten MoneyTag käsittelee tietojasi. Saat suoran vastauksen kehittäjältä.",
       "cB": "Lähetä viesti kehittäjälle"
-    }
+    },
+    "store": "Katso App Storessa"
   },
   "no": {
     "n": "Norsk",
@@ -1544,7 +1556,8 @@
       "cT": "Spørsmål om personvern",
       "cL": "Spør om hva du vil om hvordan MoneyTag håndterer dataene dine. Du får et rett fram svar fra utvikleren.",
       "cB": "Send e-post til utvikleren"
-    }
+    },
+    "store": "Vis i App Store"
   },
   "ru": {
     "n": "Русский",
@@ -1663,7 +1676,8 @@
       "cT": "Вопросы о конфиденциальности",
       "cL": "Спрашивайте что угодно о том, как MoneyTag обращается с вашими данными. Разработчик ответит прямо и по существу.",
       "cB": "Написать разработчику"
-    }
+    },
+    "store": "Открыть в App Store"
   },
   "pl": {
     "n": "Polski",
@@ -1782,7 +1796,8 @@
       "cT": "Pytania o prywatność",
       "cL": "Pytaj o wszystko, co dotyczy postępowania MoneyTag z Twoimi danymi. Odpowiedź dostaniesz wprost od dewelopera.",
       "cB": "Napisz do dewelopera"
-    }
+    },
+    "store": "Zobacz w App Store"
   },
   "tr": {
     "n": "Türkçe",
@@ -1901,7 +1916,8 @@
       "cT": "Gizlilikle ilgili sorular",
       "cL": "MoneyTag’in verilerinizle nasıl davrandığına dair her şeyi sorabilirsiniz. Geliştiriciden dolambaçsız bir yanıt alırsınız.",
       "cB": "Geliştiriciye e-posta gönder"
-    }
+    },
+    "store": "App Store'da görüntüle"
   },
   "cs": {
     "n": "Čeština",
@@ -2020,7 +2036,8 @@
       "cT": "Dotazy k soukromí",
       "cL": "Ptejte se na cokoli ohledně toho, jak MoneyTag zachází s vašimi daty. Dostanete přímou odpověď od vývojáře.",
       "cB": "Napsat vývojáři"
-    }
+    },
+    "store": "Zobrazit v App Storu"
   },
   "sk": {
     "n": "Slovenčina",
@@ -2139,7 +2156,8 @@
       "cT": "Otázky k súkromiu",
       "cL": "Pýtajte sa na čokoľvek o tom, ako MoneyTag zaobchádza s vašimi údajmi. Dostanete priamu odpoveď od vývojára.",
       "cB": "Napísať vývojárovi"
-    }
+    },
+    "store": "Zobraziť v App Store"
   },
   "hr": {
     "n": "Hrvatski",
@@ -2258,7 +2276,8 @@
       "cT": "Pitanja o privatnosti",
       "cL": "Pitajte što god želite o tome kako MoneyTag postupa s vašim podacima. Dobit ćete izravan odgovor od razvijatelja.",
       "cB": "Pišite razvijatelju"
-    }
+    },
+    "store": "Prikaži u App Storeu"
   },
   "hu": {
     "n": "Magyar",
@@ -2377,7 +2396,8 @@
       "cT": "Kérdések az adatvédelemről",
       "cL": "Kérdezz bármit arról, hogyan bánik a MoneyTag az adataiddal. Egyenes választ kapsz a fejlesztőtől.",
       "cB": "Írj a fejlesztőnek"
-    }
+    },
+    "store": "Megtekintés az App Store-ban"
   },
   "ro": {
     "n": "Română",
@@ -2496,7 +2516,8 @@
       "cT": "Întrebări despre confidențialitate",
       "cL": "Întreabă orice despre felul în care MoneyTag se poartă cu datele tale. Vei primi un răspuns direct de la dezvoltator.",
       "cB": "Scrie dezvoltatorului"
-    }
+    },
+    "store": "Vezi în App Store"
   },
   "uk": {
     "n": "Українська",
@@ -2615,7 +2636,8 @@
       "cT": "Питання про конфіденційність",
       "cL": "Питайте будь-що про те, як MoneyTag поводиться з вашими даними. Розробник відповість прямо й по суті.",
       "cB": "Написати розробнику"
-    }
+    },
+    "store": "Переглянути в App Store"
   },
   "el": {
     "n": "Ελληνικά",
@@ -2734,7 +2756,8 @@
       "cT": "Ερωτήσεις για το απόρρητο",
       "cL": "Ρωτήστε ό,τι θέλετε για το πώς χειρίζεται το MoneyTag τα δεδομένα σας. Θα πάρετε ξεκάθαρη απάντηση από τον προγραμματιστή.",
       "cB": "Στείλτε email στον προγραμματιστή"
-    }
+    },
+    "store": "Προβολή στο App Store"
   },
   "ca": {
     "n": "Català",
@@ -2853,7 +2876,8 @@
       "cT": "Dubtes sobre privadesa",
       "cL": "Pregunta el que vulguis sobre com tracta el MoneyTag les teves dades. Tindràs una resposta clara del desenvolupador.",
       "cB": "Escriu al desenvolupador"
-    }
+    },
+    "store": "Veure a l'App Store"
   },
   "sl-SI": {
     "n": "Slovenščina",
@@ -2972,7 +2996,8 @@
       "cT": "Vprašanja o zasebnosti",
       "cL": "Vprašajte karkoli o tem, kako MoneyTag ravna z vašimi podatki. Od razvijalca boste dobili odkrit odgovor.",
       "cB": "Pišite razvijalcu"
-    }
+    },
+    "store": "Ogled v App Storu"
   },
   "en-GB": {
     "n": "English (UK)",
@@ -3091,7 +3116,8 @@
       "cT": "Questions about privacy",
       "cL": "Ask anything about how MoneyTag handles your data. You will get a straight answer from the developer.",
       "cB": "Email the developer"
-    }
+    },
+    "store": "View on the App Store"
   },
   "en-AU": {
     "n": "English (Australia)",
@@ -3210,7 +3236,8 @@
       "cT": "Questions about privacy",
       "cL": "Ask anything about how MoneyTag handles your information. You'll get a straight answer from the developer.",
       "cB": "Email the developer"
-    }
+    },
+    "store": "View on the App Store"
   },
   "en-CA": {
     "n": "English (Canada)",
@@ -3329,6 +3356,7 @@
       "cT": "Questions about privacy",
       "cL": "Ask anything about how MoneyTag handles your information. You'll get a straight answer from the developer.",
       "cB": "Email the developer"
-    }
+    },
+    "store": "View on the App Store"
   }
 }

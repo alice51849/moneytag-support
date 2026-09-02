@@ -35,7 +35,7 @@ PENDING = []
 RTL = {"ar-SA", "he", "ur-PK"}
 SITE = "https://alice51849.github.io/moneytag-support/"
 UPDATED = "2026-08-17"
-SHARED = ("n", "l", "tag", "nav", "lang", "foot")
+SHARED = ("n", "l", "tag", "nav", "lang", "foot", "store")
 DISCLOSURE_KEYS = (
     "summary", "ledger", "request", "processing", "use", "manual",
     "attribution", "networkTitle", "delete", "changes",
