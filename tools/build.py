@@ -33,7 +33,7 @@ LOCALES = [
 # code here-to-there: move it from PENDING into LOCALES.
 PENDING = []
 RTL = {"ar-SA", "he", "ur-PK"}
-SITE = "https://alice51849.github.io/moneytag-support/"
+SITE = "https://open.cait518.cc/moneytag-support/"
 UPDATED = "2026-08-17"
 SHARED = ("n", "l", "tag", "nav", "lang", "foot", "store")
 DISCLOSURE_KEYS = (

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alice51849.github.io/moneytag-support/sitemap.xml
+Sitemap: https://open.cait518.cc/moneytag-support/sitemap.xml

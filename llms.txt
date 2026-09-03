@@ -42,9 +42,9 @@
 - App 內購買與還原由 Apple 處理。
 
 ## Pages
-- [Support and FAQ](https://alice51849.github.io/moneytag-support/)
-- [Privacy policy](https://alice51849.github.io/moneytag-support/privacy.html)
+- [Support and FAQ](https://open.cait518.cc/moneytag-support/)
+- [Privacy policy](https://open.cait518.cc/moneytag-support/privacy.html)
 
 ## Support
 
-- [Help, FAQ and troubleshooting](https://alice51849.github.io/moneytag-support/help.html)
+- [Help, FAQ and troubleshooting](https://open.cait518.cc/moneytag-support/help.html)
