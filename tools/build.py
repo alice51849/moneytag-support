@@ -36,6 +36,12 @@ RTL = {"ar-SA", "he", "ur-PK"}
 SITE = "https://open.cait518.cc/moneytag-support/"
 UPDATED = "2026-08-17"
 SHARED = ("n", "l", "tag", "nav", "lang", "foot", "store")
+# Static English Android (Google Play) note, rendered outside #body so the
+# language switcher never replaces it. Keep in sync with the Play listing.
+PAGE_NOTE = {
+    "p": '<section class="card policy" id="android" lang="en" dir="ltr"><h3>MoneyTag for Android (Google Play)</h3><p>This policy also covers MoneyTag for Android, distributed through Google Play. The Android app has no iCloud sync, Apple Watch app or widgets, so your ledger stays only in the app&#x27;s on-device storage; to move it to a new phone, use Export backup and Import backup through the Android share menu. On Android the Pro unlock is a one-time purchase processed entirely by Google Play: we never see or store your payment details, the app only learns from Google Play whether the purchase exists, and restoring it asks Google Play for the same Google Account, not us. The Android app asks for no runtime permissions (no camera, microphone, location, contacts, photos or notifications). Its only network requests are the automatic exchange-rate requests described above, plus Google Play&#x27;s own purchase and rating services.</p></section>',
+    "s": '<section class="card policy" id="android" lang="en" dir="ltr"><h3>Using MoneyTag on Android</h3><p>MoneyTag for Android is distributed through Google Play. It has no iCloud sync, Apple Watch app or widgets: your ledger stays on the phone, and you move it to a new device with Export backup and Import backup. To restore Pro, open the purchase screen while signed in to Google Play with the same Google Account.</p></section>',
+}
 DISCLOSURE_KEYS = (
     "summary", "ledger", "request", "processing", "use", "manual",
     "attribution", "networkTitle", "delete", "changes",
@@ -248,6 +254,7 @@ def build():
                .replace("__LEAD__", esc(block["lead"]))
                .replace("__HERO_EXTRA__", extra)
                .replace("__FALLBACK__", body)
+               .replace("__PAGE_NOTE__", PAGE_NOTE[page])
                .replace("__FOOT__", esc(base["foot"]))
                .replace("/*__CSS__*/", css)
                .replace("/*__APP__*/", app)
