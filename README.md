@@ -26,8 +26,11 @@ Frankfurter 使用的 Cloudflare 基礎架構可能為 App 功能與分析處理
 - `index.html` — support page + FAQ (9 questions per locale)
 - `privacy.html` — privacy policy (9 sections per locale)
 - Pure-JS language switcher for all **50 Apple product-page locales**
-- The website itself has no CDNs, external requests, web fonts, analytics or
-  cookies — inline CSS + inline JS only
+- Inline CSS + inline JS only: no CDNs, external scripts or stylesheets, web
+  fonts, third-party analytics or cookies. Deliberate exceptions (allow-listed in
+  `tools/check.py` `ALLOWED_EXTERNAL`): store links, the developer guide / family
+  footer with App Store icons, schema.org JSON-LD ids, and the first-party
+  outreach click counter (`office.cait518.cc/api/click`)
 - Contact address everywhere: `hourstag.app@gmail.com`
 
 Visual system matches the app's **Ledger Glass** design: warm bright glass on a
@@ -57,7 +60,7 @@ src/locales/part-cjk.json   zh-Hant, zh-Hans, ja, ko
 src/locales/part-eu.json    28 European locales (de-DE … en-CA)
 src/locales/part-asia.json  17 Asian / RTL locales (ar-SA, he, hi … ur-PK)
 tools/build.py           merges locales + CSS + JS into index.html / privacy.html
-tools/check.py           validation (locales, contact address, no external hosts)
+tools/check.py           validation (locales, contact address, external-host allow-list)
 tools/sync_app_contract.py  syncs the 5-entry and CSV/PDF rules from the app
 assets/icon.png          app icon (512 px, from ~/43_MoneyTag/assets/app-icon.png)
 ```
@@ -80,7 +83,8 @@ cd ~/43_MoneyTag/SupportSiteRepo
 3. both built pages embed every shipped locale in the switcher payload,
 4. the banned private mail domain appears nowhere in the repository — the only
    public contact address is `hourstag.app@gmail.com` (AGENTS.md rule 32),
-5. the website itself references no external host,
+5. the website references no external host beyond `ALLOWED_EXTERNAL` and loads
+   no external script, style or tracker,
 6. every locale accurately discloses automatic/manual exchange rates, offline
    saved rates, the Frankfurter-only request and attribution, Cloudflare
    processing, on-device ledger data and Apple's separate purchase handling.

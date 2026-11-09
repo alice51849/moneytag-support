@@ -44,7 +44,7 @@ PAGE_NOTE = {
 }
 DISCLOSURE_KEYS = (
     "summary", "ledger", "request", "processing", "use", "manual",
-    "attribution", "networkTitle", "delete", "changes",
+    "attribution", "networkTitle", "delete", "changes", "tracking",
 )
 
 
@@ -100,7 +100,7 @@ def load_disclosures():
 
 
 def disclosure_network(value):
-    return " ".join((value["request"], value["processing"], value["use"]))
+    return " ".join((value["request"], value["processing"], value["use"], value["tracking"]))
 
 
 def privacy_contract_errors(data, disclosures):

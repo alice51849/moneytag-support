@@ -8,7 +8,9 @@ Checks:
  4. the only public contact address anywhere in the repo is
     hourstag.app@gmail.com (AGENTS.md rule 32 — the private hotmail address is
     banned from any public-facing material),
- 5. the website itself references no external host,
+ 5. the website references no external host beyond ALLOWED_EXTERNAL (store
+    listings, the developer guide / family footer, schema.org ids and the
+    first-party click counter) and loads no external script, style or tracker,
  6. every locale carries both automatic-rate provider disclosures,
     attribution, free-tier and CSV/PDF/Photo export contracts.
 """
@@ -43,6 +45,14 @@ MAIL = "hourstag.app@gmail.com"
 # built from parts so this file never contains the banned literal itself
 BANNED = ("@" + "hotmail.com", "@" + "outlook.com")
 PAGES = ("index.html", "privacy.html")
+ALLOWED_EXTERNAL = (
+    "https://apps.apple.com/app/",
+    "https://play.google.com/store/apps/details?",
+    "https://is1-ssl.mzstatic.com/image/thumb/",
+    "https://open.cait518.cc/ios-app-guide",
+    "https://schema.org",
+    "https://office.cait518.cc/api/click",
+)
 FAIL = []
 
 
@@ -76,6 +86,7 @@ PRIVACY_UI_KEYS = {
     "privacyRequestNote": "request",
     "privacyNetworkNote": "processing",
     "privacyUseNote": "use",
+    "privacyTrackingNote": "tracking",
     "privacyManualNote": "manual",
     "rateAttribution": "attribution",
 }
@@ -210,9 +221,16 @@ def check_pages():
                     bad(f"{name}: locale {code} missing from the switcher")
         if MAIL not in text:
             bad(f"{name}: contact address missing")
-        # external hosts: only this site's own canonical / og URLs are allowed
+        # external hosts: plain links / identifiers the site deliberately carries
+        # (own App Store + Play listings, the developer's guide site and family
+        # footer with App Store icons, schema.org JSON-LD ids, and the first-party
+        # outreach click counter). Anything else — third-party scripts, fonts,
+        # analytics — still fails, and the construct check below still bans
+        # <script src>, external stylesheets, fetch/XHR and Google tags.
         for url in re.findall(r"https?://[^\"'\s)]+", text):
-            if not url.startswith(SITE.rstrip("/")):
+            if url.startswith(SITE.rstrip("/")):
+                continue
+            if not url.startswith(ALLOWED_EXTERNAL):
                 bad(f"{name}: external reference {url}")
         for tag in ("<script src=", "<link rel=\"stylesheet\"", "@import", "fetch(",
                     "XMLHttpRequest", "googletagmanager", "google-analytics"):
@@ -254,7 +272,7 @@ def check_honesty():
     en = data["en-US"]
     joined = json.dumps(en, ensure_ascii=False).lower()
     must = [
-        "one purchase", "5 entries left", "1 project", "base currency",
+        "one-time purchase", "5 entries left", "1 project", "base currency",
         "manual rate", "reset to automatic", "saved rates",
         "api.frankfurter.dev", "open.er-api.com", "exchangerate-api",
         "cloudflare", "ip address",

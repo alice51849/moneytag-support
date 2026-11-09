@@ -28,6 +28,7 @@ PRIVACY_UI_KEYS = {
     "privacyRequestNote": "request",
     "privacyNetworkNote": "processing",
     "privacyUseNote": "use",
+    "privacyTrackingNote": "tracking",
     "privacyManualNote": "manual",
     "rateAttribution": "attribution",
 }
@@ -118,6 +119,7 @@ def main():
                     disclosure["request"],
                     disclosure["processing"],
                     disclosure["use"],
+                    disclosure["tracking"],
                 )
             )
             expected_privacy = {

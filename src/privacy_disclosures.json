@@ -9,7 +9,8 @@
     "attribution",
     "networkTitle",
     "delete",
-    "changes"
+    "changes",
+    "tracking"
   ],
   "localeGroups": {
     "en-US": "en",
@@ -74,7 +75,8 @@
       "Reference rates are provided by Frankfurter or ExchangeRate-API; for informational use.",
       "Automatic-rate network data",
       "You can delete local entries or projects at any time, or remove all local data by deleting the app.",
-      "Any future change to network or data handling will be published here and in the App Store privacy details before release."
+      "Any future change to network or data handling will be published here and in the App Store privacy details before release.",
+      "It is not used for tracking and involves no advertising."
     ],
     "zh-Hant": [
       "帳本留在你的裝置與你的 iCloud。無廣告、無追蹤。",
@@ -86,7 +88,8 @@
       "參考匯率由 Frankfurter 或 ExchangeRate-API 提供；僅供資訊參考。",
       "自動匯率的網路資料",
       "你可以隨時刪除本機交易或專案；刪除 App 會移除所有本機資料。",
-      "未來若網路或資料處理方式有任何變更，會在發布前更新於此頁與 App Store 隱私詳細資訊。"
+      "未來若網路或資料處理方式有任何變更，會在發布前更新於此頁與 App Store 隱私詳細資訊。",
+      "這些處理不會用於追蹤，也不涉及廣告。"
     ],
     "zh-Hans": [
       "账本留在你的设备与你的 iCloud。无广告、无追踪。",
@@ -98,7 +101,8 @@
       "参考汇率由 Frankfurter 或 ExchangeRate-API 提供；仅供信息参考。",
       "自动汇率的网络数据",
       "你可以随时删除本地交易或项目；删除 App 会移除所有本地数据。",
-      "未来如网络或数据处理方式发生变化，会在发布前更新此页面和 App Store 隐私详细信息。"
+      "未来如网络或数据处理方式发生变化，会在发布前更新此页面和 App Store 隐私详细信息。",
+      "这些处理不会用于跟踪，也不涉及广告。"
     ],
     "ja": [
       "記録はデバイスとiCloudに保存。広告・追跡なし。",
@@ -110,7 +114,8 @@
       "参考レートは Frankfurter または ExchangeRate-API から提供され、情報提供のみを目的とします。",
       "自動レートのネットワークデータ",
       "ローカルの取引やプロジェクトはいつでも削除でき、App を削除するとすべてのローカルデータが消去されます。",
-      "ネットワークまたはデータ処理が将来変更される場合は、リリース前にこのページと App Store のプライバシー詳細でお知らせします。"
+      "ネットワークまたはデータ処理が将来変更される場合は、リリース前にこのページと App Store のプライバシー詳細でお知らせします。",
+      "この処理はトラッキングには使われず、広告も含みません。"
     ],
     "ko": [
       "장부는 내 기기와 iCloud에 남습니다. 광고와 추적은 없습니다.",
@@ -122,7 +127,8 @@
       "참고 환율은 Frankfurter 또는 ExchangeRate-API에서 제공되며 정보 제공용입니다.",
       "자동 환율 네트워크 데이터",
       "로컬 거래나 프로젝트는 언제든 삭제할 수 있으며 App을 삭제하면 모든 로컬 데이터가 제거됩니다.",
-      "향후 네트워크 또는 데이터 처리 방식이 바뀌면 출시 전에 이 페이지와 App Store 개인정보 세부 정보에 공개합니다."
+      "향후 네트워크 또는 데이터 처리 방식이 바뀌면 출시 전에 이 페이지와 App Store 개인정보 세부 정보에 공개합니다.",
+      "이 처리는 추적에 사용되지 않으며 광고도 포함하지 않습니다."
     ],
     "de": [
       "Buchhaltung bleibt lokal und in iCloud. Keine Werbung.",
@@ -134,7 +140,8 @@
       "Die Referenzkurse von Frankfurter oder ExchangeRate-API dienen nur zur Information.",
       "Netzwerkdaten automatischer Kurse",
       "Lokale Buchungen oder Projekte kannst du jederzeit löschen; beim Löschen der App werden alle lokalen Daten entfernt.",
-      "Künftige Änderungen an Netzwerk- oder Datenverarbeitung werden vor der Veröffentlichung hier und in den App Store-Datenschutzangaben bekannt gegeben."
+      "Künftige Änderungen an Netzwerk- oder Datenverarbeitung werden vor der Veröffentlichung hier und in den App Store-Datenschutzangaben bekannt gegeben.",
+      "Sie wird nicht zum Tracking genutzt und umfasst keine Werbung."
     ],
     "fr": [
       "Votre livre reste en local et sur iCloud. Sans publicité.",
@@ -146,7 +153,8 @@
       "Les taux de référence sont fournis par Frankfurter ou ExchangeRate-API, à titre informatif.",
       "Données réseau des taux automatiques",
       "Vous pouvez supprimer les opérations ou projets locaux à tout moment, ou effacer toutes les données locales en supprimant l’App.",
-      "Toute modification future du traitement réseau ou des données sera publiée ici et dans les informations de confidentialité de l’App Store avant sa sortie."
+      "Toute modification future du traitement réseau ou des données sera publiée ici et dans les informations de confidentialité de l’App Store avant sa sortie.",
+      "Il n’est pas utilisé pour le suivi et n’implique aucune publicité."
     ],
     "es": [
       "Tu libro se guarda en local y en iCloud. Sin anuncios.",
@@ -158,7 +166,8 @@
       "Los tipos de referencia son de Frankfurter o ExchangeRate-API y solo son informativos.",
       "Datos de red de los tipos automáticos",
       "Puedes borrar operaciones o proyectos locales en cualquier momento, o eliminar todos los datos locales al borrar la App.",
-      "Cualquier cambio futuro en el tratamiento de la red o los datos se publicará aquí y en los detalles de privacidad de App Store antes de su lanzamiento."
+      "Cualquier cambio futuro en el tratamiento de la red o los datos se publicará aquí y en los detalles de privacidad de App Store antes de su lanzamiento.",
+      "No se usa para seguimiento y no incluye publicidad."
     ],
     "it": [
       "Il registro resta in locale e su iCloud. Senza pubblicità.",
@@ -170,7 +179,8 @@
       "I tassi di riferimento sono forniti da Frankfurter o ExchangeRate-API; solo a scopo informativo.",
       "Dati di rete dei tassi automatici",
       "Puoi eliminare operazioni o progetti locali in qualsiasi momento, oppure rimuovere tutti i dati locali eliminando l’App.",
-      "Ogni futura modifica al trattamento della rete o dei dati sarà pubblicata qui e nei dettagli sulla privacy dell’App Store prima del rilascio."
+      "Ogni futura modifica al trattamento della rete o dei dati sarà pubblicata qui e nei dettagli sulla privacy dell’App Store prima del rilascio.",
+      "Non è usato per il tracciamento e non comporta pubblicità."
     ],
     "pt": [
       "Seu livro fica no aparelho e no iCloud. Sem anúncios.",
@@ -182,7 +192,8 @@
       "As taxas de referência vêm do Frankfurter ou ExchangeRate-API e são apenas informativas.",
       "Dados de rede das taxas automáticas",
       "Pode apagar transações ou projetos locais a qualquer momento, ou remover todos os dados locais ao apagar a App.",
-      "Qualquer futura alteração ao tratamento da rede ou dos dados será publicada aqui e nos detalhes de privacidade da App Store antes do lançamento."
+      "Qualquer futura alteração ao tratamento da rede ou dos dados será publicada aqui e nos detalhes de privacidade da App Store antes do lançamento.",
+      "Não é usado para seguimento e não envolve publicidade."
     ],
     "nl": [
       "Boekhouding blijft lokaal en in iCloud. Geen reclame.",
@@ -194,7 +205,8 @@
       "Referentiekoersen komen van Frankfurter of ExchangeRate-API en zijn alleen ter informatie.",
       "Netwerkgegevens voor automatische koersen",
       "Je kunt lokale transacties of projecten altijd verwijderen; door de App te verwijderen wis je alle lokale gegevens.",
-      "Elke toekomstige wijziging in netwerk- of gegevensverwerking wordt vóór uitgave hier en in de privacygegevens van de App Store gepubliceerd."
+      "Elke toekomstige wijziging in netwerk- of gegevensverwerking wordt vóór uitgave hier en in de privacygegevens van de App Store gepubliceerd.",
+      "Ze wordt niet gebruikt voor tracking en omvat geen reclame."
     ],
     "ru": [
       "Книга хранится локально и в iCloud. Без рекламы.",
@@ -206,7 +218,8 @@
       "Справочные курсы предоставляют Frankfurter или ExchangeRate-API, только для справки.",
       "Сетевые данные автокурсов",
       "Локальные операции и проекты можно удалить в любое время; удаление App удалит все локальные данные.",
-      "Любые будущие изменения сетевой обработки или обработки данных будут опубликованы здесь и в сведениях о конфиденциальности App Store до выпуска."
+      "Любые будущие изменения сетевой обработки или обработки данных будут опубликованы здесь и в сведениях о конфиденциальности App Store до выпуска.",
+      "Она не используется для отслеживания и не включает рекламу."
     ],
     "pl": [
       "Księga pozostaje lokalnie i w iCloud. Bez reklam.",
@@ -218,7 +231,8 @@
       "Kursy referencyjne pochodzą od Frankfurter lub ExchangeRate-API i służą tylko informacji.",
       "Dane sieciowe kursów automatycznych",
       "Lokalne transakcje lub projekty możesz usunąć w każdej chwili; usunięcie App usuwa wszystkie dane lokalne.",
-      "Każda przyszła zmiana obsługi sieci lub danych zostanie opublikowana tutaj i w informacjach o prywatności App Store przed wydaniem."
+      "Każda przyszła zmiana obsługi sieci lub danych zostanie opublikowana tutaj i w informacjach o prywatności App Store przed wydaniem.",
+      "Nie jest używane do śledzenia i nie obejmuje reklam."
     ],
     "tr": [
       "Defterin cihazlarında ve iCloud’da kalır. Reklam yok.",
@@ -230,7 +244,8 @@
       "Referans kurlar Frankfurter veya ExchangeRate-API tarafından sağlanır ve yalnızca bilgi amaçlıdır.",
       "Otomatik kur ağ verileri",
       "Yerel işlemleri veya projeleri istediğiniz zaman silebilir; App’i silerek tüm yerel verileri kaldırabilirsiniz.",
-      "Ağ veya veri işlemedeki gelecekteki değişiklikler yayımlanmadan önce burada ve App Store gizlilik ayrıntılarında açıklanacaktır."
+      "Ağ veya veri işlemedeki gelecekteki değişiklikler yayımlanmadan önce burada ve App Store gizlilik ayrıntılarında açıklanacaktır.",
+      "Takip için kullanılmaz ve reklam içermez."
     ],
     "sv": [
       "Din bok stannar lokalt och i iCloud. Inga annonser.",
@@ -242,7 +257,8 @@
       "Referenskurser tillhandahålls av Frankfurter eller ExchangeRate-API, endast som information.",
       "Nätverksdata för automatiska kurser",
       "Du kan när som helst radera lokala transaktioner eller projekt; om Appen raderas tas alla lokala data bort.",
-      "Framtida ändringar av nätverks- eller databehandling publiceras här och i App Stores integritetsuppgifter före lansering."
+      "Framtida ändringar av nätverks- eller databehandling publiceras här och i App Stores integritetsuppgifter före lansering.",
+      "Den används inte för spårning och omfattar ingen reklam."
     ],
     "da": [
       "Regnskabet bliver lokalt og i iCloud. Ingen annoncer.",
@@ -254,7 +270,8 @@
       "Referencekurser leveres af Frankfurter eller ExchangeRate-API og er kun til orientering.",
       "Netværksdata for automatiske kurser",
       "Du kan altid slette lokale posteringer eller projekter; slettes Appen, fjernes alle lokale data.",
-      "Fremtidige ændringer i netværks- eller databehandling offentliggøres her og i App Stores anonymitetsoplysninger før udgivelse."
+      "Fremtidige ændringer i netværks- eller databehandling offentliggøres her og i App Stores anonymitetsoplysninger før udgivelse.",
+      "Den bruges ikke til sporing og omfatter ingen annoncer."
     ],
     "no": [
       "Regnskapet blir lokalt og i iCloud. Ingen annonser.",
@@ -266,7 +283,8 @@
       "Referansekurser leveres av Frankfurter eller ExchangeRate-API og er kun til informasjon.",
       "Nettverksdata for automatiske kurser",
       "Du kan når som helst slette lokale transaksjoner eller prosjekter; sletting av Appen fjerner alle lokale data.",
-      "Fremtidige endringer i nettverks- eller databehandling publiseres her og i App Store-personverndetaljene før lansering."
+      "Fremtidige endringer i nettverks- eller databehandling publiseres her og i App Store-personverndetaljene før lansering.",
+      "Den brukes ikke til sporing og omfatter ingen annonser."
     ],
     "fi": [
       "Kirjanpito pysyy laitteillasi ja iCloudissa. Ei mainoksia.",
@@ -278,7 +296,8 @@
       "Viitekurssit tarjoaa Frankfurter tai ExchangeRate-API, ja ne ovat vain tiedoksi.",
       "Automaattisten kurssien verkkotiedot",
       "Voit poistaa paikallisia tapahtumia tai projekteja milloin tahansa; Appin poistaminen poistaa kaikki paikalliset tiedot.",
-      "Tulevat verkko- tai tietojenkäsittelyn muutokset julkaistaan täällä ja App Storen tietosuojatiedoissa ennen julkaisua."
+      "Tulevat verkko- tai tietojenkäsittelyn muutokset julkaistaan täällä ja App Storen tietosuojatiedoissa ennen julkaisua.",
+      "Sitä ei käytetä seurantaan, eikä siihen liity mainontaa."
     ],
     "id": [
       "Buku Anda ada di perangkat dan iCloud. Tanpa iklan.",
@@ -290,7 +309,8 @@
       "Kurs referensi disediakan oleh Frankfurter atau ExchangeRate-API dan hanya untuk informasi.",
       "Data jaringan kurs otomatis",
       "Anda dapat menghapus transaksi atau proyek lokal kapan saja; menghapus App akan menghapus semua data lokal.",
-      "Perubahan mendatang pada pemrosesan jaringan atau data akan diumumkan di sini dan di detail privasi App Store sebelum dirilis."
+      "Perubahan mendatang pada pemrosesan jaringan atau data akan diumumkan di sini dan di detail privasi App Store sebelum dirilis.",
+      "Pemrosesan ini tidak digunakan untuk pelacakan dan tidak melibatkan iklan."
     ],
     "ms": [
       "Buku kekal pada peranti dan iCloud anda. Tiada iklan.",
@@ -302,7 +322,8 @@
       "Kadar rujukan disediakan oleh Frankfurter atau ExchangeRate-API dan hanya untuk maklumat.",
       "Data rangkaian kadar automatik",
       "Anda boleh memadam transaksi atau projek setempat pada bila-bila masa; memadam App akan membuang semua data setempat.",
-      "Sebarang perubahan masa hadapan pada pemprosesan rangkaian atau data akan diterbitkan di sini dan dalam butiran privasi App Store sebelum dikeluarkan."
+      "Sebarang perubahan masa hadapan pada pemprosesan rangkaian atau data akan diterbitkan di sini dan dalam butiran privasi App Store sebelum dikeluarkan.",
+      "Pemprosesan ini tidak digunakan untuk penjejakan dan tidak melibatkan iklan."
     ],
     "vi": [
       "Sổ của bạn lưu ở thiết bị và iCloud. Không quảng cáo.",
@@ -314,7 +335,8 @@
       "Tỷ giá tham khảo từ Frankfurter hoặc ExchangeRate-API, chỉ để cung cấp thông tin.",
       "Dữ liệu mạng của tỷ giá tự động",
       "Bạn có thể xóa giao dịch hoặc dự án cục bộ bất cứ lúc nào; xóa App sẽ xóa toàn bộ dữ liệu cục bộ.",
-      "Mọi thay đổi sau này về xử lý mạng hoặc dữ liệu sẽ được công bố tại đây và trong chi tiết quyền riêng tư trên App Store trước khi phát hành."
+      "Mọi thay đổi sau này về xử lý mạng hoặc dữ liệu sẽ được công bố tại đây và trong chi tiết quyền riêng tư trên App Store trước khi phát hành.",
+      "Việc xử lý này không dùng để theo dõi và không liên quan đến quảng cáo."
     ],
     "th": [
       "บัญชีของคุณอยู่บนอุปกรณ์และ iCloud ของคุณ ไม่มีโฆษณา",
@@ -326,7 +348,8 @@
       "อัตราอ้างอิงให้บริการโดย Frankfurter หรือ ExchangeRate-API และใช้เพื่อให้ข้อมูลเท่านั้น",
       "ข้อมูลเครือข่ายของอัตราอัตโนมัติ",
       "คุณลบรายการหรือโปรเจกต์ในเครื่องได้ทุกเมื่อ และการลบ App จะลบข้อมูลในเครื่องทั้งหมด",
-      "หากการประมวลผลเครือข่ายหรือข้อมูลเปลี่ยนแปลงในอนาคต เราจะเผยแพร่ที่นี่และในรายละเอียดความเป็นส่วนตัวของ App Store ก่อนเปิดตัว"
+      "หากการประมวลผลเครือข่ายหรือข้อมูลเปลี่ยนแปลงในอนาคต เราจะเผยแพร่ที่นี่และในรายละเอียดความเป็นส่วนตัวของ App Store ก่อนเปิดตัว",
+      "การประมวลผลนี้ไม่ใช้เพื่อติดตาม และไม่มีโฆษณา"
     ],
     "hi": [
       "बहीखाता आपके उपकरणों और iCloud में रहता है। विज्ञापन नहीं।",
@@ -338,7 +361,8 @@
       "संदर्भ दरें Frankfurter या ExchangeRate-API द्वारा प्रदान की जाती हैं; केवल जानकारी के लिए।",
       "स्वचालित दरों का नेटवर्क डेटा",
       "आप स्थानीय लेन-देन या प्रोजेक्ट कभी भी मिटा सकते हैं; App मिटाने पर सारा स्थानीय डेटा हट जाएगा।",
-      "नेटवर्क या डेटा संसाधन में भविष्य का कोई भी बदलाव जारी होने से पहले यहाँ और App Store की गोपनीयता जानकारी में प्रकाशित किया जाएगा।"
+      "नेटवर्क या डेटा संसाधन में भविष्य का कोई भी बदलाव जारी होने से पहले यहाँ और App Store की गोपनीयता जानकारी में प्रकाशित किया जाएगा।",
+      "इसका उपयोग ट्रैकिंग के लिए नहीं होता और इसमें विज्ञापन नहीं हैं।"
     ],
     "ar": [
       "يبقى دفترك على أجهزتك وفي iCloud. بلا إعلانات ولا تتبع.",
@@ -350,7 +374,8 @@
       "تُقدَّم الأسعار المرجعية من Frankfurter أو ExchangeRate-API؛ للاستخدام المعلوماتي فقط.",
       "بيانات شبكة الأسعار التلقائية",
       "يمكنك حذف المعاملات أو المشاريع المحلية في أي وقت، كما يؤدي حذف App إلى إزالة كل البيانات المحلية.",
-      "سيُنشر أي تغيير مستقبلي في معالجة الشبكة أو البيانات هنا وفي تفاصيل الخصوصية في App Store قبل الإصدار."
+      "سيُنشر أي تغيير مستقبلي في معالجة الشبكة أو البيانات هنا وفي تفاصيل الخصوصية في App Store قبل الإصدار.",
+      "لا تُستخدم هذه المعالجة للتتبع ولا تتضمن إعلانات."
     ],
     "he": [
       "הפנקס נשאר במכשירים שלך וב‑iCloud. ללא פרסומות.",
@@ -362,7 +387,8 @@
       "שערי הייחוס מסופקים על ידי Frankfurter או ExchangeRate-API ומיועדים למידע בלבד.",
       "נתוני רשת של שערים אוטומטיים",
       "אפשר למחוק עסקאות או פרויקטים מקומיים בכל עת; מחיקת ה‑App מסירה את כל הנתונים המקומיים.",
-      "כל שינוי עתידי בעיבוד רשת או נתונים יפורסם כאן ובפרטי הפרטיות ב‑App Store לפני ההפצה."
+      "כל שינוי עתידי בעיבוד רשת או נתונים יפורסם כאן ובפרטי הפרטיות ב‑App Store לפני ההפצה.",
+      "העיבוד אינו משמש למעקב ואינו כולל פרסום."
     ],
     "el": [
       "Το βιβλίο: τοπικά και στο iCloud. Χωρίς διαφήμιση.",
@@ -374,7 +400,8 @@
       "Τις ισοτιμίες αναφοράς παρέχει το Frankfurter ή το ExchangeRate-API, μόνο ενημερωτικά.",
       "Δεδομένα δικτύου αυτόματων ισοτιμιών",
       "Μπορείτε να διαγράψετε τοπικές συναλλαγές ή έργα ανά πάσα στιγμή· η διαγραφή της App αφαιρεί όλα τα τοπικά δεδομένα.",
-      "Κάθε μελλοντική αλλαγή στην επεξεργασία δικτύου ή δεδομένων θα δημοσιεύεται εδώ και στις λεπτομέρειες απορρήτου του App Store πριν από την κυκλοφορία."
+      "Κάθε μελλοντική αλλαγή στην επεξεργασία δικτύου ή δεδομένων θα δημοσιεύεται εδώ και στις λεπτομέρειες απορρήτου του App Store πριν από την κυκλοφορία.",
+      "Δεν χρησιμοποιείται για παρακολούθηση και δεν περιλαμβάνει διαφημίσεις."
     ],
     "cs": [
       "Kniha zůstává v zařízeních a v iCloudu. Bez reklam.",
@@ -386,7 +413,8 @@
       "Referenční kurzy poskytuje Frankfurter nebo ExchangeRate-API a slouží pouze pro informaci.",
       "Síťová data automatických kurzů",
       "Místní transakce nebo projekty můžete kdykoli smazat; odstraněním App se smažou všechna místní data.",
-      "Každá budoucí změna síťového či datového zpracování bude před vydáním zveřejněna zde a v údajích o soukromí v App Store."
+      "Každá budoucí změna síťového či datového zpracování bude před vydáním zveřejněna zde a v údajích o soukromí v App Store.",
+      "Nepoužívá se ke sledování a nezahrnuje reklamu."
     ],
     "sk": [
       "Kniha zostáva v zariadeniach a v iCloude. Bez reklám.",
@@ -398,7 +426,8 @@
       "Referenčné kurzy poskytuje Frankfurter alebo ExchangeRate-API a slúžia iba na informáciu.",
       "Sieťové údaje automatických kurzov",
       "Miestne transakcie alebo projekty môžete kedykoľvek odstrániť; odstránením App sa vymažú všetky miestne údaje.",
-      "Každá budúca zmena spracovania siete alebo údajov bude pred vydaním zverejnená tu a v údajoch o súkromí v App Store."
+      "Každá budúca zmena spracovania siete alebo údajov bude pred vydaním zverejnená tu a v údajoch o súkromí v App Store.",
+      "Nepoužíva sa na sledovanie a nezahŕňa reklamu."
     ],
     "hr": [
       "Knjiga ostaje na uređajima i u iCloudu. Bez oglasa.",
@@ -410,7 +439,8 @@
       "Referentne tečajeve pruža Frankfurter ili ExchangeRate-API i služe samo za informiranje.",
       "Mrežni podaci automatskih tečajeva",
       "Lokalne transakcije ili projekte možete izbrisati u bilo kojem trenutku; brisanjem App uklanjaju se svi lokalni podaci.",
-      "Svaka buduća promjena mrežne obrade ili obrade podataka bit će objavljena ovdje i u pojedinostima privatnosti App Storea prije izdanja."
+      "Svaka buduća promjena mrežne obrade ili obrade podataka bit će objavljena ovdje i u pojedinostima privatnosti App Storea prije izdanja.",
+      "Ne koristi se za praćenje i ne uključuje oglašavanje."
     ],
     "hu": [
       "A könyv helyben és az iCloudban van. Nincs reklám.",
@@ -422,7 +452,8 @@
       "A referenciaárfolyamokat a Frankfurter vagy az ExchangeRate-API adja, csak tájékoztatásul.",
       "Az automatikus árfolyamok hálózati adatai",
       "A helyi tranzakciók és projektek bármikor törölhetők; az App törlése minden helyi adatot eltávolít.",
-      "A hálózati vagy adatkezelés jövőbeli változásait a kiadás előtt itt és az App Store adatvédelmi részleteiben tesszük közzé."
+      "A hálózati vagy adatkezelés jövőbeli változásait a kiadás előtt itt és az App Store adatvédelmi részleteiben tesszük közzé.",
+      "Nem használjuk követésre, és nem jár hirdetéssel."
     ],
     "ro": [
       "Registrul tău rămâne local și în iCloud. Fără reclame.",
@@ -434,7 +465,8 @@
       "Cursurile de referință vin de la Frankfurter sau ExchangeRate-API și sunt doar informative.",
       "Date de rețea pentru cursurile automate",
       "Puteți șterge oricând tranzacțiile sau proiectele locale; ștergerea App elimină toate datele locale.",
-      "Orice schimbare viitoare a prelucrării rețelei sau datelor va fi publicată aici și în detaliile de confidențialitate din App Store înainte de lansare."
+      "Orice schimbare viitoare a prelucrării rețelei sau datelor va fi publicată aici și în detaliile de confidențialitate din App Store înainte de lansare.",
+      "Nu este folosită pentru urmărire și nu implică publicitate."
     ],
     "uk": [
       "Книга лишається локально і в iCloud. Без реклами.",
@@ -446,7 +478,8 @@
       "Довідкові курси надає Frankfurter або ExchangeRate-API; лише для інформації.",
       "Мережеві дані автокурсів",
       "Локальні операції чи проєкти можна видалити будь-коли; видалення App прибере всі локальні дані.",
-      "Будь-які майбутні зміни мережевої обробки чи обробки даних буде опубліковано тут і в деталях конфіденційності App Store до випуску."
+      "Будь-які майбутні зміни мережевої обробки чи обробки даних буде опубліковано тут і в деталях конфіденційності App Store до випуску.",
+      "Вона не використовується для відстеження й не містить реклами."
     ],
     "ca": [
       "El llibre resta als dispositius i a iCloud. Sense anuncis.",
@@ -458,7 +491,8 @@
       "Els tipus de referència són de Frankfurter o ExchangeRate-API; només informatius.",
       "Dades de xarxa dels tipus automàtics",
       "Pots eliminar operacions o projectes locals en qualsevol moment; si elimines l’App, s’esborren totes les dades locals.",
-      "Qualsevol canvi futur en el tractament de xarxa o dades es publicarà aquí i als detalls de privacitat de l’App Store abans del llançament."
+      "Qualsevol canvi futur en el tractament de xarxa o dades es publicarà aquí i als detalls de privacitat de l’App Store abans del llançament.",
+      "No s’utilitza per al seguiment i no inclou publicitat."
     ],
     "bn": [
       "হিসাব আপনার ডিভাইস ও iCloud-এ থাকে। বিজ্ঞাপন নেই।",
@@ -470,7 +504,8 @@
       "রেফারেন্স হার Frankfurter বা ExchangeRate-API প্রদান করে; শুধু তথ্যের জন্য।",
       "স্বয়ংক্রিয় হারের নেটওয়ার্ক ডেটা",
       "স্থানীয় লেনদেন বা প্রজেক্ট যেকোনো সময় মুছতে পারেন; App মুছলে সব স্থানীয় তথ্য সরবে।",
-      "নেটওয়ার্ক বা তথ্য প্রক্রিয়াকরণে ভবিষ্যৎ পরিবর্তন প্রকাশের আগে এখানে ও App Store-এর গোপনীয়তার বিবরণে জানানো হবে।"
+      "নেটওয়ার্ক বা তথ্য প্রক্রিয়াকরণে ভবিষ্যৎ পরিবর্তন প্রকাশের আগে এখানে ও App Store-এর গোপনীয়তার বিবরণে জানানো হবে।",
+      "এটি ট্র্যাকিংয়ে ব্যবহৃত হয় না এবং এতে বিজ্ঞাপন নেই।"
     ],
     "gu": [
       "ચોપડો તમારા ઉપકરણો અને iCloud માં રહે છે. કોઈ જાહેરાત નથી.",
@@ -482,7 +517,8 @@
       "સંદર્ભ દર Frankfurter અથવા ExchangeRate-API દ્વારા આપવામાં આવે છે; માત્ર માહિતી માટે.",
       "આપમેળે દરનું નેટવર્ક ડેટા",
       "સ્થાનિક વ્યવહાર અથવા પ્રોજેક્ટ ક્યારેય પણ કાઢી શકો છો; App કાઢવાથી બધો સ્થાનિક ડેટા દૂર થશે.",
-      "નેટવર્ક અથવા ડેટા પ્રક્રિયામાં ભાવિ ફેરફાર પ્રકાશન પહેલાં અહીં અને App Storeની ગોપનીયતા વિગતોમાં જાહેર થશે."
+      "નેટવર્ક અથવા ડેટા પ્રક્રિયામાં ભાવિ ફેરફાર પ્રકાશન પહેલાં અહીં અને App Storeની ગોપનીયતા વિગતોમાં જાહેર થશે.",
+      "આ પ્રક્રિયા ટ્રેકિંગ માટે વપરાતી નથી અને તેમાં જાહેરાત નથી."
     ],
     "kn": [
       "ಲೆಕ್ಕಪುಸ್ತಕ ಸಾಧನ ಮತ್ತು iCloud ನಲ್ಲಿರುತ್ತದೆ. ಜಾಹೀರಾತಿಲ್ಲ.",
@@ -494,7 +530,8 @@
       "ಉಲ್ಲೇಖ ದರಗಳನ್ನು Frankfurter ಅಥವಾ ExchangeRate-API ಒದಗಿಸುತ್ತದೆ; ಮಾಹಿತಿಗಾಗಿ ಮಾತ್ರ.",
       "ಸ್ವಯಂ ದರಗಳ ನೆಟ್‌ವರ್ಕ್ ಡೇಟಾ",
       "ಸ್ಥಳೀಯ ವಹಿವಾಟು ಅಥವಾ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಅಳಿಸಬಹುದು; App ಅಳಿಸಿದರೆ ಎಲ್ಲ ಸ್ಥಳೀಯ ಡೇಟಾ ತೆಗೆದುಹಾಕುತ್ತದೆ.",
-      "ನೆಟ್‌ವರ್ಕ್ ಅಥವಾ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆಯ ಭವಿಷ್ಯದ ಬದಲಾವಣೆಗಳನ್ನು ಬಿಡುಗಡೆಗೂ ಮೊದಲು ಇಲ್ಲಿ ಮತ್ತು App Store ಗೌಪ್ಯತಾ ವಿವರಗಳಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗುತ್ತದೆ."
+      "ನೆಟ್‌ವರ್ಕ್ ಅಥವಾ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆಯ ಭವಿಷ್ಯದ ಬದಲಾವಣೆಗಳನ್ನು ಬಿಡುಗಡೆಗೂ ಮೊದಲು ಇಲ್ಲಿ ಮತ್ತು App Store ಗೌಪ್ಯತಾ ವಿವರಗಳಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗುತ್ತದೆ.",
+      "ಇದನ್ನು ಟ್ರ್ಯಾಕಿಂಗ್‌ಗೆ ಬಳಸುವುದಿಲ್ಲ ಮತ್ತು ಇದರಲ್ಲಿ ಜಾಹೀರಾತು ಇಲ್ಲ."
     ],
     "ml": [
       "കണക്ക് ഉപകരണങ്ങളിലും iCloud-ലും തുടരും. പരസ്യമില്ല.",
@@ -506,7 +543,8 @@
       "റഫറൻസ് നിരക്കുകൾ Frankfurter അല്ലെങ്കിൽ ExchangeRate-API നൽകുന്നു; വിവരത്തിനായി മാത്രം.",
       "സ്വയമേവയുള്ള നിരക്കുകളുടെ നെറ്റ്‌വർക്ക് ഡാറ്റ",
       "പ്രാദേശിക ഇടപാടുകളോ പ്രോജക്റ്റുകളോ എപ്പോൾ വേണമെങ്കിലും ഇല്ലാതാക്കാം; App ഇല്ലാതാക്കുന്നത് എല്ലാ പ്രാദേശിക ഡാറ്റയും നീക്കും.",
-      "നെറ്റ്‌വർക്ക് അല്ലെങ്കിൽ ഡാറ്റ പ്രോസസിംഗിലെ ഭാവി മാറ്റങ്ങൾ പുറത്തിറക്കുന്നതിന് മുമ്പ് ഇവിടെയും App Store സ്വകാര്യതാ വിശദാംശങ്ങളിലും പ്രസിദ്ധീകരിക്കും."
+      "നെറ്റ്‌വർക്ക് അല്ലെങ്കിൽ ഡാറ്റ പ്രോസസിംഗിലെ ഭാവി മാറ്റങ്ങൾ പുറത്തിറക്കുന്നതിന് മുമ്പ് ഇവിടെയും App Store സ്വകാര്യതാ വിശദാംശങ്ങളിലും പ്രസിദ്ധീകരിക്കും.",
+      "ഇത് ട്രാക്കിംഗിന് ഉപയോഗിക്കില്ല, പരസ്യവും ഇല്ല."
     ],
     "mr": [
       "वही तुमच्या उपकरणांवर व iCloud मध्ये राहते. जाहिराती नाहीत.",
@@ -518,7 +556,8 @@
       "संदर्भ दर Frankfurter किंवा ExchangeRate-API द्वारे दिले जातात; फक्त माहितीसाठी.",
       "स्वयंचलित दरांचा नेटवर्क डेटा",
       "स्थानिक व्यवहार किंवा प्रकल्प कधीही हटवू शकता; App हटवल्यास सर्व स्थानिक डेटा काढला जाईल.",
-      "नेटवर्क किंवा डेटा प्रक्रियेत भविष्यातील बदल प्रकाशनापूर्वी येथे आणि App Store गोपनीयता तपशीलांत प्रसिद्ध केले जातील."
+      "नेटवर्क किंवा डेटा प्रक्रियेत भविष्यातील बदल प्रकाशनापूर्वी येथे आणि App Store गोपनीयता तपशीलांत प्रसिद्ध केले जातील.",
+      "ती ट्रॅकिंगसाठी वापरली जात नाही आणि त्यात जाहिरात नाही."
     ],
     "or": [
       "ଖାତା ଆପଣଙ୍କ ଉପକରଣ ଓ iCloud ରେ ରହେ। ବିଜ୍ଞାପନ ନାହିଁ।",
@@ -530,7 +569,8 @@
       "ସନ୍ଦର୍ଭ ଦର Frankfurter କିମ୍ବା ExchangeRate-API ଦ୍ୱାରା ପ୍ରଦାନ କରାଯାଏ; କେବଳ ସୂଚନା ପାଇଁ।",
       "ସ୍ୱୟଂଚାଳିତ ଦରର ନେଟୱର୍କ ତଥ୍ୟ",
       "ସ୍ଥାନୀୟ କାରବାର କିମ୍ବା ପ୍ରୋଜେକ୍ଟ ଯେକୌଣସି ସମୟରେ ହଟାଇପାରିବେ; App ହଟାଇଲେ ସମସ୍ତ ସ୍ଥାନୀୟ ତଥ୍ୟ ହଟିବ।",
-      "ନେଟୱର୍କ କିମ୍ବା ତଥ୍ୟ ପ୍ରକ୍ରିୟାର ଭବିଷ୍ୟତ ପରିବର୍ତ୍ତନ ରିଲିଜ୍ ପୂର୍ବରୁ ଏଠାରେ ଓ App Store ଗୋପନୀୟତା ବିବରଣୀରେ ପ୍ରକାଶିତ ହେବ।"
+      "ନେଟୱର୍କ କିମ୍ବା ତଥ୍ୟ ପ୍ରକ୍ରିୟାର ଭବିଷ୍ୟତ ପରିବର୍ତ୍ତନ ରିଲିଜ୍ ପୂର୍ବରୁ ଏଠାରେ ଓ App Store ଗୋପନୀୟତା ବିବରଣୀରେ ପ୍ରକାଶିତ ହେବ।",
+      "ଏହା ଟ୍ରାକିଂ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ ନାହିଁ ଏବଂ ଏଥିରେ ବିଜ୍ଞାପନ ନାହିଁ।"
     ],
     "pa": [
       "ਬਹੀ ਤੁਹਾਡੇ ਡਿਵਾਈਸਾਂ ਅਤੇ iCloud ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ। ਕੋਈ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ।",
@@ -542,7 +582,8 @@
       "ਹਵਾਲਾ ਦਰਾਂ Frankfurter ਜਾਂ ExchangeRate-API ਵੱਲੋਂ ਦਿੱਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ; ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਲਈ।",
       "ਆਟੋਮੈਟਿਕ ਦਰਾਂ ਦਾ ਨੈੱਟਵਰਕ ਡਾਟਾ",
       "ਸਥਾਨਕ ਲੈਣ-ਦੇਣ ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਕਿਸੇ ਵੀ ਵੇਲੇ ਮਿਟਾ ਸਕਦੇ ਹੋ; App ਮਿਟਾਉਣ ਨਾਲ ਸਾਰਾ ਸਥਾਨਕ ਡਾਟਾ ਹਟੇਗਾ।",
-      "ਨੈੱਟਵਰਕ ਜਾਂ ਡਾਟਾ ਸੰਸਾਧਨ ਵਿੱਚ ਭਵਿੱਖੀ ਬਦਲਾਅ ਰਿਲੀਜ਼ ਤੋਂ ਪਹਿਲਾਂ ਇੱਥੇ ਅਤੇ App Store ਦੀ ਪਰਦੇਦਾਰੀ ਜਾਣਕਾਰੀ ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤੇ ਜਾਣਗੇ।"
+      "ਨੈੱਟਵਰਕ ਜਾਂ ਡਾਟਾ ਸੰਸਾਧਨ ਵਿੱਚ ਭਵਿੱਖੀ ਬਦਲਾਅ ਰਿਲੀਜ਼ ਤੋਂ ਪਹਿਲਾਂ ਇੱਥੇ ਅਤੇ App Store ਦੀ ਪਰਦੇਦਾਰੀ ਜਾਣਕਾਰੀ ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤੇ ਜਾਣਗੇ।",
+      "ਇਹ ਟ੍ਰੈਕਿੰਗ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾਂਦਾ ਅਤੇ ਇਸ ਵਿੱਚ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ ਹਨ।"
     ],
     "sl": [
       "Knjiga ostane v napravah in v iCloudu. Brez oglasov.",
@@ -554,7 +595,8 @@
       "Referenčne tečaje zagotavlja Frankfurter ali ExchangeRate-API in so zgolj informativni.",
       "Omrežni podatki samodejnih tečajev",
       "Lokalne transakcije ali projekte lahko kadar koli izbrišete; z izbrisom App odstranite vse lokalne podatke.",
-      "Vsaka prihodnja sprememba omrežne ali podatkovne obdelave bo pred izdajo objavljena tukaj in v podrobnostih zasebnosti v App Store."
+      "Vsaka prihodnja sprememba omrežne ali podatkovne obdelave bo pred izdajo objavljena tukaj in v podrobnostih zasebnosti v App Store.",
+      "Ne uporablja se za sledenje in ne vključuje oglaševanja."
     ],
     "ta": [
       "கணக்கு சாதனம், iCloud இல் உள்ளது. விளம்பரமில்லை.",
@@ -566,7 +608,8 @@
       "குறிப்பு விகிதங்களை Frankfurter அல்லது ExchangeRate-API வழங்குகிறது; தகவலுக்கு மட்டும்.",
       "தானியங்கி விகிதங்களின் பிணையத் தரவு",
       "உள்ளகப் பரிவர்த்தனைகள் அல்லது திட்டங்களை எப்போது வேண்டுமானாலும் நீக்கலாம்; App-ஐ நீக்கினால் அனைத்து உள்ளகத் தரவும் அகலும்.",
-      "பிணைய அல்லது தரவுச் செயலாக்கத்தில் எதிர்கால மாற்றம் ஏற்பட்டால் வெளியீட்டுக்கு முன் இங்கும் App Store தனியுரிமை விவரங்களிலும் வெளியிடப்படும்."
+      "பிணைய அல்லது தரவுச் செயலாக்கத்தில் எதிர்கால மாற்றம் ஏற்பட்டால் வெளியீட்டுக்கு முன் இங்கும் App Store தனியுரிமை விவரங்களிலும் வெளியிடப்படும்.",
+      "இது கண்காணிப்புக்கு பயன்படுத்தப்படாது, விளம்பரமும் இல்லை."
     ],
     "te": [
       "ఖాతా మీ పరికరాల్లో, iCloud లో ఉంటుంది. ప్రకటనలు లేవు.",
@@ -578,7 +621,8 @@
       "సూచన రేట్లను Frankfurter లేదా ExchangeRate-API అందిస్తుంది; సమాచార ప్రయోజనం కోసం మాత్రమే.",
       "ఆటోమేటిక్ రేట్ల నెట్‌వర్క్ డేటా",
       "స్థానిక లావాదేవీలు లేదా ప్రాజెక్ట్‌లను ఎప్పుడైనా తొలగించవచ్చు; App తొలగిస్తే మొత్తం స్థానిక డేటా తొలగిపోతుంది.",
-      "నెట్‌వర్క్ లేదా డేటా ప్రాసెసింగ్‌లో భవిష్యత్ మార్పులు విడుదలకు ముందు ఇక్కడ మరియు App Store గోప్యతా వివరాల్లో ప్రచురించబడతాయి."
+      "నెట్‌వర్క్ లేదా డేటా ప్రాసెసింగ్‌లో భవిష్యత్ మార్పులు విడుదలకు ముందు ఇక్కడ మరియు App Store గోప్యతా వివరాల్లో ప్రచురించబడతాయి.",
+      "ఇది ట్రాకింగ్‌కు ఉపయోగించబడదు, ప్రకటనలు కూడా ఉండవు."
     ],
     "ur": [
       "کھاتہ آپ کے آلات اور iCloud میں رہتا ہے۔ کوئی اشتہار نہیں۔",
@@ -590,7 +634,8 @@
       "حوالہ جاتی شرحیں Frankfurter یا ExchangeRate-API فراہم کرتے ہیں؛ صرف معلومات کے لیے۔",
       "خودکار شرحوں کا نیٹ ورک ڈیٹا",
       "مقامی لین دین یا پروجیکٹس کسی بھی وقت حذف کیے جا سکتے ہیں؛ App حذف کرنے سے تمام مقامی ڈیٹا ہٹ جائے گا۔",
-      "نیٹ ورک یا ڈیٹا پراسیسنگ میں آئندہ تبدیلی اجرا سے پہلے یہاں اور App Store کی رازداری کی تفصیلات میں شائع کی جائے گی۔"
+      "نیٹ ورک یا ڈیٹا پراسیسنگ میں آئندہ تبدیلی اجرا سے پہلے یہاں اور App Store کی رازداری کی تفصیلات میں شائع کی جائے گی۔",
+      "یہ پراسیسنگ ٹریکنگ کے لیے استعمال نہیں ہوتی اور اس میں اشتہارات شامل نہیں۔"
     ]
   }
 }
