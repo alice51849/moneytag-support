@@ -1,7 +1,7 @@
 # MoneyTag — Official Support & Privacy Site
 
 Static support and privacy site for the iOS app **MoneyTag: Income & Expense**
-(project-based two-way income/expense tracking, source at `~/46_MoneyTag`).
+(project-based two-way income/expense tracking, source at `~/43_MoneyTag`).
 Live URL: `https://alice51849.github.io/moneytag-support/`
 
 Each project has its own base currency. On the Home screen, a user can choose
@@ -59,7 +59,7 @@ src/locales/part-asia.json  17 Asian / RTL locales (ar-SA, he, hi … ur-PK)
 tools/build.py           merges locales + CSS + JS into index.html / privacy.html
 tools/check.py           validation (locales, contact address, no external hosts)
 tools/sync_app_contract.py  syncs the 5-entry and CSV/PDF rules from the app
-assets/icon.png          app icon (512 px, from ~/46_MoneyTag/assets/app-icon.png)
+assets/icon.png          app icon (512 px, from ~/43_MoneyTag/assets/app-icon.png)
 ```
 
 `index.html` and `privacy.html` are **generated** — edit `src/`, never the built pages.
@@ -67,7 +67,7 @@ assets/icon.png          app icon (512 px, from ~/46_MoneyTag/assets/app-icon.pn
 ## Build & validate
 
 ```bash
-cd ~/46_moneytag-support
+cd ~/43_MoneyTag/SupportSiteRepo
 ~/00_GrowthEngine/.venv/bin/python tools/sync_app_contract.py
 ~/00_GrowthEngine/.venv/bin/python tools/build.py     # regenerate both pages
 ~/00_GrowthEngine/.venv/bin/python tools/check.py     # must print PASS
@@ -98,7 +98,7 @@ The public repository is `alice51849/moneytag-support`, with GitHub Pages
 publishing the `main` branch root.
 
 ```bash
-cd ~/46_moneytag-support
+cd ~/43_MoneyTag/SupportSiteRepo
 git push origin main
 gh api repos/alice51849/moneytag-support/pages --jq '.status, .html_url'
 ```

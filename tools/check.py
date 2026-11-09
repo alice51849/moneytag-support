@@ -27,7 +27,18 @@ from build import (  # noqa: E402
 )
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-APP_ROOT = ROOT.parent / "46_MoneyTag"
+def _resolve_app_root():
+    import os
+    env = os.environ.get("MONEYTAG_APP_ROOT")
+    if env:
+        return pathlib.Path(env).expanduser()
+    for cand in (ROOT.parent, ROOT.parent / "43_MoneyTag", pathlib.Path.home() / "43_MoneyTag"):
+        if (cand / "assets" / "ui_i18n.json").is_file():
+            return cand
+    return ROOT.parent
+
+
+APP_ROOT = _resolve_app_root()
 MAIL = "hourstag.app@gmail.com"
 # built from parts so this file never contains the banned literal itself
 BANNED = ("@" + "hotmail.com", "@" + "outlook.com")
@@ -148,6 +159,12 @@ def check_content():
                 "Frankfurter",
                 "ExchangeRate-API",
             ):
+                # the network section carries the App's short request/processing/use
+                # sentences, which name the hosts (api.frankfurter.dev / open.er-api.com)
+                # but not the brand names; brands are covered by the rate policy,
+                # FAQs and vow (they include the attribution line).
+                if label == "network policy" and anchor in ("Frankfurter", "ExchangeRate-API"):
+                    continue
                 if anchor not in value:
                     bad(f"{code}: {label} missing {anchor}")
         for label in ("storage FAQ", "network FAQ", "privacy vow", "network policy", "rate policy"):

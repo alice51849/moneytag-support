@@ -6,7 +6,18 @@ import pathlib
 
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-APP_ROOT = ROOT.parent / "46_MoneyTag"
+def _resolve_app_root():
+    import os
+    env = os.environ.get("MONEYTAG_APP_ROOT")
+    if env:
+        return pathlib.Path(env).expanduser()
+    for cand in (ROOT.parent, ROOT.parent / "43_MoneyTag", pathlib.Path.home() / "43_MoneyTag"):
+        if (cand / "assets" / "ui_i18n.json").is_file():
+            return cand
+    return ROOT.parent
+
+
+APP_ROOT = _resolve_app_root()
 LOCALE_ROOT = ROOT / "src" / "locales"
 DISCLOSURES = ROOT / "src" / "privacy_disclosures.json"
 UI = json.loads((APP_ROOT / "assets" / "ui_i18n.json").read_text(encoding="utf-8"))
