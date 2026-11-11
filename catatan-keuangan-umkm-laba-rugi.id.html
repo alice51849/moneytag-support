@@ -39,7 +39,7 @@ a{color:var(--accent)}
 .helpdoc li{margin:.3em 0}
 @media print{.hd-nav,.cta,.hd-toc{display:none}body{background:#fff;color:#000}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "id", "mainEntity": [{"@type": "Question", "name": "Bisakah saya melihat laba rugi tiap usaha secara terpisah?", "acceptedAnswer": {"@type": "Answer", "text": "Bisa. Setiap proyek adalah buku kas yang berdiri sendiri dengan transaksi, mata uang, dan hasil akhirnya sendiri. Hasil bersih (pemasukan dikurangi pengeluaran) ditampilkan untuk proyek itu saja."}}, {"@type": "Question", "name": "Bagaimana melihat total biaya yang sama di semua usaha, misalnya ongkir?", "acceptedAnswer": {"@type": "Answer", "text": "Beri tag pada pemasukan atau pengeluaran, lalu layar Tag menjumlahkan tag yang sama di seluruh proyek sekaligus: pemasukan, pengeluaran, dan hasil bersih tag tersebut. Analisis tag lintas proyek termasuk dalam Lifetime Pro."}}, {"@type": "Question", "name": "Bisakah data dipindah ke spreadsheet atau dibagikan?", "acceptedAnswer": {"@type": "Answer", "text": "Lifetime Pro menyediakan ekspor CSV, ekspor PDF, ekspor gambar, serta cadangkan & pulihkan."}}, {"@type": "Question", "name": "Saya mencatat dari iPhone dan iPad, apakah datanya sama?", "acceptedAnswer": {"@type": "Answer", "text": "Ya. Dengan sinkronisasi iCloud, buku yang sama muncul di iPhone dan iPad."}}, {"@type": "Question", "name": "Apakah data usaha saya dikirim ke server?", "acceptedAnswer": {"@type": "Answer", "text": "Proyek, transaksi, jumlah, catatan, tag, kategori, dan pengaturan tetap di penyimpanan perangkat dan tidak dikirim ke Frankfurter / ExchangeRate-API. Saat sinkronisasi iCloud aktif, satu salinan juga ada di iCloud Anda sendiri."}}, {"@type": "Question", "name": "Apa yang gratis?", "acceptedAnswer": {"@type": "Answer", "text": "Gratis: 1 proyek dengan 5 catatan. Lifetime Pro membuka proyek, tag, dan laporan tanpa batas, sekali beli untuk selamanya."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "id", "mainEntity": [{"@type": "Question", "name": "Bisakah saya melihat laba rugi tiap usaha secara terpisah?", "acceptedAnswer": {"@type": "Answer", "text": "Bisa. Setiap proyek adalah buku kas yang berdiri sendiri dengan transaksi, mata uang, dan hasil akhirnya sendiri. Hasil bersih (pemasukan dikurangi pengeluaran) ditampilkan untuk proyek itu saja."}}, {"@type": "Question", "name": "Saya punya dua olshop. Bisakah laba ruginya dipisah per toko?", "acceptedAnswer": {"@type": "Answer", "text": "Bisa. Buat satu proyek untuk tiap toko; masing-masing menampilkan pemasukan, pengeluaran, dan hasil bersihnya sendiri. Lebih dari 1 proyek termasuk dalam Lifetime Pro."}}, {"@type": "Question", "name": "Bagaimana melihat total biaya yang sama di semua usaha, misalnya ongkir?", "acceptedAnswer": {"@type": "Answer", "text": "Beri tag pada pemasukan atau pengeluaran, lalu layar Tag menjumlahkan tag yang sama di seluruh proyek sekaligus: pemasukan, pengeluaran, dan hasil bersih tag tersebut. Analisis tag lintas proyek termasuk dalam Lifetime Pro."}}, {"@type": "Question", "name": "Bisakah data dipindah ke spreadsheet atau dibagikan?", "acceptedAnswer": {"@type": "Answer", "text": "Lifetime Pro menyediakan ekspor CSV, ekspor PDF, ekspor gambar, serta cadangkan & pulihkan."}}, {"@type": "Question", "name": "Saya mencatat dari iPhone dan iPad, apakah datanya sama?", "acceptedAnswer": {"@type": "Answer", "text": "Ya. Dengan sinkronisasi iCloud, buku yang sama muncul di iPhone dan iPad."}}, {"@type": "Question", "name": "Apakah data usaha saya dikirim ke server?", "acceptedAnswer": {"@type": "Answer", "text": "Proyek, transaksi, jumlah, catatan, tag, kategori, dan pengaturan tetap di penyimpanan perangkat dan tidak dikirim ke Frankfurter / ExchangeRate-API. Saat sinkronisasi iCloud aktif, satu salinan juga ada di iCloud Anda sendiri."}}, {"@type": "Question", "name": "Apa yang gratis?", "acceptedAnswer": {"@type": "Answer", "text": "Gratis: 1 proyek dengan 5 catatan. Lifetime Pro membuka proyek, tag, dan laporan tanpa batas, sekali beli untuk selamanya."}}]}</script>
 <!-- ls-pwa:start -->
 <link rel="manifest" href="/moneytag-support/manifest.webmanifest">
 <!-- ls-pwa:end -->
@@ -61,13 +61,25 @@ a{color:var(--accent)}
 <nav class="hd-nav"><a href="./">Halaman dukungan</a><a href="https://apps.apple.com/id/app/id6801956402?pt=118326163&amp;ct=sqd1109_moneytag_id_intent&amp;mt=8">MoneyTag</a><a href="https://play.google.com/store/apps/details?id=com.alice51849.MoneyTag" rel="noopener" data-ls-play="nav">Google Play</a></nav>
 <h1>Catatan keuangan UMKM: laba rugi tiap usaha</h1>
 <p class="lede">Punya warung, olshop, dan kos-kosan sekaligus? Kalau semuanya dicatat di satu buku, sulit tahu usaha mana yang benar-benar untung. Di MoneyTag, tiap usaha jadi satu proyek dengan pembukuannya sendiri: pemasukan dikurangi pengeluaran langsung jadi hasil bersihnya.</p>
-<ul class="hd-toc"><li><a href="#langkah">Mulai dalam 3 langkah</a></li><li><a href="#dibanding">Dibanding buku tulis atau spreadsheet</a></li><li><a href="#faq">Pertanyaan umum</a></li></ul>
+<ul class="hd-toc"><li><a href="#langkah">Mulai dalam 3 langkah</a></li><li><a href="#per-toko">Laba rugi per toko</a></li><li><a href="#dibanding">Dibanding buku tulis atau spreadsheet</a></li><li><a href="#faq">Pertanyaan umum</a></li></ul>
 <h2 id="langkah">Mulai dalam 3 langkah</h2>
 <ul>
 <li><strong>Buat proyek</strong>: satu proyek untuk tiap usaha, misalnya olshop, warung, atau kos</li>
 <li><strong>Catat transaksi</strong>: masukkan pemasukan dan pengeluaran, dari iPhone, iPad, atau Apple Watch</li>
 <li><strong>Lihat hasil bersih</strong>: MoneyTag menjumlahkan pemasukan, mengurangi pengeluaran, dan menampilkan hasil bersih tiap proyek</li>
 </ul>
+<h2 id="per-toko">Laba rugi per toko: olshop mana yang benar-benar untung?</h2>
+<p>Banyak penjual online punya lebih dari satu toko, misalnya satu di marketplace dan satu lewat WhatsApp atau Instagram, ditambah usaha lain di rumah. Omzet gabungan bisa terlihat besar, padahal satu toko untung dan toko lain diam-diam rugi karena ongkir, packing, dan biaya iklan. Caranya di MoneyTag: <strong>satu toko = satu proyek</strong>, lalu biaya yang sama diberi tag yang sama.</p>
+<div class="tbl"><table><tr><th>Proyek (contoh)</th><th>Pemasukan</th><th>Pengeluaran</th><th>Hasil bersih</th></tr><tr><td>Olshop marketplace</td><td>Rp 4.500.000</td><td>Rp 3.100.000</td><td>Rp 1.400.000</td></tr><tr><td>Toko WhatsApp / Instagram</td><td>Rp 2.000.000</td><td>Rp 2.250.000</td><td>−Rp 250.000</td></tr><tr><td>Kos-kosan</td><td>Rp 3.000.000</td><td>Rp 900.000</td><td>Rp 2.100.000</td></tr></table></div>
+<p>Angka di atas hanya contoh. MoneyTag menghitung hasil bersih tiap proyek sendiri dari transaksi yang Anda catat; tag seperti <em>ongkir</em>, <em>packing</em>, atau <em>iklan</em> lalu dijumlahkan di layar Tag untuk semua toko sekaligus, sehingga terlihat biaya mana yang paling menggerus laba.</p>
+<ol>
+<li>Buat satu proyek untuk tiap toko atau usaha, masing-masing dengan mata uangnya sendiri (misalnya Rupiah).</li>
+<li>Setiap ada penjualan atau biaya, catat di proyek toko itu, dari iPhone, iPad, atau Apple Watch.</li>
+<li>Pakai tag yang sama untuk biaya yang sama di semua toko, lalu buka layar Tag untuk melihat totalnya.</li>
+</ol>
+<p>Versi gratis berisi 1 proyek dengan 5 catatan, cukup untuk mencoba. Untuk beberapa toko sekaligus dan analisis tag lintas proyek, Lifetime Pro dibeli sekali untuk selamanya, tanpa langganan.</p>
+<div class="cta"><p><a class="btn" href="https://apps.apple.com/id/app/id6801956402?pt=118326163&amp;ct=sqd1111a_moneytag_id_labarugi&amp;mt=8">Coba laba rugi per toko di MoneyTag</a></p><p><a class="btn" href="https://play.google.com/store/apps/details?id=com.alice51849.MoneyTag" rel="noopener" data-ls-play="cta">Lihat MoneyTag di Google Play</a></p></div>
+<p>Baca juga: <a href="catatan-keuangan-per-proyek-pertanyaan.id.html">tanya jawab catatan keuangan per proyek</a> · <a href="keuangan-freelance-per-klien.id.html">keuangan freelance per klien</a> · <a href="pembukuan-kos-pertanyaan.id.html">pembukuan kos-kosan</a></p>
 <h2 id="dibanding">Dibanding buku tulis atau spreadsheet</h2>
 <ul>
 <li><strong>Tanpa rumus</strong>: MoneyTag menjumlahkan dan mengurangi sendiri untuk tiap proyek</li>
@@ -83,6 +95,8 @@ a{color:var(--accent)}
 <h2 id="faq">Pertanyaan umum</h2>
 <p class="hd-q">Bisakah saya melihat laba rugi tiap usaha secara terpisah?</p>
 <p class="hd-a">Bisa. Setiap proyek adalah buku kas yang berdiri sendiri dengan transaksi, mata uang, dan hasil akhirnya sendiri. Hasil bersih (pemasukan dikurangi pengeluaran) ditampilkan untuk proyek itu saja.</p>
+<p class="hd-q">Saya punya dua olshop. Bisakah laba ruginya dipisah per toko?</p>
+<p class="hd-a">Bisa. Buat satu proyek untuk tiap toko; masing-masing menampilkan pemasukan, pengeluaran, dan hasil bersihnya sendiri. Lebih dari 1 proyek termasuk dalam Lifetime Pro.</p>
 <p class="hd-q">Bagaimana melihat total biaya yang sama di semua usaha, misalnya ongkir?</p>
 <p class="hd-a">Beri tag pada pemasukan atau pengeluaran, lalu layar Tag menjumlahkan tag yang sama di seluruh proyek sekaligus: pemasukan, pengeluaran, dan hasil bersih tag tersebut. Analisis tag lintas proyek termasuk dalam Lifetime Pro.</p>
 <p class="hd-q">Bisakah data dipindah ke spreadsheet atau dibagikan?</p>
@@ -93,7 +107,7 @@ a{color:var(--accent)}
 <p class="hd-a">Proyek, transaksi, jumlah, catatan, tag, kategori, dan pengaturan tetap di penyimpanan perangkat dan tidak dikirim ke Frankfurter / ExchangeRate-API. Saat sinkronisasi iCloud aktif, satu salinan juga ada di iCloud Anda sendiri.</p>
 <p class="hd-q">Apa yang gratis?</p>
 <p class="hd-a">Gratis: 1 proyek dengan 5 catatan. Lifetime Pro membuka proyek, tag, dan laporan tanpa batas, sekali beli untuk selamanya.</p>
-<p class="hd-note">Halaman ini ditulis oleh pengembang MoneyTag dengan bantuan AI dan dicocokkan dengan deskripsi App Store. Terakhir diperbarui: 2026-11-09.</p>
+<p class="hd-note">Halaman ini ditulis oleh pengembang MoneyTag dengan bantuan AI dan dicocokkan dengan deskripsi App Store. Terakhir diperbarui: 2026-11-11.</p>
 </main>
 </body>
 </html>
