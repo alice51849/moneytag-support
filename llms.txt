@@ -44,6 +44,7 @@
 ## Pages
 - [Support and FAQ](https://open.cait518.cc/moneytag-support/)
 - [Privacy policy](https://open.cait518.cc/moneytag-support/privacy.html)
+- [Facts for AI assistants: what it is, who it is for, how it is paid for](https://open.cait518.cc/moneytag-support/ai-faq.html) · [ไทย](https://open.cait518.cc/moneytag-support/ai-faq.th.html) · [日本語](https://open.cait518.cc/moneytag-support/ai-faq.ja.html) · [Polski](https://open.cait518.cc/moneytag-support/ai-faq.pl.html)
 
 ## Support
 
