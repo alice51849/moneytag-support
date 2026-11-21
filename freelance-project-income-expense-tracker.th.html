@@ -59,6 +59,9 @@ a{color:var(--accent)}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="max-image-preview:large">
 <!-- ls-sharecard:end -->
+<!-- ls-clickbeacon:start -->
+<script>(function(){var E='https://office.cait518.cc/api/click';function h(e){try{var t=e.target,l=t&&t.closest&&t.closest('a[href]');if(!l||!navigator.sendBeacon)return;var u=new URL(l.href,location.href),s,k,c,q=u.searchParams;if(u.hostname==='apps.apple.com'){s='apple';k=(u.pathname.match(/\/id(\d+)/)||[])[1]||'';c=q.get('ct')||''}else if(u.hostname==='play.google.com'){s='play';var r=new URLSearchParams(q.get('referrer')||'');k=r.get('utm_campaign')||q.get('id')||'';c=r.get('utm_source')||''}else return;navigator.sendBeacon(E,JSON.stringify({p:location.pathname.slice(0,200),a:k.slice(0,100),ct:c.slice(0,64),s:s}))}catch(_){}}document.addEventListener('click',h,true);document.addEventListener('auxclick',h,true)})();</script>
+<!-- ls-clickbeacon:end -->
 </head>
 <body>
 <p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">เว็บไซต์นี้ดำเนินการโดย Lumi Studio ผู้พัฒนาแอปที่แนะนำ แอปที่เราแนะนำที่นี่เป็นแอปของเราเอง</p>
@@ -66,6 +69,7 @@ a{color:var(--accent)}
 <nav class="hd-nav"><a href="th/">หน้าแรกฝ่ายช่วยเหลือ</a><a href="help.html">วิธีใช้และคำถามที่พบบ่อย</a><a href="https://apps.apple.com/th/app/id6801956402?pt=118326163&amp;ct=bm_moneytag_th_seo&amp;mt=8">MoneyTag: รายรับและรายจ่าย</a><a href="https://play.google.com/store/apps/details?id=com.alice51849.MoneyTag&amp;referrer=utm_source%3Dbm_moneytag_th_seo%26utm_campaign%3Dmoneytag" rel="noopener" data-ls-play="nav">Google Play</a></nav>
 <h1>บันทึกรายรับรายจ่ายฟรีแลนซ์แยกตามโปรเจกต์</h1>
 <p class="lede">ที่ไม่รู้ว่างานไหนได้กำไรจริง เพราะรายรับและรายจ่ายรวมอยู่ในบัญชีเล่มเดียว <strong>แยกบัญชีตามงาน แล้วดูยอดสุทธิ (รายรับลบรายจ่าย) ของแต่ละโปรเจกต์</strong> ก็จะเห็นชัดว่างานไหนคุ้ม หน้านี้รวมวิธีแยกบัญชี การติดแท็กค่าใช้จ่าย ขั้นตอนบันทึกทุกสัปดาห์ และวิธีทำใน MoneyTag</p>
+<p class="hd-cta-top"><a class="btn" href="https://apps.apple.com/th/app/id6801956402?pt=118326163&amp;ct=bm_moneytag_th_seo&amp;mt=8" rel="noopener">ดาวน์โหลด MoneyTag ใน App Store</a> <a href="https://play.google.com/store/apps/details?id=com.alice51849.MoneyTag&amp;referrer=utm_source%3Dbm_moneytag_th_seo%26utm_campaign%3Dmoneytag" rel="noopener" data-ls-play="cta">เวอร์ชัน Android ใน Google Play</a></p>
 <p><strong>ในหน้านี้</strong></p>
 <ul class="hd-toc"><li><a href="#why">ทำไมต้องแยกตามโปรเจกต์</a></li><li><a href="#moneytag">MoneyTag ทำงานอย่างไร</a></li><li><a href="#steps">ขั้นตอนบันทึกสัปดาห์ละ 10 นาที</a></li><li><a href="#plan">ใช้ได้โดยไม่ต้องซื้อ และสิ่งที่ได้เพิ่มเมื่อซื้อครั้งเดียว</a></li><li><a href="#faq">คำถามที่พบบ่อย</a></li></ul>
 <h2 id="why">ทำไมต้องแยกตามโปรเจกต์</h2>
